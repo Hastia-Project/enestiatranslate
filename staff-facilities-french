@@ -1,33 +1,26 @@
-#Messages Config - Translate
-#Advices:
-#1. Dont remove the " ' ' "
-#2. Translate the text which is between the " ' ' "
-#3. When you have cant it is the message for people which cant use that command.
-#4. Dont try to use the " ' " as an apostrophe cause you will break the file and it wont be recognized.
-#5. Please be careful with where you leave spaces cause it is sometimes a common YML console error.
-
 # You can add on any message the placeholder %apostrophe%, so players in chat will see the message received with an apostrophe s ( 's ).
- 
+# Traduction pour ce merveilleux plugin par Cidalex/Mitsu
+
 #NoPermission Message
-nopermission-message: '&cYou dont have permission to perform this command.'
-nopermissiontab-message: '&cYou dont have permission to TAB this command.'
+nopermission-message: '&cTu n''as pas la permission de faire cette commande.'
+nopermissiontab-message: '&cTu n''as pas la permission de faire cette commande.'
 
 #NoGUIPermission Message
-nopermissionguimenu-message: '&cYou dont have permission to access this GUI Menu.'
-nopermissionguiitem-message: '&cYou dont have permission to access this GUI Item.'
+nopermissionguimenu-message: '&cTu n''as pas la permission d''utiliser ça.'
+nopermissionguiitem-message: '&cTu n''as pas la permission d''utiliser ceci.'
 
 #InstanceOfPlayer Message
-instanceofplayer-message: '&4You must be a player to perform this command.'
+instanceofplayer-message: '&4Tu dois être un joueur pour faire ça.'
 
 #CantFindPlayer Message
-cantfindplayer-message: '&cCould not find player: &4%target%&c.'
-cantfindbothplayers-message: '&cCould not find player: &4%target% &cand player: &4%target2%&c.'
+cantfindplayer-message: '&cImpossible de trouver : &4%target%&c.'
+cantfindbothplayers-message: '&cImpossible un des joueurs : &4%target% &cand player: &4%target2%&c.'
 
 #Cooldown Message
-cooldown-message: '&cYou have to wait &l%timeleft% &r&cseconds to perform this command.'
+cooldown-message: '&cTu dois attendre &l%timeleft% &r&csecondes pour faire cette commande.'
 
 #Update Message
-newupdate-message: '&a[Staff Facilities] New update found. Version &2%new_version% &aand you are in version %current_version%! Download it in:'
+newupdate-message: '&a[Staff Facilities] Nouvelle mise à jour. Version &2%new_version% &a et vous êtes en %current_version%! Télécharger là :'
 failedtocheckupdate-message: '&c[Staff Facilities] Failed to check for an update on spigot!'
 didntfoundanupdate-message: '&b[Staff Facilities] Didnt find a new update on spigot. You are up to date!'
 
