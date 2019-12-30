@@ -1,0 +1,1012 @@
+#Messages Config - Translate
+#Advices:
+#1. Dont remove the " ' ' "
+#2. Translate the text which is between the " ' ' "
+#3. When you have cant it is the message for people which cant use that command.
+#4. Dont try to use the " ' " as an apostrophe cause you will break the file and it wont be recognized.
+#5. Please be careful with where you leave spaces cause it is sometimes a common YML console error.
+
+# You can add on any message the placeholder %apostrophe%, so players in chat will see the message received with an apostrophe s ( 's ).
+ 
+#NoPermission Message
+nopermission-message: '&cYou dont have permission to perform this command.'
+nopermissiontab-message: '&cYou dont have permission to TAB this command.'
+
+#NoGUIPermission Message
+nopermissionguimenu-message: '&cYou dont have permission to access this GUI Menu.'
+nopermissionguiitem-message: '&cYou dont have permission to access this GUI Item.'
+
+#InstanceOfPlayer Message
+instanceofplayer-message: '&4You must be a player to perform this command.'
+
+#CantFindPlayer Message
+cantfindplayer-message: '&cCould not find player: &4%target%&c.'
+cantfindbothplayers-message: '&cCould not find player: &4%target% &cand player: &4%target2%&c.'
+
+#Cooldown Message
+cooldown-message: '&cYou have to wait &l%timeleft% &r&cseconds to perform this command.'
+
+#Update Message
+newupdate-message: '&a[Staff Facilities] New update found. Version &2%new_version% &aand you are in version %current_version%! Download it in:'
+failedtocheckupdate-message: '&c[Staff Facilities] Failed to check for an update on spigot!'
+didntfoundanupdate-message: '&b[Staff Facilities] Didnt find a new update on spigot. You are up to date!'
+
+#Enabled/Disabled Message
+enabled-message: 'enabled'
+disabled-message: 'disabled'
+true-message: '&true'
+false-message: 'false'
+
+#PlaceholderAPI Messages
+null-papimessage: '&4null'
+true-papimessage: '&atrue'
+false-papimessage: '&cfalse'
+
+#ShowsThisHelpPage Message
+showsthishelppage-helpmessage: 'Shows this help page!'
+
+#NextPage Message
+nextpage-helpmessage: 'Go to the next help page!'
+ 
+#Stafffacilities Help Messages
+alert-helpmessage: 'Send an alert message!'
+announce-helpmessage: 'Send an announce message!'
+ans-helpmessage: 'Give an answer to a player!'
+bin-helpmessage: 'Open the bin inventory!'
+birthday-helpmessage: 'See the birthday list!'
+broadcast-helpmessage: 'Send a broadcast message!'
+burn-helpmessage: 'Burn a player for seconds!'
+chatmute-helpmessage: 'Mute the chat or unmute it!'
+clearchat-helpmessage: 'Clear the chat!'
+
+#Stafffacilities 2 Help Messages
+clearinventory-helpmessage: 'Clear yours or others inventory!'
+commandspy-helpmessage: 'Spy others commands!'
+danger-helpmessage: 'Send a danger message!'
+day-helpmessage: 'Set the worlds time to day!'
+donate-helpmessage: 'See the donate list!'
+duty-helpmessage: 'Set yourself OnDuty/OffDuty!'
+email-helpmessage: 'See the emails list!'
+enderchest-helpmessage: 'Open yours or others enderchest!'
+error-helpmessage: 'Send an error message!'
+
+#Stafffacilities 3 Help Messages
+facebook-helpmessage: 'See the facebook list!'
+fakeleave-helpmessage: 'Make a player fake leave the server!'
+feed-helpmessage: 'Feed yourself or another player!'
+fly-helpmessage: 'Set yourself or others fly on/off!'
+forum-helpmessage: 'See the forums list!'
+freeze-helpmessage: 'Freeze a player!'
+freezetemp-helpmessage: 'Freeze a player for a specified time!'
+freezeall-helpmessage: 'Freeze or unfreeze all players!'
+
+#Stafffacilities 4 Help Messages
+frozen-helpmessage: 'See if a player is frozen or every frozen players!'
+gamemode-helpmessage: 'Open the gamemode help page!'
+god-helpmessage: 'Set yourself or others godmode on/off!'
+happybirthday-helpmessage: 'Wish happy birthday to a player!'
+heal-helpmessage: 'Heal yourself or another player!'
+helpme-helpmessage: 'Send a helpme message to the staff!'
+id-helpmessage: 'See the id of the item you have on your hand!'
+information-helpmessage: 'Send an information message!'
+
+#Stafffacilities 5 Help Messages
+instagram-helpmessage: 'See the instagram list!'
+invsee-helpmessage: 'See a players inventory!'
+ip-helpmessage: 'See the ips of your server list!'
+kill-helpmessage: 'Kill a player or all of them!'
+maintenance-helpmessage: 'Toggle the maintenance mode on or off!'
+night-helpmessage: 'Set the worlds time to night!'
+nightvision-helpmessage: 'Set yourself or others nightvision on/off!'
+
+#Stafffacilities 6 Help Messages
+note-helpmessage: 'Send a note message!'
+ping-helpmessage: 'Check yours, others, or everyones ping!'
+playerclearchat-helpmessage: 'Clear an specified players chat!'
+playerinfo-helpmessage: 'Check yours or others info!'
+rain-helpmessage: 'Set worlds time to rain!'
+report-helpmessage: 'Report a player with a reason or something!'
+reports-helpmessage: 'See the list of reports made!'
+reportsdel-helpmessage: 'Delete the reports list!'
+
+#Stafffacilities 7 Help Messages
+rules-helpmessage: 'See the rules!'
+say-helpmessage: 'Send a say message!'
+show-helpmessage: 'Open the show help page!'
+skype-helpmessage: 'See the skype list!'
+spfah-helpmessage: 'Stop a player from asking help!'
+spfr-helpmessage: 'Stop a player from reporting!'
+staff-helpmessage: 'Check the online staff!'
+staffchat-helpmessage: 'Toggle the staffchat on/off!'
+staffpanel-helpmessage: 'Open a GUI inventory panel!'
+
+#Stafffacilities 8 Help Messages
+sun-helpmessage: 'Set the worlds time to sun!'
+teamspeak3-helpmessage: 'See the teamspeak3 list!'
+time-helpmessage: 'Open the time help page!'
+tp-helpmessage: 'Teleport to an specified player!'
+tpall-helpmessage: 'Teleport all players to your location!'
+tphere-helpmessage: 'Teleport an specified player to you!'
+tppos-helpmessage: 'Teleport a player to a position'
+twitch-helpmessage: 'See the twitch list!'
+
+#Stafffacilities 9 Help Messages
+twitter-helpmessage: 'See the twitter list!'
+uuid-helpmessage: 'Check yours or others uuid!'
+vanish-helpmessage: 'Make a player invisible or see the listeners helplist!'
+warn-helpmessage: 'Warn someone with a reason!'
+warning-helpmessage: 'Send a warning message!'
+watchover-helpmessage: 'Set on/off your watchover mode!'
+website-helpmessage: 'See the websites list!'
+welcomeback-helpmessage: 'Welcome a player back to the server!'
+whatsapp-helpmessage: 'See the whatsapp list!'
+workbench-helpmessage: 'Open a workbench!'
+youtube-helpmessage: 'See the youtubes list!'
+
+#Stafffacilities 10 Help Messages
+whatsapp-helpmessage: 'See the whatsapp list!'
+workbench-helpmessage: 'Open a workbench!'
+youtube-helpmessage: 'See the youtubes list!'
+
+#Stafffacilities BungeeCord Help Messages
+find-helpmessage: 'Find a player in the network!'
+glist-helpmessage: 'See all network online players!'
+networkspy-helpmessage: 'Spy others commands in network!'
+
+#Vanish and Staffvanish Toggle Help Messages
+pickup-togglehelpmessage: 'Set on/off pickup listener!'
+drop-togglehelpmessage: 'Set on/off drop listener!'
+invclick-togglehelpmessage: 'Set on/off inventory click listener!'
+interact-togglehelpmessage: 'Set on/off interact listener!'
+damage-togglehelpmessage: 'Set on/off damage listener!'
+chat-togglehelpmessage: 'Set on/off chat listener!'
+hangingbreak-togglehelpmessage: 'Set on/off hanging break listener!'
+vehiclecollision-togglehelpmessage: 'Set on/off vehicle collision listener!'
+entitytarget-togglehelpmessage: 'Set on/off entity target listener!'
+vehicledestroy-togglehelpmessage: 'Set on/off vehicle destroy listener!'
+
+#ClearChat Messages
+chatclearedby-message: '&cChat has been cleared by: &4%sender%&c'
+chatclearedbyfakeleave-message: '&cChat has been cleared!'
+
+#PlayerClearChat Messages
+playerclearchathelp-message: '&cNot enough arguments! Type /playerclearchat [player]'
+clearsomeoneschat-message: '&aYou have cleared &2%target%&2%apostrophe% &achat.'
+clearedyourchat-message: '&4%sender% &chas cleared your chat!'
+clearedyourchatfakeleave-message: '&cYour chat has been cleared!'
+ 
+#HelpMe Messages
+helpmeblockedplayer-message: '&cYou were blocked from using /helpme!'
+helpmemustbeplayer-message: '&cYou must be a player to make a question!'
+helpmehelp-message: '&cType: /helpme [question]'
+helpmesuccesful-message: '&aYou have succesfully sent a helpme message! An online staff will see it.'
+helpmeconsolelogger-message: 'has made the following question:'
+
+#Report Messages
+reportblockedplayer-message: '&cYou were blocked from using /report!'
+reportmustbeplayer-message: '&cYou must be a player to make a report!'
+reporthelp-message: '&cType: /report <player> [reason]'
+reportsuccesful-message: '&aYou have succesfully made your report! An online staff will see it.'
+reportconsolelogger-message: 'has made the following report:'
+noreports-message: '&cThere are no reports to see!'
+reportslistheader-message: '&4&lReports List:'
+reportslist-message: '&c[&4%id%&c] &4Time: &c%time% &8- &2Reporter: &a%reporter%'
+reportslisthbutton-message: '&7To check a report /reports [ID] - To delete: /reportsdel'
+reportscheck-message: '&c[&4&l%reportid%&c] &c%time%&c: &a%reporter% &bhas made the following report: &a&o%reason%&b.'
+reportswrongid-message: '&cWrong Report ID. See the IDs with /reports'
+reportsdeletehelp-message: '&cNot enough arguments! Type /reportsdel'
+reportsdeleted-message: '&4%sender% &chas deleted the logs of the reports file!'
+
+#Answer Messages
+answerconsoleloggerhelp-message: 'Not enough arguments! Type /ans [player] [answer]'
+answerconsoleloggernotonline-message: 'isnt online!'
+answerhelp-message: '&cNot enough arguments! Type /ans [player] [answer]'
+ 
+#SPFAH Messages
+spfahhelp-message: '&cUsage: /spfah [-o] <player>!'
+spfahplayerblocked-message: '&2%target% &ahas been blocked from using /helpme!'
+spfahplayerunblocked-message: '&9%target% &bhas been unblocked from using /helpme!'
+spfahplayerblockednotfy-message: '&2%sender% &ahas blocked &2%target% &afrom using /helpme!'
+spfahplayerunblockednotfy-message: '&9%sender% &bhas unblocked &9%target% &bfrom using /helpme!'
+spfahplayerblockednotfylog-message: '%sender% has blocked %target% from using /helpme!'
+spfahplayerunblockednotfylog-message: '%sender% has unblocked %target% from using /helpme!'
+spfahlistheader-message: '&2&m--&r &aSPFAH List &2&m--'
+spfahlist-message: '&f- &2%spfahplayers%&f.'
+
+#SPFR Messages
+spfrhelp-message: '&cUsage: /spfr [-o] <player>!'
+spfrplayerblocked-message: '&2%target% &ahas been blocked from using /report!'
+spfrplayerunblocked-message: '&9%target% &bhas been unblocked from using /report!'
+spfrplayerblockednotfy-message: '&2%sender% &ahas blocked &2%target% &afrom using /report!'
+spfrplayerunblockednotfy-message: '&9%sender% &bhas unblocked &9%target% &bfrom using /report!'
+spfrplayerblockednotfylog-message: '%sender% has blocked %target% from using /report!'
+spfrplayerunblockednotfylog-message: '%sender% has unblocked %target% from using /report!'
+spfrlistheader-message: '&2&m--&r &aSPFR List &2&m--'
+spfrlist-message: '&f- &2%spfrplayers%&f.'
+
+#Fly Messages ; You can also use %target_displayname%
+flyhelp-message: '&cType /fly to turn your fly mode on/off'
+turnedflyoncausejoined-message: '&bYou have joined the server and your fly mode turned on!'
+turnedflyon-message: '&aYou have turned your fly mode on!'
+turnedflyoff-message: '&bYou have turned your fly mode off!'
+turnedflyforyouoff-message: '&9%sender% &bturned your fly mode off!'
+turnedothersflyoff-message: '&bYou have turned &9%target%%apostrophe% &bfly mode off!'
+turnedflyforyouon-message: '&2%sender% &aturned your fly mode on!'
+turnedothersflyon-message: '&aYou have turned &2%target%%apostrophe% &afly mode on!'
+flylistheader-message: '&2&m--&r &aFly List &2&m--'
+flylist-message: '&f- &2%flyplayers%&f.'
+
+#Nightvision Messages
+nightvisionhelp-message: '&cType /nightvision to turn your nightvision mode on/off'
+turnednightvisionon-message: '&aYou have turned your nightvision mode on!'
+turnednightvisionoff-message: '&bYou have turned your nightvision mode off!'
+turnednightvisionforyouoff-message: '&9%sender% &bturned your nightvision mode off!'
+turnedothersnightvisionoff-message: '&bYou have turned &9%target% &bnightvision mode off!'
+turnednightvisionforyouon-message: '&2%sender% &aturned your nightvision mode on!'
+turnedothersnightvisionon-message: '&aYou have turned &2%target% &anightvision mode on!'
+nightvisionlistheader-message: '&2&m--&r &aNightvision List &2&m--'
+nightvisionlist-message: '&f- &2%nightvisionplayers%&f.'
+
+#Feed Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
+fedyourself-message: '&aYou have fed yourself!'
+feedcantfeed-message: '&cYou cant feed yourself, you are not a player!'
+havebeenfed-message: '&aYou have been fed by &2%sender%&a!'
+havebeenfedfakeleave-message: '&aYou have been fed!'
+youhavefed-message: '&aYou have fed &2%target%&a!'
+youhavefedallplayers-message: '&aYou have fed all players!'
+
+#Heal Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
+healyourself-message: '&aYou have healed yourself!'
+healcantheal-message: '&cYou cant heal yourself, you are not a player!'
+havebeenhealed-message: '&aYou have been healed by &2%sender%&a!'
+havebeenhealedfakeleave-message: '&aYou have been healed!'
+youhavehealed-message: '&aYou have healed &2%target%&a!'
+youhavehealedallplayers-message: '&aYou have healed all players!'
+
+#Ping Messages ; %player_displayname% and %target_displayname%
+pingyourself-message: '&aYour ping is: &2%ping%ms.'
+pingothers-message: '&a%target%&a%apostrophe%&a ping: &2%ping%ms.'
+everyonespingheader-message: '&2&m--&r &aEveryones Ping &2&m--'
+everyonesping-message: '&f- &b%player%&b%apostrophe%&b ping: &9%ping%ms.'
+
+#UUID Messages
+uuidhelp-message: '&cNot enough arguments! Type /uuid [player]'
+getuuid-message: '&6%target%&6%apostrophe% &6UUID: &f%target_uuid%'
+
+#Show Help Messages
+show-helpmessage: 'Shows this help page!'
+showbirthday-helpmessage: 'Give information to an specified player about birthday!'
+showdiscord-helpmessage: 'Give information to an specified player about discord!'
+showdonate-helpmessage: 'Give information to an specified player about donation!'
+showemail-helpmessage: 'Give information to an specified player about emails!'
+showfacebook-helpmessage: 'Give information to an specified player about facebook!'
+showforum-helpmessage: 'Give information to an specified player about forums!'
+showinstagram-helpmessage: 'Give information to an specified player about instagram!'
+showip-helpmessage: 'Give information to an specified player about the server ips!'
+show2next-helpmessage: 'Shows the next page!'
+
+#Show2 Help Messages
+show2-helpmessage: 'Shows this help page!'
+showrules-helpmessage: 'Give information to an specified player about the rules!'
+showskype-helpmessage: 'Give information to an specified player about skype!'
+showteamspeak3-helpmessage: 'Give information to an specified player about teamspeak3!'
+showtwitch-helpmessage: 'Give information to an specified player about twitch!'
+show2twitter-helpmessage: 'Give information to an specified player about twitter!'
+show2website-helpmessage: 'Give information to an specified player about website!'
+show2whatsapp-helpmessage: 'Give information to an specified player about whatsapp!'
+show2youtube-helpmessage: 'Give information to an specified player about youtube!'
+
+#Show Messages
+showbirthdayhelp-message: '&cNot enough arguments! Type /show birthday [player]'
+showbirthdaytosomeone-message: '&cYou have shown the birthday list to %target%!'
+someoneshowedyoubirthday-message: '&c%sender% &chas shown you the birthday list!'
+
+showdiscordhelp-message: '&cNot enough arguments! Type /show discord [player]'
+showdiscordtosomeone-message: '&cYou have shown the discord channels to %target%!'
+someoneshowedyoudiscord-message: '&c%sender% &chas shown you the discord channels!'
+
+showdonatehelp-message: '&cNot enough arguments! Type /show donate [player]'
+showdonatetosomeone-message: '&cYou have shown the donation links to %target%!'
+someoneshowedyoudonate-message: '&c%sender% &chas shown you the donation links!'
+
+showemailhelp-message: '&cNot enough arguments! Type /show email [player]'
+showemailtosomeone-message: '&cYou have shown the email list to %target%!'
+someoneshowedyouemail-message: '&c%sender% &chas shown you the email list!'
+
+showfacebookhelp-message: '&cNot enough arguments! Type /show facebook [player]'
+showfacebooktosomeone-message: '&cYou have shown the facebook links to %target%!'
+someoneshowedyoufacebook-message: '&c%sender% &chas shown you the facebook links!'
+
+showforumhelp-message: '&cNot enough arguments! Type /show forum [player]'
+showforumtosomeone-message: '&cYou have shown the forum links to %target%!'
+someoneshowedyouforum-message: '&c%sender% &chas shown you the forum links!'
+
+showinstagramhelp-message: '&cNot enough arguments! Type /show instagram [player]'
+showinstagramtosomeone-message: '&cYou have shown the instagram contact/s to %target%!'
+someoneshowedyouinstagram-message: '&c%sender% &chas shown you the instagram contact/s!'
+
+showiphelp-message: '&cNot enough arguments! Type /show ip [player]'
+showiptosomeone-message: '&cYou have shown the server ips to %target%!'
+someoneshowedyouip-message: '&c%sender% &chas shown you the server ips!'
+
+showruleshelp-message: '&cNot enough arguments! Type /show rules [player]'
+showrulestosomeone-message: '&cYou have shown the rules to %target%!'
+someoneshowedyourules-message: '&c%sender% &chas shown you the rules!'
+
+showskypehelp-message: '&cNot enough arguments! Type /show skype [player]'
+showskypetosomeone-message: '&cYou have shown the skype contact/s to %target%!'
+someoneshowedyouskype-message: '&c%sender% &chas shown you the skype contact/s!'
+
+showteamspeak3help-message: '&cNot enough arguments! Type /show teamspeak3 [player]'
+showteamspeak3tosomeone-message: '&cYou have shown the teamspeak3 link/s to %target%!'
+someoneshowedyouteamspeak3-message: '&c%sender% &chas shown you the teamspeak3 links!'
+
+showtwitchhelp-message: '&cNot enough arguments! Type /show twitch [player]'
+showtwitchtosomeone-message: '&cYou have shown the twitch links to %target%!'
+someoneshowedyoutwitch-message: '&c%sender% &chas shown you the twitch links!'
+
+showtwitterhelp-message: '&cNot enough arguments! Type /show twitter [player]'
+showtwittertosomeone-message: '&cYou have shown the twitter links to %target%!'
+someoneshowedyoutwitter-message: '&c%sender% &chas shown you the twitter links!'
+
+showwebsitehelp-message: '&cNot enough arguments! Type /show website [player]'
+showwebsitetosomeone-message: '&cYou have shown the website links to %target%!'
+someoneshowedyouwebsite-message: '&c%sender% &chas shown you the website links!'
+
+showwhatsapphelp-message: '&cNot enough arguments! Type /show whatsapp [player]'
+showwhatsapptosomeone-message: '&cYou have shown the whatsapp contact/s to %target%!'
+someoneshowedyouwhatsapp-message: '&c%sender% &chas shown you the whatsapp contact/s!'
+
+showyoutubehelp-message: '&cNot enough arguments! Type /show youtube [player]'
+showyoutubetosomeone-message: '&cYou have shown the youtube links to %target%!'
+someoneshowedyouyoutube-message: '&c%sender% &chas shown you the youtube links!'
+
+#Server
+server-helpmessage: 'Shows this help page!'
+serverram-helpmessage: 'Get information about how is the RAM working in the server!'
+serverstats-helpmessage: 'Get information about the server stats!'
+
+#Time
+time-helpmessage: 'Shows this help page!'
+day-helpmessage: 'Set the world time to day!'
+night-helpmessage: 'Set the world time to night!'
+sun-helpmessage: 'Set the world time to sunny!'
+rain-helpmessage: 'Set the world time to rain!'
+settimetoday-message: '&aYou have set time to day!'
+settimetonight-message: '&aYou have set time to night!'
+settimetosun-message: '&aYou have set time to sun!'
+settimetorain-message: '&aYou have set time to rain!'
+
+#Server Ram Messages
+serverramheader-message: '&6===== &cServer Ram Information &6====='
+uptime-message: '&6[Uptime]: &f%uptime%'
+onlineplayers-message: '&6[OnlinePlayers]: &f%onlineplayers%/%maxplayers%'
+tps-message: '&6[Tps]: &f%color_tps%%tps%'
+processor-message: '&6[Processor(s)]: &f%processor%'
+maximumram-message: '&6[Maximum Ram]: &f%maximumram% MB'
+allocatedram-message: '&6[Allocated Ram]: &f%allocatedram% MB'
+usedram-message: '&6[Used Ram]: &f%usedram% MB'
+freeram-message: '&6[Free Ram]: &f%freeram% MB'
+
+#Server Stats Messages
+serverstatsheader-message: '&6===== &cServer Stats Information &6====='
+onlinemode-message: '&6[Online Mode]: &f%onlinemode%'
+flightallowed-message: '&6[Flight Allowed]: &f%flightallowed%'
+netherallowed-message: '&6[Nether Allowed]: &f%netherallowed%'
+endallowed-message: '&6[End Allowed]: &f%endallowed%'
+viewdistance-message: '&6[View Distance]: &f%viewdistance%'
+defaultgamemode-message: '&6[Default Gamemode]: &f%defaultgamemode%'
+spawnradius-message: '&6[Spawn Radius]: &f%spawnradius%'
+animalspawnlimit-message: '&6[Animal Spawn Limit]: &f%animalspawnlimit%'
+monsterspawnlimit-message: '&6[Monster Spawn Limit]: &f%monsterspawnlimit%'
+ambientspawnlimit-message: '&6[Ambient Spawn Limit]: &f%ambientspawnlimit%'
+ticksperanimalspawn-message: '&6[Ticks Per Animal Spawn]: &f%ticksperanimalspawn%'
+tickspermonsterspawn-message: '&6[Ticks Per Monster Spawn]: &f%tickspermonsterspawn%'
+craftbukkitversion-message: '&6[Craftbukkit Version]: &f%craftbukkitversion%'
+spigotversion-message: '&6[Spigot Version]: &f%spigotversion%'
+unknownversion-message: '&6[Unknown Version]: &f%unknownversion%'
+
+#Warn Messages
+warnhelp-message: '&cNot enought arguments! Type /swarn [player] [reason]'
+warnedbysomeone-message: '&cYou have been warned by &4%sender%&c for &4%reason%&c.'
+warnedbysomeonefakeleave-message: '&cYou have been warned for &4%reason%&c.'
+warnsomeone-message:  '&c%sender% &chas warned &4%target%&c for &4%reason%&c.'
+warnsomeonefakeleave-message:  '&4%target%&c has been warned for &4%reason%&c.'
+
+#BroadcastMessages Messages
+alerthelp-message: '&cNot enought arguments! Type /alert [message]'
+alertbroadcast-message: '&c[Alert] &e%alertmessage%'
+alertplayer-message: '&2%sender% &ahas sent an &c[Alert] &amessage!'
+announcehelp-message: '&cNot enought arguments! Type /announce [message]'
+announcebroadcast-message: '&a[Announce] &b%announcemessage%'
+announceplayer-message: '&2%sender% &ahas sent an &a[Announce] &amessage!'
+broadcasthelp-message: '&cNot enought arguments! Type /broadcast [message]'
+broadcastbroadcast-message: '&9[Broadcast] &a%broadcastmessage%'
+broadcastplayer-message: '&2%sender% &ahas sent a &c[Broadcast] &amessage!'
+dangerhelp-message: '&cNot enought arguments! Type /danger [message]'
+dangerbroadcast-message: '&4[Danger] &c%dangermessage%'
+dangerplayer-message: '&2%sender% &ahas sent a &4[Danger] &amessage!'
+errorhelp-message: '&cNot enought arguments! Type /error [message]'
+errorbroadcast-message: '&4[Error] &8%errormessage%'
+errorplayer-message: '&2%sender% &ahas sent an &4[Error] &amessage!'
+informationhelp-message: '&cNot enought arguments! Type /information [message]'
+informationbroadcast-message: '&2[Information] &a%informationmessage%'
+informationplayer-message: '&2%sender% &ahas sent an &2[Information] &amessage!'
+notehelp-message: '&cNot enought arguments! Type /note [message]'
+notebroadcast-message: '&2[Note] &f%notemessage%'
+noteplayer-message: '&2%sender% &ahas sent a &2[Note] &amessage!'
+sayhelp-message: '&cNot enought arguments! Type /say [message]'
+saybroadcast-message: '&5[Say] &d%saymessage%'
+sayplayer-message: '&2%sender% &ahas sent a &5[Say] &amessage!'
+warninghelp-message: '&cNot enought arguments! Type /warning [message]'
+warningbroadcast-message: '&c[Warning] &7%warningmessage%'
+warningplayer-message: '&2%sender% &ahas sent a &c[Warning] &amessage!'
+
+#Vanish Messages
+turnedvanishoncausejoined-message: '&bYou have joined the server and your vanish mode turned on!'
+vanishenabled-message: '&aYou have vanished yourself! Now others cant see you.'
+vanishdisabled-message: '&bYou have unvanished yourself! Now others can see you.'
+someoneunvanishedyou-message: '&bYou have been unvanished by &9%sender%&b! Now others can see you.'
+youhaveunvanishedsomeone-message: '&bYou have unvanished &9%target%&b!'
+someonevanishedyou-message: '&aYou have been vanished by &2%sender%&a! Now others cant see you.'
+youhavevanishedsomeone-message: '&aYou have vanished &2%target%&a!'
+vanishlistheader-message: '&2&m--&r &aVanish List &2&m--'
+vanishlist-message: '&f- &2%vanishedplayers% &aFakeleaved: &2%fakeleavedplayers%&f.'
+cantsendmessages-vanishlistener: '&cYou cant send messages while vanished. type /v chat to avoid this or /v toggle for help!'
+cantdrop-vanishlistener: '&cYou cant drop items while being vanished! Press SHIFT to override or type /v drop to avoid this or /v toggle for help!'
+cantinvclick-vanishlistener: '&cYou cant click inventories while being vanished! Press SHIFT to override or type /v invclick to avoid this or /v toggle for help!'
+cantinteract-vanishlistener: '&cYou cant interact with items while being vanished! Press SHIFT to override or type /v interact to avoid this or /v toggle for help!'
+cantdamage-vanishlistener: '&cYou cant damage players/entities while being vanished! Press SHIFT to override or type /v damage to avoid this or /v toggle for help!'
+canthangingbrakes-vanishlistener: '&cYou cant hang breaks while being vanished! Press SHIFT to override or type /v hangingbreak to avoid this or /v toggle for help!'
+disablestaffvanish-message: '&cPlease disable Staffvanish in order to enable Vanish!'
+pickuplisteneruntoggled-vanishmessage: '&aNow you can pickup items while vanished!'
+pickuplistenertoggled-vanishmessage: '&bNow you cant pickup items while vanished!'
+droplisteneruntoggled-vanishmessage: '&aNow you can drop items while vanished!'
+droplistenertoggled-vanishmessage: '&bNow you cant drop items while vanished!'
+inventoryclicklisteneruntoggled-vanishmessage: '&aNow you can click on inventories while vanished!'
+inventoryclicklistenertoggled-vanishmessage: '&bNow you cant click on inventories while vanished!'
+interactlisteneruntoggled-vanishmessage: '&aNow you can interact with items while vanished!'
+interactlistenertoggled-vanishmessage: '&bNow you cant interact with items while vanished!'
+damagelisteneruntoggled-vanishmessage: '&aNow you can damage players/entities while vanished!'
+damagelistenertoggled-vanishmessage: '&bNow you cant damage players/entities while vanished!'
+chatlisteneruntoggled-vanishmessage: '&aNow you can send messages while vanished!'
+chatlistenertoggled-vanishmessage: '&bNow you cant send messages while vanished!'
+hangingbreaklisteneruntoggled-vanishmessage: '&aNow you can hang breaks while vanished!'
+hangingbreaklistenertoggled-vanishmessage: '&bNow you cant hang breaks while vanished!'
+vehiclecollisionlisteneruntoggled-vanishmessage: '&aNow you can collide vehicles while vanished!'
+vehiclecollisionlistenertoggled-vanishmessage: '&bNow you cant collide vehicles while vanished!'
+entitytargetlisteneruntoggled-vanishmessage: '&aNow you can be targeted by entities while vanished!'
+entitytargetlistenertoggled-vanishmessage: '&bNow you cant be entities while vanished!'
+vehicledestroylisteneruntoggled-vanishmessage: '&aNow you can destroy vehicles while vanished!'
+vehicledestroylistenertoggled-vanishmessage: '&bNow you cant destroy vehicles while vanished!'
+silentopenchest-message: '&aOpening %chesttype% silently. If you want to edit it, open while pressing SHIFT.'
+
+#Staffvanish Messages
+staffvanishenabled-message: '&aYou have staff vanished yourself! Now others cant see you.'
+staffvanishdisabled-message: '&bYou have disabled your staff vanish! Now others can see you.'
+someonestaffunvanishedyou-message: '&9%sender% &bhas disabled your staff vanish! Now others can see you.'
+youhavestaffunvanishedsomeone-message: '&bYou have disabled &9%target% &bstaff vanish!'
+someonestaffvanishedyou-message: '&aYou have been staff vanished by &2%sender%&a! Now others cant see you.'
+youhavestaffvanishedsomeone-message: '&aYou have staff vanished &2%target%&a!'
+staffvanishlistheader-message: '&2&m--&r &aStaffvanish List &2&m--'
+staffvanishlist-message: '&f- &2%staffvanishedplayers%&f.'
+disablevanish-message: '&cPlease disable Vanish in order to enable Staffvanish!'
+cantsendmessages-staffvanishlistener: '&cYou cant send messages while staffvanished. type /sv chat to avoid this or /sv toggle for help!'
+cantdrop-staffvanishlistener: '&cYou cant drop items while being staffvanished! Press SHIFT to override or type /sv drop to avoid this or /sv toggle for help!'
+cantinvclick-staffvanishlistener: '&cYou cant click inventories while being staffvanished! Type /sv invclick to avoid this or /sv toggle for help!'
+cantinteract-staffvanishlistener: '&cYou cant interact with items while being staffvanished! Press SHIFT to override or type /sv interact to avoid this or /sv toggle for help!'
+cantdamage-staffvanishlistener: '&cYou cant damage players/entities while being staffvanished! Press SHIFT to override or type /sv damage to avoid this or /sv toggle for help!'
+canthangingbrakes-staffvanishlistener: '&cYou cant hang breaks while being staffvanished! Press SHIFT to override or type /sv hangingbreak to avoid this or /sv toggle for help!'
+pickuplisteneruntoggled-staffvanishmessage: '&aNow you can pickup items while staffvanished!'
+pickuplistenertoggled-staffvanishmessage: '&bNow you cant pickup items while staffvanished!'
+droplisteneruntoggled-staffvanishmessage: '&aNow you can drop items while staffvanished!'
+droplistenertoggled-staffvanishmessage: '&bNow you cant drop items while staffvanished!'
+inventoryclicklisteneruntoggled-staffvanishmessage: '&aNow you can click on inventories while staffvanished!'
+inventoryclicklistenertoggled-staffvanishmessage: '&bNow you cant click on inventories while staffvanished!'
+interactlisteneruntoggled-staffvanishmessage: '&aNow you can interact with items while staffvanished!'
+interactlistenertoggled-staffvanishmessage: '&bNow you cant interact with items while staffvanished!'
+damagelisteneruntoggled-staffvanishmessage: '&aNow you can damage players/entities while staffvanished!'
+damagelistenertoggled-staffvanishmessage: '&bNow you cant damage players/entities while staffvanished!'
+chatlisteneruntoggled-staffvanishmessage: '&aNow you can send messages while staffvanished!'
+chatlistenertoggled-staffvanishmessage: '&bNow you cant send messages while staffvanished!'
+hangingbreaklisteneruntoggled-staffvanishmessage: '&aNow you can hang breaks while staffvanished!'
+hangingbreaklistenertoggled-staffvanishmessage: '&bNow you cant hang breaks while staffvanished!'
+vehiclecollisionlisteneruntoggled-staffvanishmessage: '&aNow you can collide vehicles while staffvanished!'
+vehiclecollisionlistenertoggled-staffvanishmessage: '&bNow you cant collide vehicles while staffvanished!'
+entitytargetlisteneruntoggled-staffvanishmessage: '&aNow you can be targeted by entities while staffvanished!'
+entitytargetlistenertoggled-staffvanishmessage: '&bNow you cant be entities while staffvanished!'
+vehicledestroylisteneruntoggled-staffvanishmessage: '&aNow you can destroy vehicles while staffvanished!'
+vehicledestroylistenertoggled-staffvanishmessage: '&bNow you cant destroy vehicles while staffvanished!'
+
+#Fakeleave Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
+turnedfakeleaveoncausejoined-message: '&bYou have joined the server silently with the fakeleave mode turned on!'
+enablefakeleave-message: '&cPlease enable Vanish or Staffvanish in order to fakeleave the server!'
+fakeleavelistheader-message: '&2&m--&r &aFakeleave List &2&m--'
+fakeleavelist-message: '&f- &2%fakeleavedplayers%&f.'
+fakeleaveenabled-message: '&aYou have fakeleaved! Now others think you are offline.'
+fakeleavedisabled-message: '&bYou have unfakeleaved! Now others think you are online.'
+someoneunfakeleavedyou-message: '&bYou have been unfakeleaved by &9%sender%&b! Now others think you are online.'
+youhaveunfakeleavedsomeone-message: '&bYou have unfakeleaved &9%target%&b!'
+someonefakeleavedyou-message: '&aYou have been fakeleaved by &2%sender%&a! Now others think you are offline.'
+youhavefakeleavedsomeone-message: '&aYou have fakeleaved &2%target%&a!'
+cantsendmessages-fakeleavelistener: '&cYou cant send messages while fakeleaved. Type /fl chat to avoid this!'
+cantmakethisaction-fakeleavelistener: '&cYou cant make this action while being fakeleaved! Press SHIFT to override.'
+cantdisguise-fakeleavehook: '&cYou cant disguise at the moment because you are fakeleaved.'
+chatlisteneruntoggled-fakeleavemessage: '&aNow you can send messages while fakeleaved!'
+chatlistenertoggled-fakeleavemessage: '&bNow you cant send messages while fakeleaved!'
+cantusethiscommandwhilefakeleave-message: '&cYou cant use this command while fakeleaved in order to protect your secrecy.'
+
+#Duty Messages
+turneddutyoncausejoined-message: '&bYou have joined the server and your Duty Mode turned on!'
+turneddutyoff-message: '&bYou are now Off Duty!'
+turneddutyon-message: '&aYou are now On Duty!'
+playerturneddutyoff-message: '&b%sender% is now off duty. There are &9%duty_size% &bstaff members on duty!'
+playerturneddutyon-message: '&a%sender% is now on duty. There are &2%duty_size% &astaff members on duty!'
+havetobeonduty-message: '&cYou have to be &4On Duty &cto perform this command!'
+nopermissionoffduty-message: '&cYou have to be On Duty to perform this command!'
+
+#Watchover Messages
+turnedwatchoveroncausejoined-message: '&bYou have joined the server and your Watchover mode turned on!'
+turnedwatchoveroffcausedisable-message: '&bYour watchover got off, because of a reload, stop, or another cause which disabled the plugin/server. You are in your last position, with your last gamemode and last inventory!'
+turnedwatchoveroff-message: '&bYou have disabled watchover! You are in your last position, with your last gamemode and last inventory!'
+turnedwatchoveron-message: '&aYou have enabled watchover!'
+playerturnedwatchoveroff-message: '&b%sender% has disabled watchover!'
+playerturnedwatchoveron-message: '&a%sender% has enabled watchover!'
+teleportrandomplayer-listenermessage: '&eRandomly telporting you to &6%random_player%&e...'
+cantteleportrandomplayer-listenermessage: '&cYou are the only one online! You cant randomly teleport to anyone.'
+watchoverlistheader-message: '&2&m--&r &aWatchover List &2&m--'
+watchoverlist-message: '&f- &2%watchoverplayers%&f.'
+someoneturnedyourwatchoveroff-message: '&9%sender% &bhad turned your watchover off!'
+turnedsomeoneswatchoveroff-message: '&bYou have turned &9%target% &bwatchover off!'
+someoneturnedyourwatchoveron-message: '&2%sender% &ahad turned your watchover on!'
+turnedsomeoneswatchoveron-message: '&aYou have turned &2%target% &awatchover on!'
+disablewatchover-message: '&cPlease disable Watchover in order to enable Staffwatch!'
+
+#Staffwatch Messages
+turnedstaffwatchoffcausedisable-message: '&bYour staffwatch got off, because of a reload, stop, or another cause which disabled the plugin/server. You are in your last position, with your last gamemode and last inventory!'
+turnedstaffwatchoff-message: '&bYou have disabled staffwatch! You are in your last position, with your last gamemode and last inventory!'
+turnedstaffwatchon-message: '&aYou have enabled staffwatch!'
+playerturnedstaffwatchoff-message: '&b%sender% has disabled staffwatch!'
+playerturnedstaffwatchon-message: '&a%sender% has enabled staffwatch!'
+staffwatchlistheader-message: '&2&m--&r &aStaffwatch List &2&m--'
+staffwatchlist-message: '&f- &2%staffwatchplayers%&f.'
+someoneturnedyourstaffwatchoff-message: '&9%sender% &bhad turned your staffwatch off!'
+turnedsomeonesstaffwatchoff-message: '&bYou have turned &9%target% &bstaffwatch off!'
+someoneturnedyourstaffwatchon-message: '&2%sender% &ahad turned your staffwatch on!'
+turnedsomeonesstaffwatchon-message: '&aYou have turned &2%target% &astaffwatch on!'
+disablestaffwatch-message: '&cPlease disable Staffwatch in order to enable Watchover!'
+
+#Workbench Messages
+openingworkbench-message: '&aOpening workbench...'
+
+#Enderchest Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
+openingenderchest-message: '&aOpening enderchest...'
+openothersenderchest-message: '&aYou have opened &2%target%%apostrophe% &aenderchest!'
+
+#Bin Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
+openingbin-message: '&aOpening bin...'
+openedothersbin-message: '&aYou have opened the bin for &2%target%&a!'
+openedbinforyou-message: '&2%sender% &ahas opened the bin for you!'
+
+#ClearInventory Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
+clearowninventory-message: '&aYou have cleared your own inventory!'
+clearinventorycantclear-message: '&cYou cant clear your inventory, you are not a player!'
+claredyourinventory-message: '&2%sender% &ahas cleared your inventory!'
+clearedothersinventory-message: '&aYou have cleared &2%target%&a%apostrophe% &ainventory!'
+
+#Staffchat Messages
+sinfo-message: '&fPlease type /sc [message] or *[message] to chat only with the Staff.'
+togglestaffchatoff-message: '&bYou have toggled Staff Chat off, all your messages will now go to the normal public chat.'
+togglestaffchaton-message: '&aYou have toggled Staff Chat on, all your messages will now go to the Staff Chat.'
+
+#God Messages ; You can also use %target_displayname%
+turnedgodoff-message: '&bYou have turned your god mode off!'
+turnedgodon-message: '&aYou have turned your god mode on!'
+turnedgodforyouoff-message: '&9%sender% &bturned your god mode off!'
+turnedothersgodoff-message: '&bYou have turned &9%target%%apostrophe% &bgod mode off!'
+turnedgodforyouon-message: '&2%sender% &aturned your god mode on!'
+turnedothersgodon-message: '&aYou have turned &2%target%%apostrophe% &agod mode on!'
+turnedgodoncausejoined-message: '&bYou have joined the server and your God Mode turned on!'
+godlistheader-message: '&2&m--&r &aGod List &2&m--'
+godlist-message: '&f- &2%godplayers%&f.'
+
+#PlayerInfo Messages
+playerinfohelp-message: '&cNot enough arguments! Type /playerinfo [player]'
+playerinfoheader-message: '&6===== &cInfo about %target% &6====='
+playerinfodisplayname-message: '&6 - DisplayName: &f%displayname%'
+playerinfoonline-message: '&6 - Online: &f%online%'
+playerinfoiswhitelisted-message: '&6 - Whitelisted: &f%whitelisted%'
+playerinfoplayedbefore-message: '&6 - PlayedBefore: &f%playedbefore%'
+playerinfoip-message: '&6 - IP: &f%ip%'
+playerinfouuid-message: '&6 - UUID: &f%uuid%'
+playerinfoping-message: '&6 - Ping: &f%ping%ms'
+playerinfoop-message: '&6 - OP: &f%op%'
+playerinfoondutytrue-message: '&6 - On Duty: &ftrue'
+playerinfoondutyfalse-message: '&6 - On Duty: &ffalse'
+playerinfovanishtrue-message: '&6 - Vanished: &ftrue'
+playerinfovanishfalse-message: '&6 - Vanished: &ffalse'
+playerinfogamemode-message: '&6 - Gamemode: &f%gamemode%'
+playerinfoflymode-message: '&6 - Fly Mode: &f%flymode% (isFlying: %flying%)'
+playerinfogodmodetrue-message: '&6 - God Mode: &ftrue'
+playerinfogodmodefalse-message: '&6 - God Mode: &ffalse'
+playerinfohealth-message: '&6 - Health: &f%health%/20.0'
+playerinfohunger-message: '&6 - Hunger: &f%hunger%/20 (%saturation% saturation)'
+playerinfoexp-message: '&6 - Exp: &f%exp% (Level %level%)'
+playerinfolocation-message: '&6 - Location: &f%world%(%x%, %y%, %z%)'
+playerinfoiteminhand-message: '&6 - ItemInHand: &f%iteminhand%'
+playerinfobanned-message: '&6 - Banned: &f%banned%'
+
+#Invsee Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
+invseehelp-message: '&cNot enough arguments! Type /invsee [player]'
+cantopenhisinventory-message: '&cYou cant open &c%target%%apostrophe% &cinventory due to a permission protection!'
+openedothersinventory-message: '&aYou have opened &2%target%&a%apostrophe% inventory!'
+someoneopenedyourinventory-message: '&2%sender% &ahas opened your inventory!'
+
+#Gamemode Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
+gamemodehelp-message: '&cNot enough arguments! Type /gm [survival|creative|adventure|spectator] <player>'
+turnedcreativeoncausejoined-message: '&bYou have joined the server and your creative gamemode turned on!'
+turnedsurvivaloncausejoined-message: '&bYou have joined the server and your survival gamemode turned on!'
+turnedadventureoncausejoined-message: '&bYou have joined the server and your adventure gamemode turned on!'
+turnedspectatoroncausejoined-message: '&bYou have joined the server and your spectator gamemode turned on!'
+setowngamemodecreative-message: '&bYou have set your own gamemode to &9creative&b!'
+setowngamemodesurvival-message: '&bYou have set your own gamemode to &9survival&b!'
+setowngamemodeadventure-message: '&bYou have set your own gamemode to &9adventure&b!'
+setowngamemodespectator-message: '&bYou have set your own gamemode to &9spectator&b!'
+setgamemodecreativesomeone-message: '&bYou have set &9%target%&b%apostrophe% &bgamemode to &9creative&b!'
+setgamemodesurvivalsomeone-message: '&bYou have set &9%target%&b%apostrophe% &bgamemode to &9survival&b!'
+setgamemodeadventuresomeone-message: '&bYou have set &9%target%&b%apostrophe% &bgamemode to &9adventure&b!'
+setgamemodespectatorsomeone-message: '&bYou have set &9%target%&b%apostrophe% &bgamemode to &9spectator&b!'
+someonesettedgamemodecreative-message: '&b%sender% &bhas set your gamemode to &9creative&b'
+someonesettedgamemodesurvival-message: '&b%sender% &bhas set your gamemode to &9survival&b'
+someonesettedgamemodeadventure-message: '&b%sender% &bhas set your gamemode to &9adventure&b'
+someonesettedgamemodespectator-message: '&b%sender% &bhas set your gamemode to &9spectator&b'
+
+#TP Messages
+tphelp-message: '&cNot enough arguments! Type /tp [player]'
+tptosomeone-message: '&bYou have succesfully teleported to &9%target%&b!'
+tpsomeonetosomeone-message: '&bYou have succesfully teleported &9%target% &bto &9%target2%&b!'
+tpyoutosomeone-message: '&9%sender% &bhas teleported you to &9%target2%&b!'
+tpsomeonetoyou-message: '&9%sender% &bhas teleported &9%target% &bto your position!'
+tptoggle-message: '&cYou cant teleport to &4%target%&c because he has disabled that others could teleport him!'
+tptoggleto-message: '&cYou cant teleport &4%sender%&c to &4%target%&c because he has disabled that others could teleport him!'
+
+#TPhere Messages
+tpherehelp-message: '&cNot enough arguments! Type /tphere [player]'
+tpheresomeone-message: '&bYou have succesfully teleported &9%target% &bto your position!'
+
+#TPall Messages
+teleportallplayers-message: '&bYou have succesfully teleported all players to your position!'
+
+#TPPos Messages
+tpposhelp-message: '&cNot enough arguments! Type /tppos [player] [X] [Y] [Z] <Yaw> <Pitch>'
+tpsomeonetoaposition-message: '&bYou have succesfully teleported &9%target% &bto a specified position!'
+tptoaposition-message: '&9%sender%&b has teleported you to a specified position!'
+
+#Staff Messages
+headline-stafflist: '&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a- &5Staff List &3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-'
+nostaffonline-stafflist: '&7No staff online'
+staff-stafflist: '&4Staff Online&8: %staffonlinelist%&4.'
+nostaffonduty-stafflist: '&4Staff OnDuty&8: &7No staff on duty&4.'
+staffonduty-stafflist: '&4Staff OnDuty&8:'
+staffondutylist-stafflist: '&f- &b%staffondutylist%'
+lastline-stafflist: '&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-'
+
+#StaffPanel Messages
+openingstaffpanel-message: '&aOpening StaffPanel...'
+openingyourselfmanagement-message: '&aOpening Yourself Management...'
+openinggamemodemanagement-message: '&aOpening Gamemode Management...'
+openingservermanagement-message: '&aOpening Server Management...'
+openingworldtimemanagement-message: '&aOpening World Time Management...'
+openinginformationmanagement-message: '&aOpening Information Management...'
+openingcommandsmanagement-message: '&aOpening Commands Management...'
+
+#ChatMute Messages
+chatmuted-message: '&cYou have muted the server chat!'
+chatmutednotification-message: '&cChat has been muted by &c%sender%&c!'
+chatunmuted-message: '&cYou have unmuted the server chat!'
+chatunmutednotification-message: '&cChat has been unmuted by &c%sender%&c!'
+chatcurrentlymuted-message: '&cYou cant speak right now. Chat is currently muted!'
+cantsendcommandscm-message: '&cYou cant send any commands while the chat is muted!'
+
+#Freeze Messages
+#You can use: %target% = Will display the target's name ; %target_displayname% = Will display the target's name with their color rank!
+freezehelp-message: '&cNot enough arguments! Type /freeze [player] or /freeze temp [player] [seconds]'
+freezetemphelp-message: '&cNot enough arguments! Type /freeze temp [player] [seconds]'
+frozenyourself-message: '&9%sender% &bhas frozen you!'
+frozenyourselffakeleave-message: '&bYou have been frozen!'
+frozensomeone-message: '&9%sender% &bhas frozen &9%target%&b!'
+frozentempyourself-message: '&9%sender% &bhas frozen you for &9%frozentime%&b seconds! You can check your time left with /frozen'
+frozentempyourselffakeleave-message: '&bYou have been frozen for &9%frozentime%&b seconds!'
+frozentempsomeone-message: '&9%sender% &bhas frozen &9%target% &bfor &9%frozentime%&b seconds!'
+everyonefreezed-message: '&9%sender% &bhas frozen everyone!'
+everyonefreezedfakeleave-message:  '&bEveryone has been frozen!'
+everyonefreezedbypass-message: '&9%sender% &bhas frozen everyone but you bypassed!'
+everyonefreezedbypassfakeleave-message: '&bEveryone has been frozen but you bypassed!'
+freezeall-message: '&bYou have frozen everyone!'
+unfrozenyourself-message: '&9%sender% &bhas unfrozen you!'
+unfrozenyourselffakeleave-message: '&b You have been unfrozen!'
+unfrozensomeone-message: '&9%sender% &bhas unfrozen &9%target%&b!'
+unfrozentempyourself-message: '&bYour time has finished! You are unfrozen now!'
+unfrozentempsomeone-message: '&9%target% &bwas unfrozen because his time finished!'
+everyoneunfreezed-message: '&9%sender% &bhas unfrozen everyone!'
+everyoneunfreezedfakeleave-message: '&bEveryone has been unfrozen!'
+unfreezeall-message: '&bYou have unfrozen everyone!'
+cantsendcommands-message: '&cYou cant send any commands while being frozen.'
+cantsplashpotions-message: '&cYou cant splash potions while frozen.'
+cantshotprojectiles-message: '&cYou cant shoot projectiles while frozen.'
+cantplaceblocks-message: '&cYou cant place blocks while frozen.'
+cantbreakblocks-message: '&cYou cant break blocks while being frozen.'
+cantdropitems-message: '&cYou cant drop items while being frozen.'
+cantinteractwithblocks-message: '&cYou cant interact with blocks while being frozen.'
+cantattackfrozenplayers-message: '&cYou cant attack frozen players.'
+cantattackbyfrozen-message: '&cYou cant attack a player while being frozen.'
+cantinteractwithitems-message: '&cYou cant interact with items while being frozen.'
+
+#Frozen Messages
+#You can use: %target% = Will display the target's name ; %target_displayname% = Will display the target's name with their color rank!
+frozenhelp-message: '&cNot enough arguments! Type /frozen [player|list]'
+frozenlistheader-message: '&9&m--&r &bFrozen List &9&m--'
+frozenlist-message: '&f- &9%frozenplayers%&f.'
+frozentemplist-message: '&f- &9%tempfrozenplayers%&b: &9&l%frozenplayerstime% &bseconds left&f.'
+playerisfrozen-message: '&9%target% &bis frozen!'
+playeristempfrozen-message: '&9%target% &bis temporary frozen for &9&l%frozenplayerstime% &bseconds!'
+playerisnotfrozen-message: '&9%target% &bis not frozen!'
+cantfrozenhim-message: '&cYou cant freeze &4%target% &cdue to a permission protection!'
+cantfreezeyourself-message: '&cYou cant freeze yourself!'
+frozenplayerquit-message: '&4%target% &chas left the server while being frozen!'
+frozenplayerjoin-message: '&9%target% &bhas joined and got frozen back again!'
+tempfrozenplayerjoin-message: '&9%target% &bhas joined and got frozen back again. Time Left: &9&l%frozenplayerstime% &bseconds.'
+frozenagainbecauseleave-message: '&bYou have been frozen again because you have left the server while being frozen!'
+tempfrozenagainbecauseleave-message: '&bYou have been tempfrozen again because you have left the server while being frozen. Time Left: &9&l%frozenplayerstime% &bseconds.'
+nopermissionorfrozen-message: '&cYou dont have permission to perform this command and you are not frozen in order to check time.'
+selfplayerisfrozen-message: '&bYou are frozen!'
+selfplayeristempfrozen-message: '&bYou are temporary frozen for &9&l%frozenplayerstime% &bseconds!'
+
+#MaintenanceMode Messages
+mmhelp-message: '&cNot enough arguments! Type /maintenancemode [on/off]'
+mmenabled-message: '&aYou have enabled Maintenance Mode in your server!'
+mmdisabled-message: '&bYou have disabled Maintenance Mode in your server!'
+mmenablednotification-message: '&2%sender% &ahas enabled Maintenance Mode in the server! Kicking online players without the permission of staying!'
+mmdisablednotification-message: '&9%sender% &bhas disabled Maintenance Mode in the server! Now players can log in the server!'
+mmkickwhenjoin-message: '&cYou cant log in. The server is in Maintenance Mode!'
+mmonlinekick-message: '&cKicked because the server is in Maintenance Mode!'
+mmserverlistping-message: '&cServer in Maintenance Mode!'
+
+#Kill Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
+killyourself-message: '&cYou have killed yourself!'
+killcantdie-message: '&cYou cant die, you are not a player!'
+havebeenkilled-message: '&4%sender%&c has killed you!'
+havebeenkilledfakeleave-message: '&cYou have been killed!'
+youhavekilled-message: '&cYou have killed &4%target%&c!'
+killall-message: '&bYou have killed everyone!'
+everyonekilled-message: '&9%sender% &bhas killed everyone!'
+everyonekilledbypass-message: '&9%sender% &bhas killed everyone but you bypassed!'
+cantkillhim-message: '&cYou cant kill &c%target% &cdue to a permission protection!'
+
+#Burn Messages
+burnhelp-message: '&cNot enough arguments! Type /burn [player] [seconds]'
+havebeenburned-message: '&4%sender%&c has burned you for &l%seconds% &r&cseconds!'
+havebeenburnedfakeleave-message: '&cYou have been burned for &l%seconds% &r&cseconds!'
+youhaveburned-message: '&cYou have burned &4%target%&c for &l%seconds% &r&cseconds!'
+
+#Cps Messages
+cpshelp-message: '&cNot enough arguments! Type /cps [player] [seconds]'
+cpsfinal-cpsmessage: '&9%target% &bhas made an average of &9%cps% &bClicks Per Second.'
+cpssub-cpsmessage: '&9%target% &bhas made &9%cps% &bclicks on second number &l%second%&r&b.'
+playercps-cpsmessage: '&aStarted a CPS test on &2%target% &afor &2%seconds% &aseconds.'
+alreadybeingtested-cpsmessage: '&4%target% &cis already being tested!'
+
+#ID Messages
+id-message: '&bItem: &9%itemname% &b- ID: &9%itemtypeid%:%itemmeta%'
+
+#CommandSpy Messages
+commandspyenable-message: '&aYou have enabled CommandSpy!'
+commandspydisable-message: '&bYou have disabled CommandSpy!'
+commandspy-message: '&8[&7CommandSpy&8] &7%commandsender%: &8%command%'
+turnedcommandspyoncausejoined-message: '&bYou have joined the server and your Command Spy mode turned on!'
+
+#WelcomeBack Messages
+#You can use: %target% = Will display the target's name ; %target_displayname% = Will display the target's name with their color rank! ; %sender% = Will display the sender's name
+welcomebackhelp-message: '&cNot enough arguments! Type /welcomeback [player]'
+welcomeback-message: '&5Welcome back &d%target%&5!'
+welcomebacksent-message: '&aYou have sent a welcome back message to &2%target%&a!'
+#With the listener dont use the %sender%.
+welcomebacklistener-message: '&5Welcome back &d%target%&5!'
+
+#HappyBirthday Messages
+#You can use: %target% = Will display the target's name ; %target_displayname% = Will display the target's name with their color rank! ; %sender% = Will display the sender's name
+happybirthdayhelp-message: '&cNot enough arguments! Type /happybirthday [player]'
+happybirthday-message: '&5Happy birthday to you &d%target%&5!'
+happybirthdaysent-message: '&aYou have sent a happy birthday message to &2%target%&a!'
+
+#AntiAdvertise Messages
+antiadvertisedetected-message: '&4%advertiser% &chas been caught advertising this: &4%advertisement%&c.'
+kickedadvertiser-message: '&4%advertiser% &cwas kicked because of advertising this: &4%advertisement%&c.'
+antiadvertisekick-message: '&cKicked because of advertising this: &4%advertisement%&c.'
+advertise-message: '&cDo not advertise on this server. Staff has been notified!'
+
+#AntiFlood Messages
+messagedelay-antiflood: '&cYou have to wait &4%delaybetweenmessages% &cseconds to send another message!'
+
+#AntiPlugins Messages
+antipluginsnotification-message: '&4%player% &chas tried to use the /plugins command!'
+
+#AntiHelp Messages
+antihelpnotification-message: '&4%player% &chas tried to use the /help command!'
+
+#AntiVersion Messages
+antiversionnotification-message: '&4%player% &chas tried to use the /version command!'
+
+#AntiSwear Messages
+antiswearwarn-message: '&cDo not insult on this server. The staff has been warned!'
+antiswearkick-message: '&cKicked because of insulting this: &4%message%&c.'
+antisweardetected-message: '&4%player% &chas been caught swearing this: &4%message%&c.'
+kickedswearer-message: '&4%player% &cwas kicked because of swearing this: &4%message%&c.'
+
+#Inspect Messages and GUI item names
+#The inventory name will be: the word you write + player name. This wont be configurable and player will be always the last word.
+inspect-inventoryname: '&2Inspect '
+playerarmour-gui: '&aPlayer Armour'
+playerinformation-gui: '&3Player Information'
+playerpotioneffects-gui: '&bPlayer Potion Effects'
+seeplayerinv-gui: '&cSee the player%apostrophe% inventory'
+glasspane-gui: ' '
+inspectpotioneffects-gui: '&8Type: &7%type% &8Power: &7%power% &8Duration: &7%duration%s'
+nonepotioneffects-gui: '&8None potion effects on this player'
+infoonline-gui: '&2Online: &a%online%'
+infoping-gui: '&2Ping: &a%ping% ms'
+infogamemode-gui: '&2Gamemode: &a%gamemode%'
+infofly-gui: '&2Fly Mode: &a%flymode% (isFlying: %flying%)'
+infogodtrue-gui: '&2God Mode: &atrue'
+infogodfalse-gui: '&2God Mode: &afalse'
+infohealth-gui: '&2Health: &a%health%/20.0'
+infohunger-gui: '&2Hunger: &a%hunger%/20 (%saturation% saturation)'
+infolocation-gui: '&2Location: &a%world%(%x%, %y%, %z%)'
+compassinvsee-gui: '&7Click here to open and edit the player inventory!'
+inspecthelp-message: '&cNot enough arguments! Type /inspect [player]'
+inspectingaplayer-message: '&aYou are now inspecting &2%target%'
+
+#BlackListWorld Messages
+turnedflyoffblacklistworld-message: '&bTurned fly off because you went to a world in which it is not allowed to use /fly'
+turnedgodoffblacklistworld-message: '&bTurned god off because you went to a world in which it is not allowed to use /god'
+
+#Combat Messages
+godcombatlog-message: '&bTurned god mode off because you are in combat!'
+cantusegodcombatlog-message: '&cYou cant use /god while being in combat!'
+flycombatlog-message: '&bTurned fly mode off because you are in combat!'
+cantuseflycombatlog-message: '&cYou cant use /fly while being in combat!'
+cantusehealcombatlog-message: '&cYou cant use /heal while being in combat!'
+cantusefeedcombatlog-message: '&cYou cant use /feed while being in combat!'
+
+#Alerts Messages
+nopermission-alertsmessage: '&cYou cant disable that alert because you dont have permission to use it!'
+systemdisabled-alertsmessage: '&cYou cant use this command because the system is disabled. In order to enable it, go to the config.yml file and find the system in the Enable section!'
+namednotifytoggled-alertsmessage: '&aYou have enabled the Named Notify Sound system for yourself, everytime someone says your name a sound will be made!'
+namednotifyuntoggled-alertsmessage: '&bYou have disabled the Named Notify Sound system for yourself!'
+xraynotifytoggled-alertsmessage: '&aYou have enabled the xRay Nofity system for yourself, everytime someone mines special ores you will be advised!'
+xraynotifyuntoggled-alertsmessage: '&bYou have disabled the xRay Notify system for yourself!'
+flyattacktoggled-alertsmessage: '&aYou have enabled the Fly Attack alert system for yourself, if someone attacks a player with fly activated you will be advised!'
+flyattackuntoggled-alertsmessage: '&bYou have disabled the Fly Attack alert system for yourself!'
+alertsheader-message: '&3Your alerts:'
+alertsflyattack-message: '&5- &bFlyAttack: %flyattack%'
+alertsnamednotify-message: '&5- &bNamedNotify: %namednotify%'
+alertsxraynotify-message: '&5- &bxRayNotify: %xraynotify%'
+alertshelp-message: '&7Type /alerts [%alertstypes%] in order to enable or disable them.'
+
+#NamedNotify (You can use %player%, %player_displayname%, %message%)
+namednotification-message: '&3[&bNamedNotify&3] &3&l%player% &bnamed you on chat.'
+
+#xRayNotify (You can use %player%, %player_displayname% ; %block% ; %lightstring%)
+staffnotifyxraynotify-message: '&3[&bxRayNotify&3] &3%player% &bhas mined a &l%block% &r&bwith the following Light Level: &3%lightstring%&b (&3%lightlevel%&b)'
+lightstring1-message: 'Max Brightness'
+lightstring2-message: 'Bright'
+lightstring3-message: 'Medium Light'
+lightstring4-message: 'Dark'
+lightstring5-message: 'Max Darkness'
+
+#FlyAttack
+flyattacknotification-message: '&3[&bFlyAttack&3] &3%player% &battacked &9%target% &bwith fly mode activated (was flying: %isflying%).'
+
+#StaffViewerList
+playername-svlist: '&a%name%'
+online-svlist: '&7Online: &b'
+rank-svlist: '&7Rank: &b'
+location-svlist: '&7Location: &b%world% (&b%x%, &b&l%y%&r&b, %z%)'
+gamemode-svlist: '&7Gamemode: &b'
+dutymode-svlist: '&7On Duty: &b'
+flymode-svlist: '&7Fly: &b'
+godmode-svlist: '&7God mode: &b'
+vanishmode-svlist: '&7Vanished: &b'
+fakeleavemode-svlist: '&7Fakeleaved: &b'
+watchovermode-svlist: '&7Watchover: &b'
+staffwatchmode-svlist: '&7Staffwatch: &b'
+staffvanishmode-svlist: '&7Staffvanished: &b'
+teleport-svlist: '&7Right-click to teleport!'
+onlinestaffmenuname-staffviewerlist: '&3Staff Viewer List'
+couldntfindplayer-staffviewermessage: '&cCouldnt find player &4%target%&c, it must have logged off!'
+teleportedplayer-staffviewermessage: '&bSuccesfully teleported to &9%target%&b!'
+
+#Vanish/Staffvanish Toggle GUI
+vanish-togglegui: '&bVanish Toggle GUI'
+staffvanish-togglegui: '&bStaffVanish Toggle GUI'
+PickUp-togglegui: '&3Can pickup items'
+Drop-togglegui: '&3Can drop items'
+Interact-togglegui: '&3Can interact with items'
+Damage-togglegui: '&3Can damage'
+Chat-togglegui: '&3Can send messages in chat'
+HangingBreak-togglegui: '&3Can break hangings'
+VehicleCollision-togglegui: '&3Can collide with vehicles'
+Targeteable-togglegui: '&3Can be targeted by entities'
+VehicleDestroy-togglegui: '&3Can destroy vehicles'
+listenerdisabled-togglegui: 'Listener disabled in config file'
+
+#StaffPanel Menus Edit
+#For now there are this only, the addition of new menus names to edit takes time, so i will take my time to make this right :)
+#Remember this are only the menus, not the name of the items!
+yourselfmenuname-staffpanel: '&4Yourself Management'
+servermenuname-staffpanel: '&4Server Management'
+gamemodemenuname-yourselfmanagement: '&4Gamemode Management'
+worldtimemenuname-servermanagement: '&4World Time Management'
+informationmenuname-servermanagement: '&4Information Management'
+commandsmenuname-servermanagement: '&4Commands Management'
+
+#StaffPanel Items Edit
+#For now there are this only, the addition of new items names to edit takes time, so i will take my time to make this right :)
+#Remember this are only the items, not the name of the Menus
+
+#Items from the Staff Panel Menu:
+yourselfmenuitemname-staffpanel: '&6Yourself Management'
+servermenuitemname-staffpanel: '&6Server Management'
+backitem-staffpanel: '&6Back'
+
+#Items from the Yourself Management Menu:
+watchoveritem-yourselfmanagement: '&6Watchover'
+vanishitem-yourselfmanagement: '&6Vanish'
+dutyitem-yourselfmanagement: '&6Duty'
+staffchatitem-yourselfmanagement: '&6Staff Chat'
+gamemodeitem-yourselfmanagement: '&6Gamemode'
+goditem-yourselfmanagement: '&6God'
+flyitem-yourselfmanagement: '&6Fly'
+nightvisionitem-yourselfmanagement: '&6Nightvision'
+playerinfoitem-yourselfmanagement: '&6Player Info'
+fakeleaveitem-yourselfmanagement: '&6Fakeleave'
+healitem-yourselfmanagement: '&6Heal'
+feeditem-yourselfmanagement: '&6Feed'
+uuiditem-yourselfmanagement: '&6UUID'
+pingitem-yourselfmanagement: '&6Ping'
+enderchestitem-yourselfmanagement: '&6Enderchest'
+workbenchitem-yourselfmanagement: '&6Workbench'
+binitem-yourselfmanagement: '&6Bin'
+commandspyitem-yourselfmanagement: '&6Command Spy'
+
+#Items from the Gamemode Management Menu:
+survivalitem-gamemodemanagement: '&6Survival'
+creativeitem-gamemodemanagement: '&6Creative'
+adventureitem-gamemodemanagement: '&6Adventure'
+spectatoritem-gamemodemanagement: '&6Spectator'
+
+#Items from the Server Management Menu:
+worldtimeitem-servermanagement: '&6World Time'
+informationitem-servermanagement: '&6Information'
+commandsitem-servermanagement: '&6Commands'
+
+#Items from the World Time Management Menu:
+dayitem-worldtimemanagement: '&6Day'
+sunitem-worldtimemanagement: '&6Sun'
+rainitem-worldtimemanagement: '&6Rain'
+nightitem-worldtimemanagement: '&6Night'
+
+#Items from the Information Management Menu:
+serverramitem-informationmanagement: '&6Server Ram'
+serverstatsitem-informationmanagement: '&6Server Stats'
+staffitem-informationmanagement: '&6Staff'
+rulesitem-informationmanagement: '&6Rules'
+
+#Items from the Commands Management Menu:
+clearchatitem-commandmanagement: '&6ClearChat'
+chatmuteitem-commandmanagement: '&6ChatMute'
+tpallitem-commandmanagement: '&6Tp All'
+mmonitem-commandmanagement: '&6MaintenanceMode Enable'
+mmoffitem-commandmanagement: '&6MaintenanceMode Disable'
+reportsitem-commandmanagement: '&6Reports'
+reportsdelitem-commandmanagement: '&6Reports Delete'
