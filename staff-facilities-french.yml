@@ -125,9 +125,9 @@ twitch-helpmessage: "Voir la liste des chaines twitch!"
 
 #Stafffacilities 9 Help Messages
 twitter-helpmessage: "Voir la liste des twitter!"
-uuid-helpmessage: "Check yours or others uuid!"
-vanish-helpmessage: "Make a player invisible or see the listeners helplist!"
-warn-helpmessage: "Warn someone with a reason!"
+uuid-helpmessage: "Voir son uuid ou celu d'un autre joueur!"
+vanish-helpmessage: "se mettre en vanish!"
+warn-helpmessage: "avertir quelqu'un !"
 warning-helpmessage: "Send a warning message!"
 watchover-helpmessage: "Set on/off your watchover mode!"
 website-helpmessage: "See the websites list!"
