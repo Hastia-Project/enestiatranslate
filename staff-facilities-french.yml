@@ -1,5 +1,6 @@
 # You can add on any message the placeholder %apostrophe%, so players in chat will see the message received with an apostrophe s ( "s ).
 # Traduction pour ce merveilleux plugin par Cidalex/Mitsu
+# Il est possible qu'il y ait de nombreuse faute de français, si vous en voyez, merci de me contacter sur le discord de SF, @Mitsu#1492
 
 #NoPermission Message
 nopermission-message: "&cTu n'as pas la permission de faire cette commande."
@@ -223,9 +224,9 @@ turnedflyoncausejoined-message: "&bVous avez rejoint le serveur et votre mode fl
 turnedflyon-message: "&aVous avez votre fly!"
 turnedflyoff-message: "&bVous avez désactiver votre fly!"
 turnedflyforyouoff-message: "&9%sender% &ba désactiver votre fly!"
-turnedothersflyoff-message: "&bVous avez désactiver le fly de  &9%target%%apostrophe%&b!"
+turnedothersflyoff-message: "&bVous avez désactiver le fly de  &9%target_displayname%%apostrophe%&b!"
 turnedflyforyouon-message: "&2%sender% &aa activer votre fly!"
-turnedothersflyon-message: "&aVous avez activer le fly de &2%target%%apostrophe%&a!"
+turnedothersflyon-message: "&aVous avez activer le fly de &2%target_displayname%%apostrophe%&a!"
 flylistheader-message: "&2&m--&r &aFly List &2&m--"
 flylist-message: "&f- &2%flyplayers%&f."
 
@@ -234,19 +235,19 @@ nightvisionhelp-message: "&cTaper /nightvision pour définir votre nyctalopie"
 turnednightvisionon-message: "&aVous avez activer votre nyctalopie!"
 turnednightvisionoff-message: "&bVius avez éteint votre nycatalopie!"
 turnednightvisionforyouoff-message: "&9%sender% &ba désactiver votre nyctalopie!"
-turnedothersnightvisionoff-message: "&bVous avez désactiver la nyctalopie de &9%target%&b!"
+turnedothersnightvisionoff-message: "&bVous avez désactiver la nyctalopie de &9%target_displayname%&b!"
 turnednightvisionforyouon-message: "&2%sender% &aa activer ta nyctalopie!"
-turnedothersnightvisionon-message: "&aVous avez activer la nyctalopie de &2%target%&an!"
+turnedothersnightvisionon-message: "&aVous avez activer la nyctalopie de &2%target_displayname%&an!"
 nightvisionlistheader-message: "&2&m--&r &aNightvision List &2&m--"
 nightvisionlist-message: "&f- &2%nightvisionplayers%&f."
 
 #Feed Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
-fedyourself-message: "&aYou have fed yourself!"
-feedcantfeed-message: "&cYou cant feed yourself, you are not a player!"
-havebeenfed-message: "&aYou have been fed by &2%sender%&a!"
-havebeenfedfakeleave-message: "&aYou have been fed!"
-youhavefed-message: "&aYou have fed &2%target%&a!"
-youhavefedallplayers-message: "&aYou have fed all players!"
+fedyourself-message: "&aVous vous êtes nourris"
+feedcantfeed-message: "&cVous ne pouvez pas vous nourrir, vous êtes une console !"
+havebeenfed-message: "&aVous avez été nourrir par &2%sender%&a!"
+havebeenfedfakeleave-message: "&aVous avez était nourri!"
+youhavefed-message: "&aVous avez nourri &2%target_displayname%&a!"
+youhavefedallplayers-message: "&aVous avez nourrit tout le monde!"
 
 #Heal Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
 healyourself-message: "&aYou have healed yourself!"
