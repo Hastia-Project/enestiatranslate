@@ -116,7 +116,7 @@ gps:
     added: '&aWaypoint ajouté avec Succès'
     max: '&4Vous avez atteint le nombre maximum de Waypoints'
   insufficient-complexity:
-  - '&4Niveau Inssufisant de Compléxité pour le Réseau GPS: &c%complexity%'
+  - '&4Niveau Insuffisant de Compléxité pour le Réseau GPS: &c%complexity%'
   - '&4a) Vous n'avez pas encore de Réseau GPS'
   - '&4b) Votre Réseau GPS n'est pas assez Complexe'
   geo:
