@@ -1,75 +1,75 @@
-prefix: '&aSlimefun | Énéstia &7> '
+prefix: "&aSlimefun | Énéstia &7> "
 messages:
-  not-researched: '&4Vous n'avez pas assez de Savoir pour comprendre cela'
-  not-enough-xp: '&4Vous n'avez pas assez d XP pour débloquer cela'
-  unlocked: '&bVous avez débloquer &7"%research%"'
+  not-researched: "&4Vous n'avez pas assez de Savoir pour comprendre cela"
+  not-enough-xp: "&4Vous n'avez pas assez d XP pour débloquer cela"
+  unlocked: "&bVous avez débloquer &7"%research%""
   fortune-cookie:
-  - '&7Aide moi, je suis bloqué dans une fabrique de gateaux de la chance!'
-  - '&7Tu mourra demain...     à cause d'un Creeper'
-  - '&7Quelque-chose de mal arrivera un moment ou l'autre !!!'
-  - '&7La semaine prochaine vous vous rendrez compte que ce n est pas le vrai Monde, que vous êtes dans une sorte
-    de "Matrice", ou plutôt, un jeu-vidéo. Oui, vous êtes dans un jeu-vidéo'
-  - '&7Ce gateau aura bon goût dans quelques secondes !'
-  - '&7Vous allez mourrir bientôt, et le dernier mot que vous entendrez sera "EXTERMINER !!!"'
-  - '&7N'essayez jamais de faire un calin à un Creeper... J'ai essayé. Ca fait du bien, mais ça vaut pas le coup.'
-  only-players: '&4Cette commande n'est que pour les Joueurs'
-  no-permission: '&4Vous n'avez pas la permission de faire ça'
-  usage: '&4Utilisation: &c%usage%'
-  not-online: '&4%player% &cn'est pas en ligne!'
-  not-valid-item: '&4%item% &cn'est pas un item valide!'
-  not-valid-amount: '&4%amount% &cn'est pas un montant valide : il doit être supérieur à 0!'
-  given-item: '&bVous vous êtes fait donné &a%amount% &7"%item%&7"'
-  give-item: '&bVous avez donné à %player% &a%amount% &7"%item%&7"'
-  not-valid-research: '&4%research% &cn est pas une Recherche valide!'
-  give-research: '&bVous avez donné à %player% la Recherche &7"%research%&7"'
+  - "&7Aide moi, je suis bloqué dans une fabrique de gateaux de la chance!"
+  - "&7Tu mourra demain...     à cause d'un Creeper"
+  - "&7Quelque-chose de mal arrivera un moment ou l'autre !!!"
+  - "&7La semaine prochaine vous vous rendrez compte que ce n'est pas le vrai Monde, que vous êtes dans une sorte
+    de "Matrice", ou plutôt, un jeu-vidéo. Oui, vous êtes dans un jeu-vidéo"
+  - "&7Ce gateau aura bon goût dans quelques secondes !"
+  - "&7Vous allez mourrir bientôt, et le dernier mot que vous entendrez sera "EXTERMINER !!!""
+  - "&7N'essayez jamais de faire un calin à un Creeper... J'ai essayé. Ca fait du bien, mais ça vaut pas le coup."
+  only-players: "&4Cette commande n'est que pour les Joueurs"
+  no-permission: "&4Vous n'avez pas la permission de faire ça"
+  usage: "&4Utilisation: &c%usage%"
+  not-online: "&4%player% &cn'est pas en ligne!"
+  not-valid-item: "&4%item% &cn'est pas un item valide!"
+  not-valid-amount: "&4%amount% &cn'est pas un montant valide : il doit être supérieur à 0!"
+  given-item: "&bVous vous êtes fait donné &a%amount% &7"%item%&7""
+  give-item: "&bVous avez donné à %player% &a%amount% &7"%item%&7""
+  not-valid-research: "&4%research% &cn est pas une Recherche valide!"
+  give-research: "&bVous avez donné à %player% la Recherche &7"%research%&7""
   battery:
-    add: '&2+ &7%charge% J &8(%machine%)'
-    remove: '&4- &7%charge% J &8(%machine%)'
-  hungry: '&cVous avez trop faim pour faire cela!'
-  mode-change: '&b%device% Mode changé à: &9%mode%'
-  disabled-in-world: '&4&lCet item est désactivé dans ce Monde'
+    add: "&2+ &7%charge% J &8(%machine%)"
+    remove: "&4- &7%charge% J &8(%machine%)"
+  hungry: "&cVous avez trop faim pour faire cela!"
+  mode-change: "&b%device% Mode changé à: &9%mode%"
+  disabled-in-world: '&4&lCet item est désactivé dans ce Monde"
   talisman:
-    anvil: '&a&oVotre Talisman a empêché votre outil de se casser'
-    miner: '&a&oVotre Talisman viens de doubler vos Drops'
-    hunter: '&a&oVotre Talisman viens de doubler vos Drops'
-    lava: '&a&oVotre Talisman vous a empêché de brûler vif'
-    water: '&a&oVotre Talisman vous a empêché de vous noyer'
-    angel: '&a&oVotre Talisman vous a empêché de prendre des dégâts de chute'
-    fire: '&a&oVotre Talisman vous a empêché de brûler vif'
-    magician: '&a&oVotre Talisman vous a donné un enchantement supplémentaire'
-    traveller: '&a&oVotre Talisman vous a donné un boost de vitesse'
-    warrior: '&a&oVotre Talisman a amélioré votre Force pour un bon moment'
-    knight: '&a&oVotre Talisman vous a donné 5 secondes de Régénération'
-    whirlwind: '&a&oVotre Talisman a renvoyé le Projectile'
-    wizard: '&a&oVotre Talisman a amélioré votre niveau de Chance, mais peut-être
-    diminué certains enchantements'
-  broken-leg: '&c&oIl semble que votre jambe soit cassée, peut-être qu'une attelle pourrait aider?'
-  fixed-leg: '&a&oL'attelle aide. Vous vous sentez mieux.'
-  start-bleeding: '&c&oVous commencez à saigner. Peut-être qu'un Bandage pourrait aider?'
-  stop-bleeding: '&a&oLe Bandage aide. Vous arrêtez de saigner!'
-  disabled-item: '&4&lCet item est désactivé! Comment avez-vous pu obtenir ça?'
+    anvil: "&a&oVotre Talisman a empêché votre outil de se casser"
+    miner: "&a&oVotre Talisman viens de doubler vos Drops"
+    hunter: "&a&oVotre Talisman viens de doubler vos Drops"
+    lava: "&a&oVotre Talisman vous a empêché de brûler vif"
+    water: "&a&oVotre Talisman vous a empêché de vous noyer"
+    angel: "&a&oVotre Talisman vous a empêché de prendre des dégâts de chute"
+    fire: "&a&oVotre Talisman vous a empêché de brûler vif"
+    magician: "&a&oVotre Talisman vous a donné un enchantement supplémentaire"
+    traveller: "&a&oVotre Talisman vous a donné un boost de vitesse"
+    warrior: "&a&oVotre Talisman a amélioré votre Force pour un bon moment"
+    knight: "&a&oVotre Talisman vous a donné 5 secondes de Régénération"
+    whirlwind: "&a&oVotre Talisman a renvoyé le Projectile"
+    wizard: "&a&oVotre Talisman a amélioré votre niveau de Chance, mais peut-être
+    diminué certains enchantements"
+  broken-leg: "&c&oIl semble que votre jambe soit cassée, peut-être qu'une attelle pourrait aider?"
+  fixed-leg: "&a&oL'attelle aide. Vous vous sentez mieux."
+  start-bleeding: "&c&oVous commencez à saigner. Peut-être qu'un Bandage pourrait aider?"
+  stop-bleeding: "&a&oLe Bandage aide. Vous arrêtez de saigner!"
+  disabled-item: "&4&lCet item est désactivé! Comment avez-vous pu obtenir ça?"
   research:
-    start: '&7Les Anciens Esprits murmurent de mystérieux Mots à votre Oreille!'
-    progress: '&7Vous pensez à &b%research% &e(%progress%)'
-  fire-extinguish: '&7Vous avez éteins les flammes qui étaient sur vous'
-  cannot-place: '&cVous ne pouvez pas placer de bloc ici!'
+    start: "&7Les Anciens Esprits murmurent de mystérieux Mots à votre Oreille!"
+    progress: "&7Vous pensez à &b%research% &e(%progress%)"
+  fire-extinguish: "&7Vous avez éteins les flammes qui étaient sur vous"
+  cannot-place: "&cVous ne pouvez pas placer de bloc ici!"
   soulbound-rune:
-    fail: '&cVous pouvez lier qu'un seul objet à votre Âme à la fois.'
-    success: '&aVous avez lié cet objet à votre Âme! Vous le
-    garderez à votre mort.'
-  no-pvp: '&cVous ne pouvez pas PVP ici!'
-  radiation: '&4Vous avez été exposé à des Radiations mortelles! &cDébarrasez-vous
-    de l'item Radioactif ou equipez-vous entièrement de la Combinaison Anti-Radiations !'
-  opening-guide: '&bOuverture du guide, ça pourrait prendre quelques secondes...'
-  opening-backpack: '&bOuverture du Sac à dos, ça pourrait prendre quelques secondes...'
+    fail: "&cVous pouvez lier qu'un seul objet à votre Âme à la fois."
+    success: "&aVous avez lié cet objet à votre Âme! Vous le
+    garderez à votre mort."
+  no-pvp: "&cVous ne pouvez pas PVP ici!"
+  radiation: "&4Vous avez été exposé à des Radiations mortelles! &cDébarrasez-vous
+    de l'item Radioactif ou equipez-vous entièrement de la Combinaison Anti-Radiations !"
+  opening-guide: "&bOuverture du guide, ça pourrait prendre quelques secondes..."
+  opening-backpack: "&bOuverture du Sac à dos, ça pourrait prendre quelques secondes..."
 commands:
   help: Affiche cet écran d'aide
   cheat: Vous permez de truquer des Items
   give: Donne à quelqu'un un ou plusieurs Items de Slimefun
   research:
     desc: Débloque une Recherche pour un Joueur
-    reset: '&cVous avez réinitialisé le Savoir de %player%''
-    reset-target: '&cVotre Savoir à été réinitialisé'
+    reset: "&cVous avez réinitialisé le Savoir de %player%"
+    reset-target: "&cVotre Savoir à été réinitialisé"
   guide: Vous donne un guide de Slimefun
   timings: Info-Lag de votre serveur
   teleporter: Permet de voir les Waypoints des autres joueurs
@@ -78,74 +78,75 @@ commands:
   stats: Montre les statistiques d'un Joueur
   search: Cherche dans le guide ce que vous demandez
 machines:
-  pattern-not-found: '&eDésolé, je n'ai pas pu reconnaître ce Motif. Veuillez placer
-  les Items dans le bon ordre à l'intérieur du Distributeur.'
-  unknown-material: '&eDésolé, je n'ai pas pu reconnaître l'Item dans mon Distributeur. Veuillez placer
-  quelque-chose que je connaît.'
-  wrong-item: '&eDésolé, je n'ai pas pu reconnaître l'item avec lequel vous m'avez cliqué dessus.
-    Vérifiez les Recettes et regardez avec quels Items je peut intéragir.'
-  full-inventory: '&eDésolé, mon inventaire est plein!'
-  in-use: '&cL'inventaire de ce Bloc est ouvert part un autre Joueur.'
-  ignition-chamber-no-flint: '&cIl faut un briquet pour que la Chambre d'Allumage fonctionne.'
+  pattern-not-found: "&eDésolé, je n'ai pas pu reconnaître ce Motif. Veuillez placer
+  les Items dans le bon ordre à l'intérieur du Distributeur."
+  unknown-material: "&eDésolé, je n'ai pas pu reconnaître l'Item dans mon Distributeur. Veuillez placer
+  quelque-chose que je connaît."
+  wrong-item: "&eDésolé, je n'ai pas pu reconnaître l'item avec lequel vous m'avez cliqué dessus.
+    Vérifiez les Recettes et regardez avec quels Items je peut intéragir."
+  full-inventory: "&eDésolé, mon inventaire est plein!"
+  in-use: "&cL'inventaire de ce Bloc est ouvert part un autre Joueur."
+  ignition-chamber-no-flint: "&cIl faut un briquet pour que la Chambre d'Allumage fonctionne."
   ANCIENT_ALTAR:
-    not-enough-pedestals: '&4L'Atel n'est pas entouré d'un Nombre suffisant de Pédéstals
-      &c(%pedestals% / 8)'
-    unknown-catalyst: '&4Catalyseur inconnu! &cUtilisez la bonne recette à la place!'
-    unknown-recipe: '&4Recette inconnue! &cUtilisez la bonne recette à la place!'
+    not-enough-pedestals: "&4L'Autel n'est pas entouré d'un Nombre suffisant de Pédéstals
+      &c(%pedestals% / 8)"
+    unknown-catalyst: "&4Catalyseur inconnu! &cUtilisez la bonne recette à la place!"
+    unknown-recipe: "&4Recette inconnue! &cUtilisez la bonne recette à la place!"
   ANCIENT_PEDESTAL:
-    obstructed: '&4Le Pédéstal est obstrué! &cEnlevez ce qu'il y a au dessus du Pédéstal!'
+    obstructed: "&4Le Pédéstal est obstrué! &cEnlevez ce qu'il y a au dessus du Pédéstal!"
   HOLOGRAM_PROJECTOR:
-    enter-text: '&7Veuillez entrer le Texte Holographique désiré dans le Tchat. &r(Codes
-    couleur supportés!)'
+    enter-text: "&7Veuillez entrer le Texte Holographique désiré dans le Tchat. &r(Codes
+    couleur supportés!)"
   ELEVATOR:
-    no-destinations: '&4Aucune destination trouvée'
+    no-destinations: "&4Aucune destination trouvée"
   CARGO_NODES:
-    must-be-placed: '&4Doit être placé sur un Coffre ou une Machine'
+    must-be-placed: "&4Doit être placé sur un Coffre ou une Machine"
 miner:
-  no-ores: '&eDésolé, je n'ai pas pu trouver de minerais ici !'
+  no-ores: "&eDésolé, je n'ai pas pu trouver de minerais ici !"
 backpack:
-  already-open: '&cDésolé, ce Sac à dos est ouvert quelque-part d'autre!'
-  no-stack: '&cVous ne pouvez pas Stacker les Sacs à dos'
+  already-open: "&cDésolé, ce Sac à dos est ouvert quelque-part d'autre!"
+  no-stack: "&cVous ne pouvez pas Stacker les Sacs à dos"
 workbench:
-  not-enhanced: '&4Vous ne pouvez pas utiliser d'Items Slimefun dans une table de craft normale'
+  not-enhanced: "&4Vous ne pouvez pas utiliser d'Items Slimefun dans une table de craft normale"
 anvil:
-  not-working: '&4Vous ne pouvez pas utiliser d'Items Slimefun dans une enclume'
+  not-working: "&4Vous ne pouvez pas utiliser d'Items Slimefun dans une enclume"
 gps:
   waypoint:
-    new: '&eVeuillez entrer un Nom pour votre Waypoint dans le chat. &7(Codes couleur supportés!)'
-    added: '&aWaypoint ajouté avec Succès'
-    max: '&4Vous avez atteint le nombre maximum de Waypoints'
+    new: "&eVeuillez entrer un Nom pour votre Waypoint dans le chat. &7(Codes couleur supportés!)"
+    added: "&aWaypoint ajouté avec Succès"
+    max: "&4Vous avez atteint le nombre maximum de Waypoints"
   insufficient-complexity:
-  - '&4Niveau Insuffisant de Compléxité pour le Réseau GPS: &c%complexity%'
-  - '&4a) Vous n'avez pas encore de Réseau GPS'
-  - '&4b) Votre Réseau GPS n'est pas assez Complexe'
+  - "&4Niveau Inssufisant de Compléxité pour le Réseau GPS: &c%complexity%"
+  - "&4Niveau Insuffisant de Compléxité pour le Réseau GPS: &c%complexity%"
+  - "&4a) Vous n'avez pas encore de Réseau GPS"
+  - "&4b) Votre Réseau GPS n'est pas assez Complexe"
   geo:
-    scan-required: '&4GEO-Scan requis! &cScannez ce Chunk en utilisant un GEO-Scanner !'
+    scan-required: "&4GEO-Scan requis! &cScannez ce Chunk en utilisant un GEO-Scanner !"
 robot:
-  started: '&7Votre Robot a remis son Script en marche'
-  stopped: '&7Votre Robot a mis en pause son Script'
+  started: "&7Votre Robot a remis son Script en marche"
+  stopped: "&7Votre Robot a mis en pause son Script"
 inventory:
-  no-access: '&4Vous n'avez pas le droit d'accéder à ce bloc'
+  no-access: "&4Vous n'avez pas le droit d'accéder à ce bloc"
 android:
   scripts:
-    already-uploaded: '&4Ce Script est déja transféré.'
+    already-uploaded: "&4Ce Script est déja transféré."
     enter-name:
-    - ''
-    - '&eVeuillez entrer un nom pour votre Script'
-    - ''
+    - ""
+    - "&eVeuillez entrer un nom pour votre Script"
+    - ""
     uploaded:
-    - '&bTransfert en cours...'
-    - '&aLe Script a été Transféré avec Succès!'
+    - "&bTransfert en cours..."
+    - "&aLe Script a été Transféré avec Succès!"
     rating:
-      own: '&4Vous ne pouvez pas noter votre propre Script'
-      already: '&4Vous avez déjà noté ce Script!'
+      own: "&4Vous ne pouvez pas noter votre propre Script"
+      already: "&4Vous avez déjà noté ce Script!"
 guide:
   search:
-    name: '&7Recherche'
+    name: "&7Recherche"
     lore:
-    - '&bQue voulez-vous chercher?'
-    - '&7Entrez la recherche dans le Tchat'
+    - "&bQue voulez-vous chercher?"
+    - "&7Entrez la recherche dans le Tchat"
   cheat:
-    no-multiblocks: '&4Vous devez construire les Multiblocs par vous-même !'
+    no-multiblocks: "&4Vous devez construire les Multiblocs par vous-même !"
 search:
-  message: '&bQue voulez-vous chercher?'
+  message: "&bQue voulez-vous chercher?"
