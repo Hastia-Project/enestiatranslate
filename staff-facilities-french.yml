@@ -834,7 +834,7 @@ antiversionnotification-message: "&4%player% &ca essayé d'utiliser la commande 
 #AntiSwear Messages
 antiswearwarn-message: "&cVeuillez ne pas insulter sur ce serveur. Le Staff a été prévenu!"
 antiswearkick-message: "&cKické pour insulte: &4%message%&c."
-antisweardetected-message: "&4%player% &ca été vu en train de ça: &4%message%&c."
+antisweardetected-message: "&4%player% &ca été vu en train de dire ça: &4%message%&c."
 kickedswearer-message: "&4%player% &ca été kické pour avoir dit ça: &4%message%&c."
 
 #Inspect Messages and GUI item names
