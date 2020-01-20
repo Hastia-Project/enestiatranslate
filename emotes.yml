@@ -228,7 +228,7 @@ Feelings:
     Enable: true
     Msgs:
       Sender: '&7Vous gifflez &c&l%player% &r&7avec des Spaghettis.'
-      Target: '&c&l%player% &r&7vous giffle avc=ec des Spaghettis.'
+      Target: '&c&l%player% &r&7vous gifflé avcec des Spaghettis.'
       Global: '&c&l%target% &r&7s'est fait gifflé avec &4&l%sender%&r&7.'
     Sounds:
       Sound1:
