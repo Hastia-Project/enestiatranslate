@@ -1,0 +1,303 @@
+Feelings:
+  Hug:
+    Enable: true
+    Msgs:
+      Sender: '&7Tu fais un câlin à &a&l%player%. &cAwww &4❤'
+      Target: '&a&l%player% &r&7te fait un câlin. &cAwww &4❤'
+      Global: '&a&l%sender% &r&7fait à &2&l%target% &r&7 un câlin. &cAwww &4❤'
+    Sounds:
+      Sound1:
+        Name: ENTITY_CAT_PURREOW
+        Volume: 2.0
+        Pitch: 2.0
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Bite:
+    Enable: true
+    Msgs:
+      Sender: '&7You sink your teeth into &c&l%player%&r&7''s skin'
+      Target: '&c&l%player% &r&7sinks their teeth into your skin.'
+      Global: '&c&l%sender% &r&7sank their teeth into &4&l%target%&r&7''s skin'
+    Sounds:
+      Sound1:
+        Name: ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR
+        Volume: 2.0
+        Pitch: 2.0
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Punch:
+    Enable: true
+    Msgs:
+      Sender: '&7You strike &c&l%player% &r&7with a punch. Ouch!'
+      Target: '&c&l%player% &r&7strikes you with a punch. Ouch!'
+      Global: '&c&l%sender% &r&7punched &4&l%target% &r&7right in the face.'
+    Sounds:
+      Sound1:
+        Name: ENTITY_IRON_GOLEM_ATTACK
+        Volume: 2.0
+        Pitch: 0.6
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Murder:
+    Enable: true
+    Msgs:
+      Sender: '&7You murder &c&l%player% &r&7and have no regrets.'
+      Target: '&c&l%player% &r&7just murdered you. Bandaid anyone?'
+      Global: '&c&l%sender% &r&7just murdered &4&l%target%&r&7. &7&lRIP'
+    Sounds:
+      Sound1:
+        Name: ENTITY_BLAZE_DEATH
+        Volume: 1.0
+        Pitch: 0.7
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Boi:
+    Enable: true
+    Msgs:
+      Sender: '&7You inhale at &e&l%player%&r&7... &6&lBOI'
+      Target: '&e&l%player% &r&7inhales at you... &6&lBOI'
+      Global: '&e&l%sender% &r&7inhales at &6&l%target%&r&7... &6&l&oBOI'
+    Sounds:
+      Sound1:
+        Name: ENTITY_CHICKEN_EGG
+        Volume: 2.0
+        Pitch: 0.1
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Dab:
+    Enable: true
+    Msgs:
+      Sender: '&7You freshly dab on &a&l%player%&r&7... &7&oGot''em.'
+      Target: '&a&l%player% &r&7freshly dabs on you... &7&oGot''em.'
+      Global: '&a&l%sender% &r&7freshly dabs on &2&l%target%&r&7... &7&oGot''em.'
+    Sounds:
+      Sound1:
+        Name: ENTITY_CHICKEN_EGG
+        Volume: 2.0
+        Pitch: 0.1
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Cry:
+    Enable: true
+    Msgs:
+      Sender: '&7You cry on &b&l%player%&r&7''s shoulder.'
+      Target: '&b&l%player% &r&7cries on your shoulder.'
+      Global: '&b&l%sender% &r&7leans on &3&l%target%&r&7''s shoulder and cries.'
+    Sounds:
+      Sound1:
+        Name: ENTITY_GHAST_DEATH
+        Volume: 1.0
+        Pitch: 0.8
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Facepalm:
+    Enable: true
+    Msgs:
+      Sender: '&7You facepalm at what &e&l%player% &r&7just said.'
+      Target: '&e&l%player% &r&7facepalmed at what you just said.'
+      Global: '&e&l%sender% &r&7facepalms at &6&l%target%&r&7 for being dumb.'
+    Sounds:
+      Sound1:
+        Name: ENTITY_VILLAGER_NO
+        Volume: 2.0
+        Pitch: 1.0
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Highfive:
+    Enable: true
+    Msgs:
+      Sender: '&7You give a mighty highfive to &a&l%player%&7.'
+      Target: '&a&l%player% &7gives you a mighty highfive.'
+      Global: '&a&l%sender% &7gives &2&l%target% &r&7a mighty highfive.'
+    Sounds:
+      Sound1:
+        Name: ENTITY_VILLAGER_YES
+        Volume: 2.0
+        Pitch: 1.0
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Kiss:
+    Enable: true
+    Msgs:
+      Sender: '&7You give &a&l%player% &r&7a kiss. &cAwww &4❤'
+      Target: '&a&l%player% &r&7gives you a kiss. &cAwww &4❤'
+      Global: '&a&l%sender% &7gives &2&l%target% &7a kiss. &cAwww &4❤'
+    Sounds:
+      Sound1:
+        Name: ENTITY_ARROW_HIT_PLAYER
+        Volume: 2.0
+        Pitch: 1.0
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Lick:
+    Enable: true
+    Msgs:
+      Sender: '&7You lick &e&l%player% &7like ice-cream. &6Gross!'
+      Target: '&e&l%player% &r&7licks you like ice-cream. &6Gross!'
+      Global: '&e&l%target% &r&7got licked by &6&l%sender%&r&7. &8Gross.'
+    Sounds:
+      Sound1:
+        Name: ENTITY_GENERIC_DRINK
+        Volume: 2.0
+        Pitch: 0.1
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Shake:
+    Enable: true
+    Msgs:
+      Sender: '&7You shake &c&l%player%&r&7''s entire body.'
+      Target: '&c&l%player% &r&7shakes your entire body.'
+      Global: '&c&l%sender% &r&7picks up &4&l%target%&r&7''s body, and shakes it.'
+    Sounds:
+      Sound1:
+        Name: ENTITY_WOLF_SHAKE
+        Volume: 2.0
+        Pitch: 0.7
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Snuggle:
+    Enable: true
+    Msgs:
+      Sender: '&7You snuggle &a&l%player% &r&7with love. &cAwww &4❤'
+      Target: '&a&l%player% &r&7snuggles you with love. &cAwww &4❤'
+      Global: '&a&l%sender% &r&7snuggles &2&l%target% &r&7them with hugs. &cAwww &4❤'
+    Sounds:
+      Sound1:
+        Name: ENTITY_CAT_PURR
+        Volume: 2.0
+        Pitch: 1.0
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Yell:
+    Enable: true
+    Msgs:
+      Sender: '&7You yell at &c&l%player%&r&7 at the top of your lungs.'
+      Target: '&c&l%player% &r&7yells at you from the top of their lungs.'
+      Global: '&c&l%sender% &r&7yells right at &4&l%target% &r&7from the top of their
+        lungs.'
+    Sounds:
+      Sound1:
+        Name: ENTITY_GHAST_SCREAM
+        Volume: 2.0
+        Pitch: 1.0
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Poke:
+    Enable: true
+    Msgs:
+      Sender: '&7You poked &e&l%player%&7. Maybe they''re on vacation?'
+      Target: '&e&l%player% &r&7has poked you. Anyone there?'
+      Global: '&e&l%target% &r&7was poked by &6&l%sender%&r&7. &7&oAnyone home?'
+    Sounds:
+      Sound1:
+        Name: ENTITY_CHICKEN_EGG
+        Volume: 2.0
+        Pitch: 0.1
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Slap:
+    Enable: true
+    Msgs:
+      Sender: '&7You slap &c&l%player% &r&7with some spaghetti.'
+      Target: '&c&l%player% &r&7slaps you with some spaghetti.'
+      Global: '&c&l%target% &r&7was slapped by &4&l%sender%&r&7.'
+    Sounds:
+      Sound1:
+        Name: ENTITY_BLAZE_HURT
+        Volume: 2.0
+        Pitch: 0.7
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Stab:
+    Enable: true
+    Msgs:
+      Sender: '&7You stab &c&l%player% &r&7with a knife. Got Bandaids?'
+      Target: '&c&l%player% &r&7grabs a knife and stabs you. Got Bandaids?'
+      Global: '&c&l%sender% &r&7grabs a knife and stabs &4&l%target%&r&7.'
+    Sounds:
+      Sound1:
+        Name: ENTITY_GENERIC_HURT
+        Volume: 2.0
+        Pitch: 0.7
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Pat:
+    Enable: true
+    Msgs:
+      Sender: '&7You gently pat &a&l%player%&r&7''s head for being good.'
+      Target: '&a&l%player% &r&7gently pats your head for being good.'
+      Global: '&a&l%sender% &r&7gently pats &2&l%target%&r&7''s head for being good.'
+    Sounds:
+      Sound1:
+        Name: ENTITY_WOLF_PANT
+        Volume: 2.0
+        Pitch: 0.8
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Scorn:
+    Enable: true
+    Msgs:
+      Sender: '&7You scorn &c&l%player% &r&7for what they''ve done.'
+      Target: '&c&l%player% &r&7scorns you for what you''ve done.'
+      Global: '&c&l%sender% &r&7scorns &4&l%target% &r&7for what they''ve done.'
+    Sounds:
+      Sound1:
+        Name: ENTITY_ENDERMAN_STARE
+        Volume: 2.0
+        Pitch: 0.8
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+  Stalk:
+    Enable: true
+    Msgs:
+      Sender: '&7You carefully stalk &e&l%player%&r&7, &7&oHeh Heh.'
+      Target: '&e&l%player% &r&7stalks you from a nearby tree.'
+      Global: '&e&l%sender% &r&7stalks &6&l%target% &r&7from a nearby tree.'
+    Sounds:
+      Sound1:
+        Name: AMBIENT_CAVE
+        Volume: 2.0
+        Pitch: 2.0
+      Sound2:
+        Name: None
+        Volume: 0.0
+        Pitch: 0.0
+Version: 4
