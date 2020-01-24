@@ -17,9 +17,9 @@ Feelings:
   Bite:
     Enable: true
     Msgs:
-      Sender: '&7You sink your teeth into &c&l%player%&r&7''s skin'
-      Target: '&c&l%player% &r&7sinks their teeth into your skin.'
-      Global: '&c&l%sender% &r&7sank their teeth into &4&l%target%&r&7''s skin'
+      Sender: '&7Vous mordez &c&l%player%&r&7'
+      Target: '&c&l%player% &r&7vous mord.'
+      Global: '&c&l%sender% &r&7a mordu &4&l%target%&r&7'
     Sounds:
       Sound1:
         Name: ENTITY_ZOMBIE_ATTACK_WOODEN_DOOR
@@ -32,9 +32,9 @@ Feelings:
   Punch:
     Enable: true
     Msgs:
-      Sender: '&7You strike &c&l%player% &r&7with a punch. Ouch!'
-      Target: '&c&l%player% &r&7strikes you with a punch. Ouch!'
-      Global: '&c&l%sender% &r&7punched &4&l%target% &r&7right in the face.'
+      Sender: '&7Vous frappez &c&l%player% &r&7. Ouch!'
+      Target: '&c&l%player% &r&7vous frappe. Ouch!'
+      Global: '&c&l%sender% &r&7a frappé &4&l%target% &r&7en plein visage.'
     Sounds:
       Sound1:
         Name: ENTITY_IRON_GOLEM_ATTACK
@@ -47,9 +47,9 @@ Feelings:
   Murder:
     Enable: true
     Msgs:
-      Sender: '&7You murder &c&l%player% &r&7and have no regrets.'
-      Target: '&c&l%player% &r&7just murdered you. Bandaid anyone?'
-      Global: '&c&l%sender% &r&7just murdered &4&l%target%&r&7. &7&lRIP'
+      Sender: '&7Vous assassinez &c&l%player% &r&7sans avoir de regrets.'
+      Target: '&c&l%player% &r&7viens de vous assassiner. Vous avez des pansements?'
+      Global: '&c&l%sender% &r&7viens d'assassiner &4&l%target%&r&7. &7&lRIP'
     Sounds:
       Sound1:
         Name: ENTITY_BLAZE_DEATH
@@ -62,9 +62,9 @@ Feelings:
   Boi:
     Enable: true
     Msgs:
-      Sender: '&7You inhale at &e&l%player%&r&7... &6&lBOI'
-      Target: '&e&l%player% &r&7inhales at you... &6&lBOI'
-      Global: '&e&l%sender% &r&7inhales at &6&l%target%&r&7... &6&l&oBOI'
+      Sender: '&7Vous prenez une grande inspiration devant &e&l%player%&r&7... &6&lBOI'
+      Target: '&e&l%player% &r&7prend une grande inspiration devant vous... &6&lBOI'
+      Global: '&e&l%sender% &r&7prend une grande inspiration devant &6&l%target%&r&7... &6&l&oBOI'
     Sounds:
       Sound1:
         Name: ENTITY_CHICKEN_EGG
@@ -77,9 +77,9 @@ Feelings:
   Dab:
     Enable: true
     Msgs:
-      Sender: '&7You freshly dab on &a&l%player%&r&7... &7&oGot''em.'
-      Target: '&a&l%player% &r&7freshly dabs on you... &7&oGot''em.'
-      Global: '&a&l%sender% &r&7freshly dabs on &2&l%target%&r&7... &7&oGot''em.'
+      Sender: '&7Vous dabbez sur &a&l%player%&r&7!'
+      Target: '&a&l%player% &r&7dab sur vous!'
+      Global: '&a&l%sender% &r&7a dabbé sur &2&l%target%&r&7!'
     Sounds:
       Sound1:
         Name: ENTITY_CHICKEN_EGG
@@ -92,9 +92,9 @@ Feelings:
   Cry:
     Enable: true
     Msgs:
-      Sender: '&7You cry on &b&l%player%&r&7''s shoulder.'
-      Target: '&b&l%player% &r&7cries on your shoulder.'
-      Global: '&b&l%sender% &r&7leans on &3&l%target%&r&7''s shoulder and cries.'
+      Sender: '&7Vous pleurez sur les épaules de &b&l%player%&r&7.'
+      Target: '&b&l%player% &r&7pleure sur votre épaule.'
+      Global: '&b&l%sender% &r&7se penche vers l'épaule de &3&l%target%&r&7 et pleure.'
     Sounds:
       Sound1:
         Name: ENTITY_GHAST_DEATH
@@ -107,9 +107,9 @@ Feelings:
   Facepalm:
     Enable: true
     Msgs:
-      Sender: '&7You facepalm at what &e&l%player% &r&7just said.'
-      Target: '&e&l%player% &r&7facepalmed at what you just said.'
-      Global: '&e&l%sender% &r&7facepalms at &6&l%target%&r&7 for being dumb.'
+      Sender: '&7Vous facepalmez à ce que vient de dire &e&l%player%&r&7.'
+      Target: '&e&l%player% &r&7a facepalmé à ce que vous venez de dire.'
+      Global: '&e&l%sender% &r&7a facepalmé &6&l%target%&r&7 pour sa bêtise.'
     Sounds:
       Sound1:
         Name: ENTITY_VILLAGER_NO
@@ -122,9 +122,9 @@ Feelings:
   Highfive:
     Enable: true
     Msgs:
-      Sender: '&7You give a mighty highfive to &a&l%player%&7.'
-      Target: '&a&l%player% &7gives you a mighty highfive.'
-      Global: '&a&l%sender% &7gives &2&l%target% &r&7a mighty highfive.'
+      Sender: '&7Vous faites un superbe check avec &a&l%player%&7.'
+      Target: '&a&l%player% &7fait un superbe check avec vous.'
+      Global: '&a&l%sender% &7a superbement checké avec &2&l%target%&r&7.'
     Sounds:
       Sound1:
         Name: ENTITY_VILLAGER_YES
@@ -137,9 +137,9 @@ Feelings:
   Kiss:
     Enable: true
     Msgs:
-      Sender: '&7You give &a&l%player% &r&7a kiss. &cAwww &4❤'
-      Target: '&a&l%player% &r&7gives you a kiss. &cAwww &4❤'
-      Global: '&a&l%sender% &7gives &2&l%target% &7a kiss. &cAwww &4❤'
+      Sender: '&7Vous faites un bisou à &a&l%player%&r&7. &cAwww &4❤'
+      Target: '&a&l%player% &r&7vous fait un bisou. &cAwww &4❤'
+      Global: '&a&l%sender% &7fait un bisou à &2&l%target%&7. &cAwww &4❤'
     Sounds:
       Sound1:
         Name: ENTITY_ARROW_HIT_PLAYER
@@ -152,9 +152,9 @@ Feelings:
   Lick:
     Enable: true
     Msgs:
-      Sender: '&7You lick &e&l%player% &7like ice-cream. &6Gross!'
-      Target: '&e&l%player% &r&7licks you like ice-cream. &6Gross!'
-      Global: '&e&l%target% &r&7got licked by &6&l%sender%&r&7. &8Gross.'
+      Sender: '&7Vous lèchez &e&l%player% &7comme une glace. &6Beurk!'
+      Target: '&e&l%player% &r&7vous lèche comme une glace. &6Beurk!'
+      Global: '&e&l%target% &r&7s'est fait lèché par &6&l%sender%&r&7. &8Beurk.'
     Sounds:
       Sound1:
         Name: ENTITY_GENERIC_DRINK
@@ -167,9 +167,9 @@ Feelings:
   Shake:
     Enable: true
     Msgs:
-      Sender: '&7You shake &c&l%player%&r&7''s entire body.'
-      Target: '&c&l%player% &r&7shakes your entire body.'
-      Global: '&c&l%sender% &r&7picks up &4&l%target%&r&7''s body, and shakes it.'
+      Sender: '&7Vous secouez &c&l%player%&r&7.'
+      Target: '&c&l%player% &r&7vous secoue.'
+      Global: '&c&l%sender% &r&7soulève &4&l%target%&r&7 et le secoue.'
     Sounds:
       Sound1:
         Name: ENTITY_WOLF_SHAKE
@@ -182,9 +182,9 @@ Feelings:
   Snuggle:
     Enable: true
     Msgs:
-      Sender: '&7You snuggle &a&l%player% &r&7with love. &cAwww &4❤'
-      Target: '&a&l%player% &r&7snuggles you with love. &cAwww &4❤'
-      Global: '&a&l%sender% &r&7snuggles &2&l%target% &r&7them with hugs. &cAwww &4❤'
+      Sender: '&7Vous vous blotissez contre &a&l%player% &r&7avec amour. &cAwww &4❤'
+      Target: '&a&l%player% &r&7se blotis contre vous avec amour. &cAwww &4❤'
+      Global: '&a&l%sender% &r&7se blotis contre &2&l%target% &r&7. &cAwww &4❤'
     Sounds:
       Sound1:
         Name: ENTITY_CAT_PURR
@@ -197,10 +197,9 @@ Feelings:
   Yell:
     Enable: true
     Msgs:
-      Sender: '&7You yell at &c&l%player%&r&7 at the top of your lungs.'
-      Target: '&c&l%player% &r&7yells at you from the top of their lungs.'
-      Global: '&c&l%sender% &r&7yells right at &4&l%target% &r&7from the top of their
-        lungs.'
+      Sender: '&7Vous criez sur &c&l%player%&r&7 de toute vos forces.'
+      Target: '&c&l%player% &r&7vous crie dessus de toutes ses forces.'
+      Global: '&c&l%sender% &r&7crie sur &4&l%target% &r&7 de toutes ses forces.'
     Sounds:
       Sound1:
         Name: ENTITY_GHAST_SCREAM
@@ -213,9 +212,9 @@ Feelings:
   Poke:
     Enable: true
     Msgs:
-      Sender: '&7You poked &e&l%player%&7. Maybe they''re on vacation?'
-      Target: '&e&l%player% &r&7has poked you. Anyone there?'
-      Global: '&e&l%target% &r&7was poked by &6&l%sender%&r&7. &7&oAnyone home?'
+      Sender: '&7Vous tapotez l'épaule de &e&l%player%&7. Peut-être est il en vacance?'
+      Target: '&e&l%player% &r&7vous a tapoté l'épaule. il y a quelqu'un?'
+      Global: '&e&l%target% &r&7s'est fait tapoté l'épaule par &6&l%sender%&r&7. &7&oIl y a quelqu'un?'
     Sounds:
       Sound1:
         Name: ENTITY_CHICKEN_EGG
@@ -228,9 +227,9 @@ Feelings:
   Slap:
     Enable: true
     Msgs:
-      Sender: '&7You slap &c&l%player% &r&7with some spaghetti.'
-      Target: '&c&l%player% &r&7slaps you with some spaghetti.'
-      Global: '&c&l%target% &r&7was slapped by &4&l%sender%&r&7.'
+      Sender: '&7Vous gifflez &c&l%player% &r&7avec des Spaghettis.'
+      Target: '&c&l%player% &r&7vous gifflé avcec des Spaghettis.'
+      Global: '&c&l%target% &r&7s'est fait gifflé avec &4&l%sender%&r&7.'
     Sounds:
       Sound1:
         Name: ENTITY_BLAZE_HURT
@@ -243,9 +242,9 @@ Feelings:
   Stab:
     Enable: true
     Msgs:
-      Sender: '&7You stab &c&l%player% &r&7with a knife. Got Bandaids?'
-      Target: '&c&l%player% &r&7grabs a knife and stabs you. Got Bandaids?'
-      Global: '&c&l%sender% &r&7grabs a knife and stabs &4&l%target%&r&7.'
+      Sender: '&7Vous poignardez &c&l%player% &r&7avec un couteau. Quelqu'un a des pansements?'
+      Target: '&c&l%player% &r&7attrape un couteau et vous poignarde. Quelqu'un a des pansements?'
+      Global: '&c&l%sender% &r&7attrape un couteau et poignarde &4&l%target%&r&7.'
     Sounds:
       Sound1:
         Name: ENTITY_GENERIC_HURT
@@ -258,9 +257,9 @@ Feelings:
   Pat:
     Enable: true
     Msgs:
-      Sender: '&7You gently pat &a&l%player%&r&7''s head for being good.'
-      Target: '&a&l%player% &r&7gently pats your head for being good.'
-      Global: '&a&l%sender% &r&7gently pats &2&l%target%&r&7''s head for being good.'
+      Sender: '&7Vous tapotez doucement la  tête de &a&l%player%&r&7pour avoir été gentil.'
+      Target: '&a&l%player% &r&7vous tapote doucement pour avoir été gentil.'
+      Global: '&a&l%sender% &r&7tapote doucement la tête de &2&l%target%&r&7 pour avoir été gentil.'
     Sounds:
       Sound1:
         Name: ENTITY_WOLF_PANT
@@ -273,9 +272,9 @@ Feelings:
   Scorn:
     Enable: true
     Msgs:
-      Sender: '&7You scorn &c&l%player% &r&7for what they''ve done.'
-      Target: '&c&l%player% &r&7scorns you for what you''ve done.'
-      Global: '&c&l%sender% &r&7scorns &4&l%target% &r&7for what they''ve done.'
+      Sender: '&7Vous méprisez &c&l%player% &r&7pour ce qu'ils ont fait.'
+      Target: '&c&l%player% &r&7vous méprise pour ce que vous avez fait.'
+      Global: '&c&l%sender% &r&7méprise &4&l%target% &r&7pour ce qu'il a fait.'
     Sounds:
       Sound1:
         Name: ENTITY_ENDERMAN_STARE
@@ -288,9 +287,9 @@ Feelings:
   Stalk:
     Enable: true
     Msgs:
-      Sender: '&7You carefully stalk &e&l%player%&r&7, &7&oHeh Heh.'
-      Target: '&e&l%player% &r&7stalks you from a nearby tree.'
-      Global: '&e&l%sender% &r&7stalks &6&l%target% &r&7from a nearby tree.'
+      Sender: '&7Vous observez discrètement &e&l%player%&r&7, &7&oHeh Heh.'
+      Target: '&e&l%player% &r&7Vous observe de derrière un arbre.'
+      Global: '&e&l%sender% &r&7observe &6&l%target% &r&7de derrière un arbre.'
     Sounds:
       Sound1:
         Name: AMBIENT_CAVE
