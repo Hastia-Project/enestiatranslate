@@ -999,10 +999,10 @@ mmoffitem-commandmanagement: "&6Maintenance Désactivation"
 reportsitem-commandmanagement: "&6Rapports"
 reportsdelitem-commandmanagement: "&6Supprimer Rapport"
 
-cantmodifyenderchestperm-message: "&cYou dont have permission to modify another's player enderchest!"
-cantmodifythisenderchest-message: "&cThis player's enderchest cant be modified!"
-cantmodifyinventoryperm-message: "&cYou dont have permission to modify another's player inventory!"
-cantmodifythisinventory-message: "&cThis player's inventory cant be modified!"
+cantmodifyenderchestperm-message: "&cTu n'as pas la permisison de modifier l'enderchest d'autre joueur!"
+cantmodifythisenderchest-message: "&cL'Enderchest de ce joueur ne peut être modifié!"
+cantmodifyinventoryperm-message: "&cTu n'as pas la permisison de modifier l'inventaire d'autre joueur!"
+cantmodifythisinventory-message: "&cL'Inventaire de ce joueur ne peut être modifié!"
 
 # Traduction pour ce merveilleux plugin par Cidalex/Mitsu et ARNPIK du serveur Énéstia
 # Il est possible qu'il y ait de nombreuse faute de français, si vous en voyez, merci de me contacter sur le discord de SF, @Mitsu#1492
