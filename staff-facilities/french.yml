@@ -605,8 +605,8 @@ togglestaffchatoff-message: "&bVous avez désactivé le tchat de Staff, tous vos
 togglestaffchaton-message: "&aVous avez activé le tchat de Staff, tous vos messages seront envoyé dans le tchat de Staff."
 
 #God Messages ; You can also use %target_displayname%
-turnedgodoff-message: "&bVous avez activé le mode invincible!"
-turnedgodon-message: "&aVous avez désactivé le mode invincible!"
+turnedgodoff-message: "&bVous avez désactivé le mode invincible!"
+turnedgodon-message: "&aVous avez activé le mode invincible!"
 turnedgodforyouoff-message: "&9%sender% &ba désactivé votre mode invincible!"
 turnedothersgodoff-message: "&bVous avez désactivé le mode invincible de &9%target%%apostrophe%!"
 turnedgodforyouon-message: "&2%sender% &avous a rendu invincible (mode invincible)!"
