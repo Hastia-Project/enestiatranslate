@@ -5,32 +5,32 @@ config-version: 4
 prefix: "&8[&2ÉnéstiaRank&8] &r"
 
 # The message the person WHO RECEIVES THE RANK will receive.
-notification: "&aYou have been granted the &f%rank% &arank for &f%duration% &afor the reason &f%reason% &aby &f%op%&a."
+notification: "&aVous vous êtes fait promouvoir au rang de &f%rank% &a pour &f%duration% &apour la raison suivante: &f%reason% &apar &f%op%&a."
 
 # This message will be sent if the command executor does not have permission to execute the command.
-no-perms: "&aYou do not have permission to execute that command."
+no-perms: "&aVous n'avez pas la permission de faire cette commande."
 
 # The message that will be sent if a user uses one of RankGrant+'s command incorrectly.
-invalid-args: "&aInvalid arguments. Please see command usage."
+invalid-args: "&aParamètres invalides. Veuillez regarder le guide d'utilisation de la commande."
 
 # This message will be sent when all configuration files have been successfully reloaded.
-reloaded: "&aSuccessfully reloaded all configuration files."
+reloaded: "&aRechargement des fichiers de configuration réussit."
 
 # The message that will be sent if a player tries to execute a command they do not have sufficient permission to.
-console: "&aYou must be a player to execute this command."
+console: "&aVous n'avez pas la permission d'éxécuter cette commande."
 
 # This message will be sent upon attempting to open the /grant GUI without first setting up their grant/ungrant commands.
-not-set-up: "&aYour grant and ungrant commands are not set up. Please see &7configuration.yml&a."
+not-set-up: "&aLes commandes /grant et /ungrant n'ont pas été configurées. Veuillez voir &7configuration.yml&a."
 
 # The names of the GUIs for Select Rank, Duration Selection, Select Reason, and Confirm Grant.
 gui-names:
-  select-rank: "&2Select a Rank"
-  choose-time: "&2Choose Duration of Grant"
-  select-reason: "&2Select a Reason"
-  confirm-grant: "&2Confirm Grant"
+  select-rank: "&2Rang selectionné"
+  choose-time: "&2Choisissez la durée de la promotion"
+  select-reason: "&2Choisissez une raison"
+  confirm-grant: "&2Confirmez"
 
 # This message will be sent if an error occurred during the granting process.
-failed-grant: "&aError: Could not grant. Please try again."
+failed-grant: "&aErreur: Promotion impossible. Veuillez réessayer."
 
 # The format of each log in log.txt.
-log-format: "%op% granted %target% the %rank% rank for the reason %reason%. Duration: %duration%"
+log-format: "%op% a promu %target% au rang de %rank% pour la raison suivante: %reason%. Durée: %duration%"
