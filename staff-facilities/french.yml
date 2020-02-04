@@ -1008,5 +1008,29 @@ cantmodifythisenderchest-message: "&cL'Enderchest de ce joueur ne peut être mod
 cantmodifyinventoryperm-message: "&cTu n'as pas la permisison de modifier l'inventaire d'autre joueur!"
 cantmodifythisinventory-message: "&cL'Inventaire de ce joueur ne peut être modifié!"
 
+chatclearedbypass-message: '&cChat has been cleared by &4%sender% &cbut you had permission to bypass the clear!'
+chatclearedbypassfakeleave-message: '&cChat has been cleared but you had permission to bypass the clear!'
+someonedisabledcmdspy-message: '&9%sender%&b has disabled your CommandSpy mode!'
+youhavedisabledcmdspy-message: '&bYou have disabled &9%target%&b CommandSpy mode!'
+someoneenabledcmdspy-message: '&2%sender%&a has enabled your CommandSpy mode!'
+youhaveenabledcmdspy-message: '&aYou have enabled &2%target%&a CommandSpy mode!'
+showbirthdaytoeveryone-message: '&cYou have shown the birthday list to everyone!'
+showdiscordtoeveryone-message: '&cYou have shown the discord list to everyone!'
+showdonatetoeveryone-message: '&cYou have shown the donation links to everyone!'
+showemailtoeveryone-message: '&cYou have shown the email list to everyone!'
+showfacebooktoeveryone-message: '&cYou have shown the facebook links to everyone!'
+showforumtoeveryone-message: '&cYou have shown the forum links to everyone!'
+showinstagramtoeveryone-message: '&cYou have shown the instagram contact/s to everyone!'
+showiptoeveryone-message: '&cYou have shown the ips to everyone!'
+showrulestoeveryone-message: '&cYou have shown the rules to everyone!'
+showskypetoeveryone-message: '&cYou have shown the skype contact/s to everyone!'
+showteamspeak3toeveryone-message: '&cYou have shown the teamspeak3 link/s to everyone!'
+showtwitchtoeveryone-message: '&cYou have shown the twitch links to everyone!'
+showtwittertoeveryone-message: '&cYou have shown the twitter links to everyone!'
+showwebsitetoeveryone-message: '&cYou have shown the website links to everyone!'
+showwhatsapptoeveryone-message: '&cYou have shown the whatsapp contact/s to everyone!'
+showyoutubetoeveryone-message: '&cYou have shown the youtube links to everyone!'
+alerts-helpmessage: 'Manage the alerts system!'
+
 # Traduction pour ce merveilleux plugin par Cidalex/Mitsu et ARNPIK du serveur Énéstia
 # Il est possible qu'il y ait de nombreuse faute de français, si vous en voyez, merci de me contacter sur le discord de SF, @Mitsu#1492
