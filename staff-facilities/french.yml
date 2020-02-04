@@ -267,8 +267,8 @@ healyourself-message: "&aTu t'es soigné!"
 healcantheal-message: "&cTu ne peux pas te soigner, vous êtes une console !"
 havebeenhealed-message: "&aVous avez été soigner par &2%sender%&a!"
 havebeenhealedfakeleave-message: "&aVous avez été soigner!"
-youhavehealed-message: "&aVous avez nourri &2%target%&a!"
-youhavehealedallplayers-message: "&aVous avez nourrit tout le monde!"
+youhavehealed-message: "&aVous avez soigner &2%target%&a!"
+youhavehealedallplayers-message: "&aVous avez soigner tout le monde!"
 
 #Ping Messages ; %player_displayname% and %target_displayname%
 pingyourself-message: "&aTon ping est de : &2%ping%ms."
