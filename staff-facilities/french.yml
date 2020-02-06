@@ -588,7 +588,7 @@ openingworkbench-message: "&aOuverture de l'établi..."
 
 #Enderchest Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
 openingenderchest-message: "&aOuverture du coffre de l'End..."
-openothersenderchest-message: "&avous avez ouvert le coffre de l'End de &2%target%%apostrophe%!"
+openothersenderchest-message: "&avous avez ouvert le coffre de l'End de &2%target%!"
 
 #Bin Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
 openingbin-message: "&aOuverture de la poubelle..."
