@@ -41,14 +41,14 @@ general:
     admin: '&cAdmin'
     member: '&eMembre'
     visitor: '&5Visiteur'
-    all: '&dAll'
+    all: '&dTous'
   prefix: '&8[&eChestProtect&8] '
 help:
   general:
-    header: '&7------------<- &5Protect Help &7Page&6 {page} &8/&e {pages} &7->------------'
-    page: '&7Use &8/&dProtect help {next} &7for the next page.'
-    footer: '&7------------<- &5Protect Help &7Page&6 {page} &8/&e {pages} &7->------------'
-    help-prefix: '&7Usage: '
+    header: '&7------------<- &5Aide de Protect &7Page&6 {page} &8/&e {pages} &7->------------'
+    page: '&7Faites &8/&dProtect help {next} &7pour la page suivante.'
+    footer: '&7------------<- &5Aide de Protect &7Page&6 {page} &8/&e {pages} &7->------------'
+    help-prefix: '&7Utilisation: '
   command:
     lock: '&8/&7Protect lock &8- &eVerrouille un objet'
     unlock: '&8/&7Protect unlock &8- &eDéverrouille un objet'
@@ -132,12 +132,11 @@ command:
     success: '&8[&eChestProtect&8] &b {player} &7enlevé avec succés de la confiance
       de cette protection.'
   setRole:
-    activated: '#t#&7SetRole-Mode:{newline}&aActivated'
-    deactivated: '#t#&7SetRole-Mode:{newline}&cDeactivated'
-    role-weight: '&cYou can''t set this role since your own role isn''t higher than
-      the target role. &7Ask someone with a higher role for help.'
-    role-weight-target: '&cYou can''t edit the role of this player. &7His role is
-      higher than yours or equal.'
-    role-not-exist: '&cThe role&e {role} &cdoesn''t exist. &7Typo?'
-    success: '&7Successful set role&b {role} &7for player&b {player}&7.'
-  exit: '#t#&7Mode:{newline}&cDeactivated'
+    activated: '#t#&7Mode choix de rôle:{newline}&aActivé'
+    deactivated: '#t#&7Mode choix de rôle:{newline}&cDesactivé'
+    role-weight: '&cVous ne pouvez pas définir le rôle car votre propre rôle n''est pas plus haut que 
+    le rôle de la cible. &7Demandez à quelqu''un qui a un rôle supérieur pour de l''aide.'
+    role-weight-target: '&cVous ne pouvez pas éditer le rôle de ce joueur. &7Son rôle est supérieur au votre ou égal.'
+    role-not-exist: '&cLe rôle&e {role} &cn''existe pas. &7Faute de frappe?'
+    success: '&7Défini le rôle&b {role} &7pour le joueur&b {player}&7 avec succès.'
+  exit: '#t#&7Mode:{newline}&cDésactivé'
