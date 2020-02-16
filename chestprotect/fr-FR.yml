@@ -37,106 +37,103 @@
 
 general:
   role:
-    owner: '&4Proprio'
-    admin: '&cAdmin'
-    member: '&eMembre'
-    visitor: '&5Visiteur'
-    all: '&dTous'
-  prefix: '&8[&eChestProtect&8] '
+    owner: "&4Proprio"
+    admin: "&cAdmin"
+    member: "&eMembre"
+    visitor: "&5Visiteur"
+    all: "&dTous"
+  prefix: "&8[&eChestProtect&8] "
 help:
   general:
-    header: '&7------------<- &5Aide de Protect &7Page&6 {page} &8/&e {pages} &7->------------'
-    page: '&7Faites &8/&dProtect help {next} &7pour la page suivante.'
-    footer: '&7------------<- &5Aide de Protect &7Page&6 {page} &8/&e {pages} &7->------------'
-    help-prefix: '&7Utilisation: '
+    header: "&7------------<- &5Aide de Protect &7Page&6 {page} &8/&e {pages} &7->------------"
+    page: "&7Faites &8/&dProtect help {next} &7pour la page suivante.'
+    footer: "&7------------<- &5Aide de Protect &7Page&6 {page} &8/&e {pages} &7->------------"
+    help-prefix: "&7Utilisation: "
   command:
-    lock: '&8/&7Protect lock &8- &eVerrouille un objet'
-    unlock: '&8/&7Protect unlock &8- &eDéverrouille un objet'
-    trust: '&8/&7Protect trust &8<&aPlayer&8> - &eAjoute un membre à la protection'
-    untrust: '&8/&7Protect untrust &8<&aPlayer&8> - &eSupprime un membre de la protection'
-    menu: '&8/&7Protect menu &8[&aPlayer&8] - &eOuvre le menu'
-    help: '&8/&7Protect help &8[&aSite&8] - &eObtenir de l''aide'
+    lock: "&8/&7Protect lock &8- &eVerrouille un objet"
+    unlock: "&8/&7Protect unlock &8- &eDéverrouille un objet"
+    trust: "&8/&7Protect trust &8<&aPlayer&8> - &eAjoute un membre à la protection"
+    untrust: "&8/&7Protect untrust &8<&aPlayer&8> - &eSupprime un membre de la protection"
+    menu: "&8/&7Protect menu &8[&aPlayer&8] - &eOuvre le menu"
+    help: "&8/&7Protect help &8[&aSite&8] - &eObtenir de l''aide"
     admin:
-      import: '&8/&7Protect import &8<&aPlugin&8> &8- &eImporte des données d''autres
-        plugins'
-      reload: '&8/&7Protect reload &8<&aConfig&8, &aLanguage&8> - &eRecharge la configuration'
-      admin: '&8/&7Protect admin &8<&aAction&8> - &eEffectue des actions administratives'
-      about: '&8/&7Protect about &8- &eMontre des informations à propos de SuperProtect'
-    setRole: '&8/&aProtect setrole &8<&aplayer&8> <&arole&8> - &7Set role'
-    exit: '&8/&aProtect exit &8- &7Exit mode'
+      import: "&8/&7Protect import &8<&aPlugin&8> &8- &eImporte des données d''autres
+        plugins"
+      reload: "&8/&7Protect reload &8<&aConfig&8, &aLanguage&8> - &eRecharge la configuration"
+      admin: "&8/&7Protect admin &8<&aAction&8> - &eEffectue des actions administratives"
+      about: "&8/&7Protect about &8- &eMontre des informations à propos de SuperProtect"
+    setRole: "&8/&aProtect setrole &8<&aplayer&8> <&arole&8> - &7Set role"
+    exit: "&8/&aProtect exit &8- &7Exit mode"
 message:
-  no-permission: '&8[&eChestProtect&8] &cVous n''avez pas la permission de faire ça.
-    &7Il vous faut la permission &b {permission}&7.'
-  world-invalid: '&8[&eChestProtect&8] &cCeci est désactivé dans ce monde. &7Il faut
-    qu''un admin l''ajoute dans la config. Nom du monde:&b {world}'
+  no-permission: "&8[&eChestProtect&8] &cVous n'avez pas la permission de faire ça.
+    &7Il vous faut la permission &b {permission}&7."
+  world-invalid: "&8[&eChestProtect&8] &cCeci est désactivé dans ce monde. &7Il faut
+    qu'un admin l'ajoute dans la config. Nom du monde:&b {world}"
   noaccess:
-    protection: '&8[&eChestProtect&8] &cVous n''êtes pas autorisé à interagir avec
-      cette protection.&7Ceci appartient à&b {player}&7.'
-    action: '&8[&eChestProtect&8] &cVous n''êtes pas autorisé à faire cette action
-      à cette protection. &7Le Propriéraire&b {player} &7doit vous en donner l''autorisation.'
-    hopper: '&cYour hopper has been removed from a protection. &bYour role is not
-      allowed to use hoppers at this protection. &7World: {world} X: {x} Y: {y} Z:
-      {z}'
+    protection: "&8[&eChestProtect&8] &cVous n'êtes pas autorisé à interagir avec
+      cette protection.&7Ceci appartient à&b {player}&7."
+    action: "&8[&eChestProtect&8] &cVous n'êtes pas autorisé à faire cette action
+      à cette protection. &7Le Propriéraire&b {player} &7doit vous en donner l'autorisation."
+    hopper: "&cVotre entonnoir à été enlevé d'une protection. &bVotre rôle n'est pas
+      autorisé à utiliser des entonnoirs dans cette protection. &7Monde: {world} X: {x} Y: {y} Z:
+      {z}"
   event:
-    open-owner: '&8[&eChestProtect&8] &7Ce bloc &bvous&7 appartient.'
-    open-trusted: '&8[&eChestProtect&8] &7Ce bloc est protégé par&b {player}&7.'
-    protectable: '&8[&eChestProtect&8] &7Ce bloc peut être protégé. Entrez &8/&eLock
-      &7pour le verrouiller.'
-  object-invalid: '&cYou can''t protect this object. &7A administrator needs to add
-    it to the config. Name:&b {object}'
+    open-owner: "&8[&eChestProtect&8] &7Ce bloc &bvous&7 appartient."
+    open-trusted: "&8[&eChestProtect&8] &7Ce bloc est protégé par&b {player}&7."
+    protectable: "&8[&eChestProtect&8] &7Ce bloc peut être protégé. Entrez &8/&eLock
+      &7pour le verrouiller."
+  object-invalid: "&cVous ne pouvez pas protéger cet objet. &7Un administrateur doit l'ajouter dans la config. Nom:&b {object}"
   chat-action:
-    cancelled: '#t#&c&lCancelled{newline}&c&lChat Action'
-    player: '&7Please enter the name of the target player.'
+    cancelled: "#t#&c&lAnnulation de{newline}&c&lAction de chat"
+    player: "&7Veuillez entrer le nom du joueur."
 command:
   general:
-    money-cost: '&8[&eChestProtect&8] &cVous n''avez pas assez d''argent. &7Il vous
-      faut&b ${cost}&7.'
-    pos-not-allowed: '&8[&eChestProtect&8] &cVous n''êtes pas autorisé à protéger
-      ce bloc ici. &7Allez ailleurs.'
-    player-not-exist: '&8[&eChestProtect&8] &cIl n''y pas de joueurs s''appelant {player}&c.
-      &7SVP vérifiez la typo.'
-    not-protected: '&8[&eChestProtect&8] &cVous ne pouvez pas faire ça. &7Ce bloc
-      n''est pas protégé.'
-    player-untrusted: '&cYou can''t do this. &7Player&b {player} &7isn''t trusted
-      at this protection.'
+    money-cost: "&8[&eChestProtect&8] &cVous n'avez pas assez d'argent. &7Il vous
+      faut&b ${cost}&7."
+    pos-not-allowed: "&8[&eChestProtect&8] &cVous n'êtes pas autorisé à protéger
+      ce bloc ici. &7Allez ailleurs."
+    player-not-exist: "&8[&eChestProtect&8] &cIl n'y pas de joueurs s'appelant {player}&c.
+      &7SVP vérifiez la typo."
+    not-protected: "&8[&eChestProtect&8] &cVous ne pouvez pas faire ça. &7Ce bloc
+      n'est pas protégé."
+    player-untrusted: "&cVous ne pouvez pas faire ça. &7Le joueur&b {player} &7n'est pas fiable dans cette protection."
   help:
-    help: '&8[&eChestProtect&8] &7Utilisez &8/&aLand help &7pour de l''aide.'
-    cmd-not-exist: '&8[&eChestProtect&8] &cCette sous-commande n''existe pas. &7La
-      commande&b {command} &7n''a pas été trouvée.'
-    page-not-exist: '&8[&eChestProtect&8] &cLa page&e {page} &cn''existe pas. &7Typo?'
+    help: "&8[&eChestProtect&8] &7Utilisez &8/&aLand help &7pour de l'aide."
+    cmd-not-exist: "&8[&eChestProtect&8] &cCette sous-commande n''existe pas. &7La
+      commande&b {command} &7n'a pas été trouvée."
+    page-not-exist: "&8[&eChestProtect&8] &cLa page&e {page} &cn'existe pas. &7Typo?"
   lock:
-    activated: '#t#!!1!!1!!1!!&7Mode-Verrouillé:;;&aActivé'
-    deactivated: '#t#!!1!!1!!1!!&7Mode-Verrouillé:;;&cDésactivé'
-    already: '&8[&eChestProtect&8] &cVous ne pouvez pas protéger ce bloc. &7Il est
-      déja protégé.'
-    max-protections: '&8[&eChestProtect&8] &cVous ne pouvez pas créer plus de protections.
-      &7Le maximum pour vous est de&b {max}&7. Contactez un admin pour de l''aide.'
-    success: '&8[&eChestProtect&8] &7Bloc protégé avec succés pour&b ${cost}&7.'
-    npc: '&cYou can''t lock this entity because it is an NPC. &7An administrator can
-      change this in config.'
+    activated: "#t#!!1!!1!!1!!&7Mode-Verrouillé:;;&aActivé"
+    deactivated: "#t#!!1!!1!!1!!&7Mode-Verrouillé:;;&cDésactivé"
+    already: "&8[&eChestProtect&8] &cVous ne pouvez pas protéger ce bloc. &7Il est
+      déja protégé."
+    max-protections: "&8[&eChestProtect&8] &cVous ne pouvez pas créer plus de protections.
+      &7Le maximum pour vous est de&b {max}&7. Contactez un admin pour de l''aide."
+    success: "&8[&eChestProtect&8] &7Bloc protégé avec succés pour&b ${cost}&7."
+    npc: '&cVous ne pouvez pas verrouiller cet entitée car elle est un NPC. &7Un administrateur peut changer cette config."
   unlock:
-    activated: '#t#!!1!!1!!1!!&7Mode-Déverrouillé:;;&aActivé'
-    deactivated: '#t#!!1!!1!!1!!&7Mode-Déverrouillé:;;&cDésactivaté'
-    success: '&8[&eChestProtect&8] &7Déverrouillé avec succés.'
+    activated: "#t#!!1!!1!!1!!&7Mode-Déverrouillé:;;&aActivé"
+    deactivated: "#t#!!1!!1!!1!!&7Mode-Déverrouillé:;;&cDésactivaté"
+    success: "&8[&eChestProtect&8] &7Déverrouillé avec succés."
   trust:
-    activated: '#t#!!1!!1!!1!!&7Mode-Confiance:;;&aActivé'
-    deactivated: '#t#!!1!!1!!1!!&7Mode-Confiance:;;&cDésactivaté'
-    already: '&8[&eChestProtect&8] &cVous ne pouvez pas faire ça.&b {player} &7est
-      déja ajouté à la protection.'
-    max-members: '&8[&eChestProtect&8] &cVous ne pouvez pas ajouter plus de membres.
-      &7Le maximum pour vous est de&b {max}&7. Contactez un admin pour de l''aide.'
-    success: '&8[&eChestProtect&8] &b {player} &7 ajouté avec succés à cette protection.'
+    activated: "#t#!!1!!1!!1!!&7Mode-Confiance:;;&aActivé"
+    deactivated: "#t#!!1!!1!!1!!&7Mode-Confiance:;;&cDésactivaté"
+    already: "&8[&eChestProtect&8] &cVous ne pouvez pas faire ça.&b {player} &7est
+      déja ajouté à la protection."
+    max-members: "&8[&eChestProtect&8] &cVous ne pouvez pas ajouter plus de membres.
+      &7Le maximum pour vous est de&b {max}&7. Contactez un admin pour de l'aide."
+    success: "&8[&eChestProtect&8] &b {player} &7 ajouté avec succés à cette protection."
   untrust:
-    activated: '#t#!!1!!1!!1!!&7Mode-Non-Confiance:;;&aActivé'
-    deactivated: '#t#!!1!!1!!1!!&7Mode-Non-Confiance:;;&cDésactivaté'
-    success: '&8[&eChestProtect&8] &b {player} &7enlevé avec succés de la confiance
-      de cette protection.'
+    activated: "#t#!!1!!1!!1!!&7Mode-Non-Confiance:;;&aActivé"
+    deactivated: "#t#!!1!!1!!1!!&7Mode-Non-Confiance:;;&cDésactivaté"
+    success: "&8[&eChestProtect&8] &b {player} &7enlevé avec succés de la confiance
+      de cette protection."
   setRole:
-    activated: '#t#&7Mode choix de rôle:{newline}&aActivé'
-    deactivated: '#t#&7Mode choix de rôle:{newline}&cDesactivé'
-    role-weight: '&cVous ne pouvez pas définir le rôle car votre propre rôle n''est pas plus haut que 
-    le rôle de la cible. &7Demandez à quelqu''un qui a un rôle supérieur pour de l''aide.'
-    role-weight-target: '&cVous ne pouvez pas éditer le rôle de ce joueur. &7Son rôle est supérieur au votre ou égal.'
-    role-not-exist: '&cLe rôle&e {role} &cn''existe pas. &7Faute de frappe?'
-    success: '&7Défini le rôle&b {role} &7pour le joueur&b {player}&7 avec succès.'
-  exit: '#t#&7Mode:{newline}&cDésactivé'
+    activated: "#t#&7Mode choix de rôle:{newline}&aActivé"
+    deactivated: "#t#&7Mode choix de rôle:{newline}&cDesactivé"
+    role-weight: "&cVous ne pouvez pas définir le rôle car votre propre rôle n'est pas plus haut que 
+    le rôle de la cible. &7Demandez à quelqu'un qui a un rôle supérieur pour de l'aide."
+    role-weight-target: "&cVous ne pouvez pas éditer le rôle de ce joueur. &7Son rôle est supérieur au votre ou égal."
+    role-not-exist: "&cLe rôle&e {role} &cn'existe pas. &7Faute de frappe?"
+    success: "&7Défini le rôle&b {role} &7pour le joueur&b {player}&7 avec succès."
+  exit: "#t#&7Mode:{newline}&cDésactivé"
