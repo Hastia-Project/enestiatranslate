@@ -65,53 +65,53 @@
 # 
 
 general:
-  wYes: '&aOui'
-  wNo: '&cNon'
-  none: '&cAucun'
-  now: '&aMaintenant'
-  enabled: '&aActivé'
-  disabled: '&cDésactivé'
-  others: Autres
-  all: '&aTout'
-  unlimited: '&aIllimité'
-  online: '&aEn-ligne'
-  previous: '&8Précédent'
+  wYes: "&aOui"
+  wNo: "&cNon"
+  none: "&cAucun"
+  now: "&aMaintenant"
+  enabled: "&aActivé"
+  disabled: "&cDésactivé"
+  others: "Autres"
+  all: "&aTout"
+  unlimited: "&aIllimité"
+  online: "&aEn-ligne"
+  previous: "&8Précédent"
 gui:
   mainMenu:
-    title: '&8Menu Principal'
+    title: "&8Menu Principal"
     size: 27
     s:
       protections:
-        name: '&bProtections'
+        name: "&bProtections"
         lore:
-        - '&7Voir toutes vos'
-        - '&7protections.'
+        - "&7Voir toutes vos"
+        - "&7protections."
         material: CHEST
         slot: 11
       settings:
-        name: '&bRéglages'
+        name: "&bRéglages"
         lore:
-        - '&7Editez vos réglages'
-        - '&7personnels.'
+        - "&7Editez vos réglages"
+        - "&7personnels."
         material: COMMAND_BLOCK
         slot: 17
       close:
-        name: '&cFermer'
+        name: "&cFermer"
         lore:
-        - '&7Fermer ce menu.'
-        - ' '
-        - '&8- &7Vous pouvez l''ouvrir encore'
-        - '  &7avec &8/&aProtect menu&7.'
+        - "&7Fermer ce menu."
+        - " "
+        - "&8- &7Vous pouvez l''ouvrir encore"
+        - "  &7avec &8/&aProtect menu&7."
         material: RED_STAINED_GLASS_PANE
         slot: 9
     f:
       info:
-        name: '&bInformation'
+        name: "&bInformation"
         lore:
-        - '&7Stats:'
-        - ' '
-        - '&8- &7Protections:'
-        - '  &e{current} &8/ &c{max}'
+        - "&7Stats:"
+        - " "
+        - "&8- &7Protections:"
+        - "  &e{current} &8/ &c{max}"
         material: PAPER
         slot: 14
     p:
@@ -120,134 +120,134 @@ gui:
         from: 1
         to: 27
   settings_player:
-    title: '&8Vos réglages'
+    title: "&8Vos réglages"
     size: 27
     s:
       back:
-        name: '&cRetour'
+        name: "&cRetour"
         lore:
-        - '&7Retourner au'
-        - '&eMenu principal&7.'
+        - "&7Retourner au"
+        - "&eMenu principal&7."
         material: RED_STAINED_GLASS_PANE
         slot: 19
     f:
       page_previous:
-        name: '&9Page précédente'
+        name: "&9Page précédente"
         lore:
-        - '&7Aller à la page précédente:&9 {previous}'
-        - ' '
-        - '&8- &7Actuelle:&b {current}'
+        - "&7Aller à la page précédente:&9 {previous}"
+        - " "
+        - "&8- &7Actuelle:&b {current}"
         material: ARROW
         slot: 21
       page_next:
-        name: '&aProchaine page'
+        name: "&aProchaine page"
         lore:
-        - '&7Aller à la prochaine page:&9 {next}'
-        - ' '
-        - '&8- &7Actuelle:&b {current}'
+        - "&7Aller à la prochaine page:&9 {next}"
+        - " "
+        - "&8- &7Actuelle:&b {current}"
         material: ARROW
         slot: 25
       back:
-        name: '&cRetour'
+        name: "&cRetour"
         lore:
-        - '&7Retourner à'
-        - '{back}&7.'
+        - "&7Retourner à"
+        - "{back}&7."
         material: RED_STAINED_GLASS_PANE
         slot: 19
     l:
       lock_persistent:
-        name: '&bVerrou Persistant'
+        name: "&bVerrou Persistant"
         lore:
-        - '&7Statut: {enabled}'
-        - '&7Déverrouillé: {unlocked}'
-        - ' '
-        - '&7Garder le mode verrouillé'
-        - '&7activé jusqu''à'
-        - '&7une désactivation manuelle?'
+        - "&7Statut: {enabled}"
+        - "&7Déverrouillé: {unlocked}"
+        - " "
+        - "&7Garder le mode verrouillé"
+        - "&7activé jusqu'à"
+        - "&7une désactivation manuelle?"
         material: IRON_BARS
         from: 10
         to: 18
       unlock_persistent:
-        name: '&bDéverrouillage Persistant'
+        name: "&bDéverrouillage Persistant"
         lore:
-        - '&7Statut: {enabled}'
-        - '&7Déverrouillé: {unlocked}'
-        - ' '
-        - '&7Garder le mode déverrouillé'
-        - '&7activé jusqu''à'
-        - '&7une désactivation manuelle?'
+        - "&7Statut: {enabled}"
+        - "&7Déverrouillé: {unlocked}"
+        - " "
+        - "&7Garder le mode déverrouillé"
+        - "&7activé jusqu'à"
+        - "&7une désactivation manuelle?"
         material: GRASS
         from: 10
         to: 18
       trust_persistent:
-        name: '&bConfiance Persistante'
+        name: "&bConfiance Persistante"
         lore:
-        - '&7Statut: {enabled}'
-        - '&7Déverrouillé: {unlocked}'
-        - ' '
-        - '&7Garder le mode confiance'
-        - '&7activé jusqu''à'
-        - '&7une désactivation manuelle?'
+        - "&7Statut: {enabled}"
+        - "&7Déverrouillé: {unlocked}"
+        - " "
+        - "&7Garder le mode confiance"
+        - "&7activé jusqu'à"
+        - "&7une désactivation manuelle?"
         material: CACTUS_GREEN
         from: 10
         to: 18
       untrust_persistent:
-        name: '&bNon-Confiance Persistante'
+        name: "&bNon-Confiance Persistante"
         lore:
-        - '&7Statut: {enabled}'
-        - '&7Déverrouillé: {unlocked}'
-        - ' '
-        - '&7Garder le mode non-confiance'
-        - '&7activé jusqu''à'
-        - '&7une désactivation manuelle?'
+        - "&7Statut: {enabled}"
+        - "&7Déverrouillé: {unlocked}"
+        - " "
+        - "&7Garder le mode non-confiance"
+        - "&7activé jusqu'à"
+        - "&7une désactivation manuelle?"
         material: ROSE_RED
         from: 10
         to: 18
       auto-lock:
-        name: '&bVerrou Auto'
+        name: "&bVerrou Auto"
         lore:
-        - '&7Statut: {enabled}'
-        - '&7Déverrouillé: {unlocked}'
-        - ' '
-        - '&7Verrouiller automatiquement'
-        - '&7les blocs protégeables'
-        - '&7à leur placement?'
+        - "&7Statut: {enabled}"
+        - "&7Déverrouillé: {unlocked}"
+        - " "
+        - "&7Verrouiller automatiquement"
+        - "&7les blocs protégeables"
+        - "&7à leur placement?"
         material: OBSERVER
         from: 10
         to: 18
       set_role_persistent:
-        name: '&8> &6Définition De Rôle Persistant'
+        name: "&8> &6Définition De Rôle Persistant"
         lore:
-        - '&7Status: {enabled}'
-        - '&7Déverrouillé: {unlocked}'
-        - ' '
-        - '&7Gardez le mode Définition de rôle'
-        - '&7activer jusqu''à'
-        - '&7désactivation manuelle?'
+        - "&7Status: {enabled}"
+        - "&7Déverrouillé: {unlocked}"
+        - " "
+        - "&7Gardez le mode Définition de rôle"
+        - "&7activer jusqu'à"
+        - "&7désactivation manuelle?"
         material: CYAN_DYE
         from: 10
         to: 18
       setrole_persistent:
-        name: '&8> &6Définition De Rôle Persistant'
+        name: "&8> &6Définition De Rôle Persistant"
         lore:
-        - '&7Status: {enabled}'
-        - '&7Déverrouillé: {unlocked}'
-        - ' '
-        - '&7Gardez le mode Définition de rôle'
-        - '&7activer jusqu''à'
-        - '&7désactivation manuelle?'
+        - "&7Status: {enabled}'
+        - "&7Déverrouillé: {unlocked}'
+        - " "
+        - "&7Gardez le mode Définition de rôle"
+        - "&7activer jusqu'à"
+        - "&7désactivation manuelle?"
         material: CYAN_DYE
         from: 10
         to: 18
     a:
       failure_permission:
-        name: '&4Erreur: &cPas de permission'
+        name: "&4Erreur: &cPas de permission"
         lore:
-        - '&7Vous n''êtes pas autorisé à'
-        - '&7éditer ce réglage.'
-        - ' '
-        - '&8- &7Vous devez avoir la permission'
-        - '  &e{permission}&7.'
+        - "&7Vous n'êtes pas autorisé à"
+        - "&7éditer ce réglage."
+        - " "
+        - "&8- &7Vous devez avoir la permission"
+        - "&e{permission}&7."
         material: RED_STAINED_GLASS_PANE
     p:
       placeholder_1:
@@ -370,7 +370,7 @@ gui:
         - '&81: &7Ecrivez &8/&aLock'
         - '&82: &7Toucher l''objet'
         - ' '
-        - '&7D''autres questions?'
+        - '&7D'autres questions?'
         - '&7Demandez au support pour plus d''assistance.'
         material: PAPER
         from: 10
@@ -395,7 +395,7 @@ gui:
       entity:
         name: '&6{entity}'
         lore:
-        - '&7Editer cette protection d''entitée.'
+        - '&7Editer cette protection d'entitée.'
         - ' '
         - '&7Vu pour la dernière fois en:'
         - '&7X:&e {x}'
@@ -405,7 +405,7 @@ gui:
         from: 10
         to: 36
       no-entity:
-        name: '&cPas d''entitées verrouillées'
+        name: '&cPas d'entitées verrouillées'
         lore:
         - '&7Comment portéger une entitée?'
         - ' '
@@ -428,8 +428,8 @@ gui:
       failure_bypass:
         name: '&4Erreur: &cPas de permission'
         lore:
-        - '&7Vous n''êtes pas autorisé à'
-        - '&7ouvrir ce GUI, puisque vous n''êtes'
+        - '&7Vous n'êtes pas autorisé à'
+        - '&7ouvrir ce GUI, puisque vous n'êtes'
         - pas ajouté à cette protection.
         - ' '
         - '&8- &7Vous devez avoir la permission'
@@ -438,7 +438,7 @@ gui:
       failure_teleport:
         name: '&4Erreur: &cPas de permission'
         lore:
-        - '&7Vous n''êtes pas autorisé à'
+        - '&7Vous n'êtes pas autorisé à'
         - '&7vous téléporter à cette protection.'
         - ' '
         - '&8- &7Vous devez avoir la permission'
@@ -448,7 +448,7 @@ gui:
         name: '&4Echec: &cChunk non-chargé'
         lore:
         - '&7Au travers de protections minecraft'
-        - '&7vous ne pouvez pas éditer d''animaux / mobs,'
+        - '&7vous ne pouvez pas éditer d'animaux / mobs,'
         - '&7si leur chunk n''est pas chargé.'
         - ' '
         - '&8- &7Vous pouvez seulement les éditer si'
