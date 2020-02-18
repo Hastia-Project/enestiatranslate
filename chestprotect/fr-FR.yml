@@ -46,7 +46,7 @@ general:
 help:
   general:
     header: "&7------------<- &5Aide de Protect &7Page&6 {page} &8/&e {pages} &7->------------"
-    page: "&7Faites &8/&dProtect help {next} &7pour la page suivante.'
+    page: "&7Faites &8/&dProtect help {next} &7pour la page suivante."
     footer: "&7------------<- &5Aide de Protect &7Page&6 {page} &8/&e {pages} &7->------------"
     help-prefix: "&7Utilisation: "
   command:
