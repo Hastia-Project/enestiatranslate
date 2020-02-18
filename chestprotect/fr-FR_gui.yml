@@ -341,7 +341,7 @@ gui:
         material: ARROW
         slot: 43
       back:
-        name: "&cRetour""
+        name: "&cRetour"
         lore:
         - "&7Retourner à"
         - "{back}&7."
