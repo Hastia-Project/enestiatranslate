@@ -110,7 +110,7 @@ command:
     max-protections: "&8[&eChestProtect&8] &cVous ne pouvez pas créer plus de protections.
       &7Le maximum pour vous est de&b {max}&7. Contactez un admin pour de l''aide."
     success: "&8[&eChestProtect&8] &7Bloc protégé avec succés pour&b ${cost}&7."
-    npc: '&cVous ne pouvez pas verrouiller cet entitée car elle est un NPC. &7Un administrateur peut changer cette config."
+    npc: "&cVous ne pouvez pas verrouiller cet entitée car elle est un NPC. &7Un administrateur peut changer cette config."
   unlock:
     activated: "#t#!!1!!1!!1!!&7Mode-Déverrouillé:;;&aActivé"
     deactivated: "#t#!!1!!1!!1!!&7Mode-Déverrouillé:;;&cDésactivaté"
