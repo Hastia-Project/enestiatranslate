@@ -1,29 +1,28 @@
-reloaded: '&eReloaded the config. Some settings might require a server restart!'
-search: '&7RandomTeleport searches for a safe place in world {worldname}. . .'
-teleport: '&7RandomTeleport teleported you to X: {x} Y: {y} Z: {z}!'
-setspawnpoint: '&7Your Respawnpoint has been set to your current location!'
+reloaded: "&eRechargement de la config. Vous aurez peut-être besoins de redémarrer le serveur pour que certains paramètres s'activent!"
+search: "&7RandomTeleport cherche un endroit sûr dans {worldname}. . ."
+teleport: "&7RandomTeleport vous a téléporté en X: {x} Y: {y} Z: {z}!"
+setspawnpoint: "&7Votre point de Respawn a bien été défini à votre position actuelle!"
 sign:
-  created: '&aRandomTeleport preset sign &e{preset}&a created!'
-  destroyed: '&aRandomTeleport preset sign &e{preset}&a destroyed!'
+  created: "&aPanneau préréglé RandomTelepor &e{preset}&a créé!"
+  destroyed: "&aPanneau préréglé RandomTeleport &e{preset}&a détrui!"
   no-permission:
-    destroy: '&cYou don''t have permission to destroy RandomTeleport preset signs!
-      &o({perm})'
-    create: '&cYou don''t have permission to create RandomTeleport preset signs! &o({perm})'
-    use: '&cYou don''t have permission to use the preset &6{preset}&c! &o({perm})'
+    destroy: "&cVous n'avez pas la permission de détruire des panneaux préréglé RandomTeleport!
+      &o({perm})"
+    create: "&cVous n'avez pas la permission de créer des panneaux préréglé RandomTeleport! &o({perm})"
+    use: "&cVous n'avez pas la permission d'utiliser le préréglage &6{preset}&c! &o({perm})"
 error:
-  location: '&4Error: &cRandomTeleport could not find a safe location!'
-  cooldown: '&cYou have to wait {cooldown_text} before using this RandomTeleport again!'
-  parse-error: '&cError while parsing option &f{option}&c with value &f{value}&c:
-    {error}'
-  not-found: '&cCould not find &f{what}&c!'
-  player-not-found: '&cCould not find a player with the name &f{what}&c!'
-  world-not-found: '&cCould not find a world with the name &f{what}&c!'
-  preset-doesnt-exist: '&cThe RandomTeleport preset &6{preset}&c does not exist!'
-  preset-invalid: '&cThe preset &6{preset}&c is not setup correctly! Please contact
-    an admin.'
-  already-searching: '&cA search is already in progress&c!'
+  location: "&4Erreur: &cRandomTeleport n'a pas pu trouver un endoit sûr!"
+  cooldown: "&cVous devez attendre {cooldown_text} avant d'utiliser ce RandomTeleport une nouvelle fois!"
+  parse-error: "&cErreur pendant l'analyse de l'option &f{option}&c avec la valeur &f{value}&c:
+    {error}"
+  not-found: "&cImpossible de trouver &f{what}&c!"
+  player-not-found: "&cImpossible de trouver un joueur avec le nom &f{what}&c!"
+  world-not-found: "&cImpossible de trouver un monde avec le nom &f{what}&c!"
+  preset-doesnt-exist: "&cLe préréglage RandomTeleport &6{preset}&c n'éxiste pas!"
+  preset-invalid: "&cLe préréglage &6{preset}&c n'est pas configuré correctement! Veuillez contacter un administrateur."
+  already-searching: "&cUne recherche est déjà en cour&c!"
   no-permission:
-    general: '&cYou don''t have permission to do that! &o({perm})'
-    option: '&cYou don''t have permission to use the option {option}! &o({perm})'
-    preset: '&cYou don''t have permission to use the preset &6{preset}&c! &o({perm})'
-    tp-others: '&cYou don''t have permission to teleport other players! &o({perm})'
+    general: "&cVous n'avez pas la permission de faire cela! &o({perm})"
+    option: "&cVous n'avez pas la permission d'utiliser l'option {option}! &o({perm})"
+    preset: "&cVous n'avez pas la permission d'utiliser le préréglage &6{preset}&c! &o({perm})"
+    tp-others: "&cVous n'avez pas la permission de téléporter d'autres joueurs! &o({perm})"
