@@ -1012,7 +1012,7 @@ chatclearedbypass-message: "&cLe tchat a été nettoyé par &4%sender% &cmais vo
 chatclearedbypassfakeleave-message: "&cLe tchat a été nettoyé mais vous aviez la permission de l'empêcher!"
 someonedisabledcmdspy-message: "&9%sender%&b a désactivé votre mode EspionCommandes!"
 youhavedisabledcmdspy-message: "&bVous avez désactivé le mode EspionCommandes de &9%target%!"
-someoneenabledcmdspy-message: "&2%sender%&a a activé vptre mode EspionCommandes!"
+someoneenabledcmdspy-message: "&2%sender%&a a activé votre mode EspionCommandes!"
 youhaveenabledcmdspy-message: "&aVous avez activé le mode EspionCommandes de &2%target%!"
 showbirthdaytoeveryone-message: "&cVous avez montré la liste d'anniversaires à tout le monde!"
 showdiscordtoeveryone-message: "&cVous avez montré le Discord à tout le monde!"
