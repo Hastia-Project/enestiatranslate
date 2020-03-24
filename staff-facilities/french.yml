@@ -13,7 +13,7 @@
 # Vous pouvez y contribuez sur : https://github.com/Hastia-Project/enestiatranslate/blob/master/staff-facilities/french.yml
 # Merci de ne pas enlever ce copyright
 
-# Translation for SF 4.5.3
+# Translation for SF 4.5.6
 
 #NoPermission Message
 nopermission-message: "&cTu n'as pas la permission de faire cette commande."
@@ -1031,6 +1031,24 @@ showwebsitetoeveryone-message: "&cVous avez montré les liens du site à tout le
 showwhatsapptoeveryone-message: "&cVous avez montré les contacts WhatsApp à tout le monde!"
 showyoutubetoeveryone-message: "&cVous avez montré les liens Youtube à tout le monde!"
 alerts-helpmessage: "Gérer le système d'alertes!"
+
+openedofflineinventory-message: "&aYou have opened &2%target%&a's inventory in offline mode!"
+cantopenhisofflineinventory-message: "&cYou cant open &c%target%&c's offline inventory due to a permission protection!"
+cantmodifyinventoryofftoon-message: "&cYou cant modify this player inventory because it was offline and it is now online. Use the command again!"
+cantmodifyinventoryontooff-message: "&cYou cant modify this player inventory because it was online and it is now offline. Use the command again!"
+openedofflineenderchest-message: "&aYou have opened &2%target%&a's enderchest in offline mode!"
+cantmodifyenderchestofftoon-message: "&cYou cant modify this player enderchest because it was offline and it is now online. Use the command again!"
+cantmodifyenderchestontooff-message: "&cYou cant modify this player enderchest because it was online and it is now offline. Use the command again!"
+
+alertsjoinalert-message: '&5- &bJoinAlert: %joinalert%'
+joinalerttoggled-alertsmessage: '&aYou have enabled the Join Alert alert system for yourself, if someone joins a server and it is denied you will be advised!'
+joinalertuntoggled-alertsmessage: '&bYou have disabled the Join Alert alert system for yourself!'
+joinalertnotification-message: '&3[&bJoinAlert&3] &3%player% &bhas tried to join the server but couldnt. He was kicked because of: &9%reason%&b.'
+whitelistresult-message: "server on whitelist"
+bannedresult-message: "player banned"
+maintenancemoderesult-message: "server on maintenance mode"
+fullresult-message: "server is full"
+otherresult-message: "other non specified reason"
 
 # Traduction pour ce merveilleux plugin par Cidalex/Mitsu et ARNPIK du serveur Énéstia
 # Il est possible qu'il y ait de nombreuse faute de français, si vous en voyez, merci de me contacter sur le discord de SF, @Mitsu#1492
