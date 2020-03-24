@@ -1032,23 +1032,24 @@ showwhatsapptoeveryone-message: "&cVous avez montré les contacts WhatsApp à to
 showyoutubetoeveryone-message: "&cVous avez montré les liens Youtube à tout le monde!"
 alerts-helpmessage: "Gérer le système d'alertes!"
 
-openedofflineinventory-message: "&aYou have opened &2%target%&a's inventory in offline mode!"
-cantopenhisofflineinventory-message: "&cYou cant open &c%target%&c's offline inventory due to a permission protection!"
-cantmodifyinventoryofftoon-message: "&cYou cant modify this player inventory because it was offline and it is now online. Use the command again!"
-cantmodifyinventoryontooff-message: "&cYou cant modify this player inventory because it was online and it is now offline. Use the command again!"
-openedofflineenderchest-message: "&aYou have opened &2%target%&a's enderchest in offline mode!"
-cantmodifyenderchestofftoon-message: "&cYou cant modify this player enderchest because it was offline and it is now online. Use the command again!"
-cantmodifyenderchestontooff-message: "&cYou cant modify this player enderchest because it was online and it is now offline. Use the command again!"
+openedofflineinventory-message: "&aTu as ouvert l'inventaire de &2%target%&a pendant qu'il est hors-ligne!"
+cantopenhisofflineinventory-message: "&cTu ne peux pas ouvrir l'inventaire de &c%target%&c pendant qu'il est hors-ligne à cause de la protection de permission!"
+cantmodifyinventoryofftoon-message: "&cTu ne peux pas modifier l'inventaire de ce joueur car il était hors-ligne et maintenant en ligne, réutilise la commande!"
+cantmodifyinventoryontooff-message: "&cTu ne peux pas modifier l'inventaire de ce joueur car il était en ligne et maintenant hors-ligne réutilise la commande!"
+openedofflineenderchest-message: "&aTu as ouvert l'enderchest de &2%target%&a pendant qu'il est hors-ligne!"
+cantmodifyenderchestofftoon-message: "&cTu ne peux pas modifier l'enderchest de ce joueur car il était hors-ligne et maintenant en ligne, réutilise la commande!"
+cantmodifyenderchestontooff-message: "&cTu ne peux pas modifier l'enderchest de ce joueur car il était en ligne et maintenant hors-ligne réutilise la commande!"
 
-alertsjoinalert-message: '&5- &bJoinAlert: %joinalert%'
-joinalerttoggled-alertsmessage: '&aYou have enabled the Join Alert alert system for yourself, if someone joins a server and it is denied you will be advised!'
-joinalertuntoggled-alertsmessage: '&bYou have disabled the Join Alert alert system for yourself!'
-joinalertnotification-message: '&3[&bJoinAlert&3] &3%player% &bhas tried to join the server but couldnt. He was kicked because of: &9%reason%&b.'
-whitelistresult-message: "server on whitelist"
-bannedresult-message: "player banned"
-maintenancemoderesult-message: "server on maintenance mode"
-fullresult-message: "server is full"
-otherresult-message: "other non specified reason"
+alertsjoinalert-message: "&5- &bJoinAlert: %joinalert%"
+joinalerttoggled-alertsmessage: "&aVous avez activé les JoinAlert pour vous, si quelqu'un essaye de venir mais qu'il ne peut pas, vous serez averti !"
+joinalertuntoggled-alertsmessage: "&bVous avez désactivé les JointAlert pour vous!"
+joinalertnotification-message: "&3[&bJoinAlert&3] &3%player% &ba essayer de rejoindre le serveur mais il n'a pas réussi à cause de : &9%reason%&b."
+whitelistresult-message: "le serveur à une whitelist/liste blanche"
+bannedresult-message: "le joueur est banni"
+maintenancemoderesult-message: "Le serveur est en maintenance"
+fullresult-message: "Le serveur est plein"
+otherresult-message: "Autre raison non spécifié"
+
 
 # Traduction pour ce merveilleux plugin par Cidalex/Mitsu et ARNPIK du serveur Énéstia
 # Il est possible qu'il y ait de nombreuse faute de français, si vous en voyez, merci de me contacter sur le discord de SF, @Mitsu#1492
