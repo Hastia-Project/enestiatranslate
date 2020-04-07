@@ -9,11 +9,13 @@
 # You can add on any message the placeholder %apostrophe%, so players in chat will see the message received with an apostrophe s ( "s ).
 
 # Traduction pour ce merveilleux plugin par Cidalex/Mitsu et ARNPIK du serveur Énéstia
-# Il est possible qu'il y ait de nombreuses fautes de français, si vous en voyez, merci de me contacter sur le discord de SF, @Mitsu#1492
+# Il est possible qu'il y ait de nombreuse faute de français, si vous en voyez, merci de me contacter sur le discord de SF, @Mitsu#1492
 # Vous pouvez y contribuez sur : https://github.com/Hastia-Project/enestiatranslate/blob/master/staff-facilities/french.yml
 # Merci de ne pas enlever ce copyright
 
-# Translation for SF 4.5.6
+# Rappel pour les non développeur, un listener surveille une valeur ou quelque en particulier c'est comme une caméra de surveillance
+
+# Translation for SF 4.4.9
 
 #NoPermission Message
 nopermission-message: "&cTu n'as pas la permission de faire cette commande."
@@ -57,6 +59,7 @@ nextpage-helpmessage: "Aller à la prochaine page!"
  
 #Stafffacilities Help Messages
 alert-helpmessage: "Envoyer un message d'alerte!"
+alerts-helpmessage: "Gérer le système d'alertes!"
 announce-helpmessage: "Envoyer un message d'annonce!"
 ans-helpmessage: "Donner une réponse à un joueur!"
 bin-helpmessage: "Ouvrir l'inventaire de la poubelle!"
@@ -175,6 +178,8 @@ vehicledestroy-togglehelpmessage: "Définir sur activé ou désactivé la destru
 #ClearChat Messages
 chatclearedby-message: "&cLe Tchat a était clear par : &4%sender%&c"
 chatclearedbyfakeleave-message: "&cLe Tchat a était clear !"
+chatclearedbypass-message: "&cLe tchat a été nettoyé par &4%sender% &cmais vous aviez la permission l'empêcher!"
+chatclearedbypassfakeleave-message: "&cLe tchat a été nettoyé mais vous aviez la permission de l'empêcher!"
 
 #PlayerClearChat Messages
 playerclearchathelp-message: "&cPas assez d'arguments/ Taper /playerclearchat [joueur]"
@@ -267,8 +272,8 @@ healyourself-message: "&aTu t'es soigné!"
 healcantheal-message: "&cTu ne peux pas te soigner, vous êtes une console !"
 havebeenhealed-message: "&aVous avez été soigner par &2%sender%&a!"
 havebeenhealedfakeleave-message: "&aVous avez été soigner!"
-youhavehealed-message: "&aVous avez soigner &2%target%&a!"
-youhavehealedallplayers-message: "&aVous avez soigner tout le monde!"
+youhavehealed-message: "&aVous avez nourri &2%target%&a!"
+youhavehealedallplayers-message: "&aVous avez nourrit tout le monde!"
 
 #Ping Messages ; %player_displayname% and %target_displayname%
 pingyourself-message: "&aTon ping est de : &2%ping%ms."
@@ -304,74 +309,90 @@ show2whatsapp-helpmessage: "Donner des infos à propos d'un joueur spécifique s
 show2youtube-helpmessage: "Donner des infos à propos d'un joueur spécifique sur de youtubes"
 
 #Show Messages
-showbirthdayhelp-message: "&cPas assez de paramètres! Faites /show birthday [joueur]"
-showbirthdaytosomeone-message: "&cVous avez montré la liste d'anniversaires à %target%!"
-someoneshowedyoubirthday-message: "&c%sender% &cvous a montré la liste d'anniversaires!"
+showbirthdayhelp-message: "&cPas assez d'arguments ! Tapez /show birthday [player]"
+showbirthdaytosomeone-message: "&cYou have shown the birthday list to %target%!"
+someoneshowedyoubirthday-message: "&c%sender% &chas shown you the birthday list!"
+showbirthdaytoeveryone-message: "&cVous avez montré la liste d'anniversaires à tout le monde!"
 
-showdiscordhelp-message: "&cPas assez de paramètres! Faites /show discord [joueur]"
-showdiscordtosomeone-message: "&cVous avez montré les canaux discord à %target%!"
-someoneshowedyoudiscord-message: "&c%sender% &cvous a montré les canaux discord!"
+showdiscordhelp-message: "&cPas assez d'arguments ! Tapez /show discord [player]"
+showdiscordtoeveryone-message: "&cVous avez montré le Discord à tout le monde!"
+showdiscordtosomeone-message: "&cYou have shown the discord channels to %target%!"
+someoneshowedyoudiscord-message: "&c%sender% &chas shown you the discord channels!"
 
-showdonatehelp-message: "&cPas assez de paramètres! Faites /show donate [joueur]"
-showdonatetosomeone-message: "&cVous avez montré les liens de donations à %target%!"
-someoneshowedyoudonate-message: "&c%sender% &cvous a montré les liens de donations!"
+showdonatehelp-message: "&cPas assez d'arguments ! Tapez /show donate [player]"
+showdonatetosomeone-message: "&cYou have shown the donation links to %target%!"
+someoneshowedyoudonate-message: "&c%sender% &chas shown you the donation links!"
+showdonatetoeveryone-message: "&cVous avez montré les liens de donations à tout le monde!"
 
-showemailhelp-message: "&cPas assez de paramètres! Faites /show email [joueur]"
-showemailtosomeone-message: "&cVous avez montré la liste d'e-mails à %target%!"
-someoneshowedyouemail-message: "&c%sender% &cvous a montré la liste d'e-mails!"
+showemailhelp-message: "&cPas assez d'arguments ! Tapez /show email [player]"
+showemailtosomeone-message: "&cYou have shown the email list to %target%!"
+someoneshowedyouemail-message: "&c%sender% &chas shown you the email list!"
+showemailtoeveryone-message: "&cVous avez montré la liste d'e-mails à tout le monde!"
 
-showfacebookhelp-message: "&cPas assez de paramètres! Faites /show facebook [joueur]"
-showfacebooktosomeone-message: "&cVous avez montré les liens facebook à %target%!"
-someoneshowedyoufacebook-message: "&c%sender% &cvous a montré les liens facebook!"
+showfacebookhelp-message: "&cPas assez d'arguments ! Tapez /show facebook [player]"
+showfacebooktosomeone-message: "&cYou have shown the facebook links to %target%!"
+someoneshowedyoufacebook-message: "&c%sender% &chas shown you the facebook links!"
+showfacebooktoeveryone-message: "&cVous avez montré les liens Facebook à tout le monde!"
 
-showforumhelp-message: "&cPas assez de paramètres! Faites /show forum [joueur]"
-showforumtosomeone-message: "&cVous avez montré les liens du forum à %target%!"
-someoneshowedyouforum-message: "&c%sender% &cvous a montré les liens du forum!"
+showforumhelp-message: "&cPas assez d'arguments ! Tapez /show forum [player]"
+showforumtosomeone-message: "&cYou have shown the forum links to %target%!"
+someoneshowedyouforum-message: "&c%sender% &chas shown you the forum links!"
+showforumtoeveryone-message: "&cVous avez montré les liens du forum à tout le monde!"
 
-showinstagramhelp-message: "&cPas assez de paramètres! Faites /show instagram [joueur]"
-showinstagramtosomeone-message: "&cVous avez montré les contacts instagram à %target%!"
-someoneshowedyouinstagram-message: "&c%sender% &cvous a montré les contacts instagram!"
+showinstagramhelp-message: "&cPas assez d'arguments ! Tapez /show instagram [player]"
+showinstagramtosomeone-message: "&cYou have shown the instagram contact/s to %target%!"
+someoneshowedyouinstagram-message: "&c%sender% &chas shown you the instagram contact/s!"
+showinstagramtoeveryone-message: "&cVous avez montré les contacts Instagram à tout le monde!"
 
-showiphelp-message: "&cPas assez de paramètres! Faites /show ip [joueur]"
-showiptosomeone-message: "&cVous avez montré les ips du serveur à %target%!"
-someoneshowedyouip-message: "&c%sender% &cvous a montré les ips du serveur!"
+showiphelp-message: "&cPas assez d'arguments ! Tapez /show ip [player]"
+showiptosomeone-message: "&cYou have shown the server ips to %target%!"
+someoneshowedyouip-message: "&c%sender% &chas shown you the server ips!"
+showiptoeveryone-message: "&cVous avez montré les ips à tout le monde!"
 
-showruleshelp-message: "&cPas assez de paramètres! Faites /show rules [joueur]"
-showrulestosomeone-message: "&cVous avez montré les règles à %target%!"
-someoneshowedyourules-message: "&c%sender% &cvous a montré les règles!"
+showruleshelp-message: "&cPas assez d'arguments ! Tapez /show rules [player]"
+showrulestosomeone-message: "&cYou have shown the rules to %target%!"
+someoneshowedyourules-message: "&c%sender% &chas shown you the rules!"
+showrulestoeveryone-message: "&cVous avez montré les règles à tout le monde!"
 
-showskypehelp-message: "&cPas assez de paramètres! Faites /show skype [joueur]"
-showskypetosomeone-message: "&cVous avez montré les contacts skype à %target%!"
-someoneshowedyouskype-message: "&c%sender% &cvous a montré les contacts skype!"
+showskypehelp-message: "&cPas assez d'arguments ! Tapez /show skype [player]"
+showskypetosomeone-message: "&cYou have shown the skype contact/s to %target%!"
+someoneshowedyouskype-message: "&c%sender% &chas shown you the skype contact/s!"
+showskypetoeveryone-message: "&cVous avez montré les contacts Skype à tout le monde!"
 
-showteamspeak3help-message: "&cPas assez de paramètres! Faites /show teamspeak3 [joueur]"
-showteamspeak3tosomeone-message: "&cVous avez montré les liens teamspeak3 à %target%!"
-someoneshowedyouteamspeak3-message: "&c%sender% &cvous a montré les liens teamspeak3!"
+showteamspeak3help-message: "&cPas assez d'arguments ! Tapez /show teamspeak3 [player]"
+showteamspeak3tosomeone-message: "&cYou have shown the teamspeak3 link/s to %target%!"
+someoneshowedyouteamspeak3-message: "&c%sender% &chas shown you the teamspeak3 links!"
+showteamspeak3toeveryone-message: "&cVous avez montré les liens TeamSpeak3 à tout le monde!"
 
-showtwitchhelp-message: "&cPas assez de paramètres! Faites /show twitch [joueur]"
-showtwitchtosomeone-message: "&cVous avez montré les liens twitch à %target%!"
-someoneshowedyoutwitch-message: "&c%sender% &cvous a montré les liens twitch!"
+showtwitchhelp-message: "&cPas assez d'arguments ! Tapez /show twitch [player]"
+showtwitchtosomeone-message: "&cYou have shown the twitch links to %target%!"
+someoneshowedyoutwitch-message: "&c%sender% &chas shown you the twitch links!"
+showtwitchtoeveryone-message: "&cVous avez montré les liens Twitch à tout le monde!"
 
-showtwitterhelp-message: "&cPas assez de paramètres! Faites /show twitter [joueur]"
-showtwittertosomeone-message: "&cVous avez montré les liens twitter à %target%!"
-someoneshowedyoutwitter-message: "&c%sender% &cvous a montré les liens twitter!"
+showtwitterhelp-message: "&cPas assez d'arguments ! Tapez /show twitter [player]"
+showtwittertosomeone-message: "&cYou have shown the twitter links to %target%!"
+someoneshowedyoutwitter-message: "&c%sender% &chas shown you the twitter links!"
+showtwittertoeveryone-message: "&cVous avez montré les liens Twitter à tout le monde!"
 
-showwebsitehelp-message: "&cPas assez de paramètres! Faites /show website [joueur]"
-showwebsitetosomeone-message: "&cVous avez montré les liens du site à %target%!"
-someoneshowedyouwebsite-message: "&c%sender% &cvous a montré les liens du site!"
+showwebsitehelp-message: "&cPas assez d'arguments ! Tapez /show website [player]"
+showwebsitetosomeone-message: "&cYou have shown the website links to %target%!"
+someoneshowedyouwebsite-message: "&c%sender% &chas shown you the website links!"
+showwebsitetoeveryone-message: "&cVous avez montré les liens du site à tout le monde!"
 
-showwhatsapphelp-message: "&cPas assez de paramètres! Faites /show whatsapp [joueur]"
-showwhatsapptosomeone-message: "&cVous avez montré les contacts whatsapp à %target%!"
-someoneshowedyouwhatsapp-message: "&c%sender% &cvous a montré les contacts whatsapp!"
+showwhatsapphelp-message: "&cPas assez d'arguments ! Tapez /show whatsapp [player]"
+showwhatsapptosomeone-message: "&cYou have shown the whatsapp contact/s to %target%!"
+someoneshowedyouwhatsapp-message: "&c%sender% &chas shown you the whatsapp contact/s!"
+showwhatsapptoeveryone-message: "&cVous avez montré les contacts WhatsApp à tout le monde!"
 
-showyoutubehelp-message: "&cPas assez de paramètres! Faites /show youtube [joueur]"
-showyoutubetosomeone-message: "&cVous avez montré les liens youtube à %target%!"
-someoneshowedyouyoutube-message: "&c%sender% &cvous a montré les liens youtube!"
+showyoutubehelp-message: "&cPas assez d'arguments ! Tapez /show youtube [player]"
+showyoutubetosomeone-message: "&cYou have shown the youtube links to %target%!"
+someoneshowedyouyoutube-message: "&c%sender% &chas shown you the youtube links!"
+showyoutubetoeveryone-message: "&cVous avez montré les liens Youtube à tout le monde!"
 
 #Server
 server-helpmessage: "Montrer cette page d'aide !"
-serverram-helpmessage: "Obtenir des informations sur comment la RAM fonctionne sur le serveur!"
-serverstats-helpmessage: "Obtenir des informations sur les statistiques du serveur!"
+serverram-helpmessage: "Get information about how is the RAM working in the server!"
+serverstats-helpmessage: "Avoir des informations à propos des statistiques du serveur!"
 
 #Time
 time-helpmessage: "Montrer cette page d'aide !"
@@ -499,11 +520,11 @@ staffvanishlistheader-message: "&2&m--&r &aListe des gens en invisibilitée Staf
 staffvanishlist-message: "&f- &2%staffvanishedplayers%&f."
 disablevanish-message: "&cVeuillez désactiver le mode invisible pour passer en invisibilitée Staff!"
 cantsendmessages-staffvanishlistener: "&cVous ne pouvez pas envoyer de messages while staffvanished. Entrez /sv chat Pour éviter ça ou /sv toggle pour l'aide!"
-cantdrop-staffvanishlistener: "&cVous ne pouvez pas Dropper d'Items while being staffvanished! Appuyez sur SHIFT pour passer le faire quand même ou Entrez /sv drop Pour éviter ça ou /sv toggle pour l'aide!"
-cantinvclick-staffvanishlistener: "&cVous ne pouvez pas cliquer dans les inventaires while being staffvanished! Entrez /sv invclick Pour éviter ça ou /sv toggle for help!"
-cantinteract-staffvanishlistener: "&cVous ne pouvez pas intéragir avec les Items while being staffvanished! Appuyez sur SHIFT pour le faire quand même ou Entrez /sv interact Pour éviter ça ou /sv toggle pour l'aide!"
-cantdamage-staffvanishlistener: "&cVous ne pouvez pas frapper de joueurs/entitées while being staffvanished! Appuyez sur SHIFT le faire quand même ou Entrez /sv damage Pour éviter ça ou /sv toggle pour l'aide!"
-canthangingbrakes-staffvanishlistener: "&cVous ne pouvez pas faire ça while being staffvanished! Appuyez sur SHIFT pour passer le faire quand même ou Entrez /sv hangingbreak Pour éviter ça ou /sv toggle pour l'aide!"
+cantdrop-staffvanishlistener: "&cVous ne pouvez pas Dropper d'Items pendant que tu es en staffvanish! Appuyez sur SHIFT pour passer le faire quand même ou Entrez /sv drop Pour éviter ça ou /sv toggle pour l'aide!"
+cantinvclick-staffvanishlistener: "&cVous ne pouvez pas cliquer dans les inventaires pendant que tu es en staffvanish! Entrez /sv invclick Pour éviter ça ou /sv toggle for help!"
+cantinteract-staffvanishlistener: "&cVous ne pouvez pas intéragir avec les Items pendant que tu es en staffvanish! Appuyez sur SHIFT pour le faire quand même ou Entrez /sv interact Pour éviter ça ou /sv toggle pour l'aide!"
+cantdamage-staffvanishlistener: "&cVous ne pouvez pas frapper de joueurs/entitées pendant que tu es en staffvanish! Appuyez sur SHIFT le faire quand même ou Entrez /sv damage Pour éviter ça ou /sv toggle pour l'aide!"
+canthangingbrakes-staffvanishlistener: "&cVous ne pouvez pas faire ça pendant que tu es en staffvanish! Appuyez sur SHIFT pour passer le faire quand même ou Entrez /sv hangingbreak Pour éviter ça ou /sv toggle pour l'aide!"
 pickuplisteneruntoggled-staffvanishmessage: "&aVous pouvez maintenant prendre les Items Droppé au sol en étant en invisibilitée Staff!"
 pickuplistenertoggled-staffvanishmessage: "&bVous ne pouvez plus prendre les Items Droppé au sol en étant en invisibilitée Staff!"
 droplisteneruntoggled-staffvanishmessage: "&aVous pouvez maintenant Dropper les Items en étant en invisibilitée Staff!"
@@ -588,7 +609,12 @@ openingworkbench-message: "&aOuverture de l'établi..."
 
 #Enderchest Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
 openingenderchest-message: "&aOuverture du coffre de l'End..."
-openothersenderchest-message: "&avous avez ouvert le coffre de l'End de &2%target%!"
+openothersenderchest-message: "&avous avez ouvert le coffre de l'End de &2%target%%apostrophe%!"
+cantmodifyenderchestperm-message: "&cTu n'as pas la permisison de modifier l'enderchest d'autre joueur!"
+cantmodifythisenderchest-message: "&cL'Enderchest de ce joueur ne peut être modifié!"
+openedofflineenderchest-message: "&aTu as ouvert l'enderchest de &2%target%&a pendant qu'il est hors-ligne!"
+cantmodifyenderchestofftoon-message: "&cTu ne peux pas modifier l'enderchest de ce joueur car il était hors-ligne et maintenant en ligne, réutilise la commande!"
+cantmodifyenderchestontooff-message: "&cTu ne peux pas modifier l'enderchest de ce joueur car il était en ligne et maintenant hors-ligne réutilise la commande!"
 
 #Bin Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
 openingbin-message: "&aOuverture de la poubelle..."
@@ -648,6 +674,12 @@ invseehelp-message: "&cPas assez de paramètres! Entrez /invsee [joueur]"
 cantopenhisinventory-message: "&cVous ne pouvez pas ouvrir l'inventaire de &c%target%%apostrophe% &ccar vous n'avez pas la permission!"
 openedothersinventory-message: "&aVous avez ouvert l'inventaire de &2%target%&a%apostrophe%!"
 someoneopenedyourinventory-message: "&2%sender% &aa ouvert votre inventaire!"
+cantmodifyinventoryperm-message: "&cTu n'as pas la permisison de modifier l'inventaire d'autre joueur!"
+cantmodifythisinventory-message: "&cL'Inventaire de ce joueur ne peut être modifié!"
+openedofflineinventory-message: "&aTu as ouvert l'inventaire de &2%target%&a pendant qu'il est hors-ligne!"
+cantopenhisofflineinventory-message: "&cTu ne peux pas ouvrir l'inventaire de &c%target%&c pendant qu'il est hors-ligne à cause de la protection de permission!"
+cantmodifyinventoryofftoon-message: "&cTu ne peux pas modifier l'inventaire de ce joueur car il était hors-ligne et maintenant en ligne, réutilise la commande!"
+cantmodifyinventoryontooff-message: "&cTu ne peux pas modifier l'inventaire de ce joueur car il était en ligne et maintenant hors-ligne réutilise la commande!"
 
 #Gamemode Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
 gamemodehelp-message: "&cPas assez de paramètres! Entrez /gm [survival|creative|adventure|spectator] <joueur>"
@@ -699,7 +731,7 @@ staffondutylist-stafflist: "&f- &b%staffondutylist%"
 lastline-stafflist: "&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-"
 
 #StaffPanel Messages
-openingstaffpanel-message: "&aOuvertire du Panneau Staff..."
+openingstaffpanel-message: "&aOuverture du panneau Staff..."
 openingyourselfmanagement-message: "&aOuverture de votre panneau de Management ..."
 openinggamemodemanagement-message: "&aOuverture du panneau de Management du Gamemode..."
 openingservermanagement-message: "&aOuverture du panneau de Management du Serveur..."
@@ -760,8 +792,8 @@ playeristempfrozen-message: "&9%target% &best temporairement gelé pour &9&l%fro
 playerisnotfrozen-message: "&9%target% &bn'est pas gelé!"
 cantfrozenhim-message: "&cVous ne pouvez pas geler &4%target% &ccar vous n'avez pas la permission!"
 cantfreezeyourself-message: "&cVous ne pouvez pas vous geler!"
-frozenplayerquit-message: "&4%target% &cas quitté le serveur en étant gelé!"
-frozenplayerjoin-message: "&9%target% &bas rejoint le serveur et s'est refait geler!"
+frozenplayerquit-message: "&4%target% &ca quitté le serveur en étant gelé!"
+frozenplayerjoin-message: "&9%target% &ba rejoint le serveur et s'est refait geler!"
 tempfrozenplayerjoin-message: "&9%target% &bas rejoint et s'est refait geler. Temps restant: &9&l%frozenplayerstime% &bsecondes."
 frozenagainbecauseleave-message: "&bVous vous êtes refait geler car vous avez quitté le serveur en l'étant!"
 tempfrozenagainbecauseleave-message: "&bVous vous êtes refait geler temporairement car vous avez quitté le serveur en l'étant!. Temps restant: &9&l%frozenplayerstime% &bsecondes."
@@ -776,8 +808,7 @@ mmdisabled-message: "&bVous avez désactivé le mode Maintenance sur votre serve
 mmenablednotification-message: "&2%sender% &aa activé le mode Maintenance sur le serveur! Les joueurs n'ayant pas la permission de rester seront Kické!"
 mmdisablednotification-message: "&9%sender% &ba désactivé le mode Maintenance sur le serveur! Les joueurs peuvent maintenant se reconnecter!"
 mmkickwhenjoin-message: "&cVous ne pouvez pas vous connecter, le serveur est en Maintenance"
-mmonlinekick-message: "&cKické car le serveur est en Maintenance!"
-mmserverlistping-message: "&cLe serveur est en Maintenance"
+mmonlinekick-message: "&cKick car le serveur est en Maintenance!"
 
 #Kill Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
 killyourself-message: "&cVous vous êtes tué"
@@ -811,6 +842,10 @@ commandspyenable-message: "&aVous avez activé l'Espion-Commande!"
 commandspydisable-message: "&bVous avez désactivé l'Espion-Commande!"
 commandspy-message: "&8[&7Espion-Commande&8] &7%commandsender%: &8%command%"
 turnedcommandspyoncausejoined-message: "&bVous avez rejoint le serevur avec le mode Espion-Commande activé!"
+someonedisabledcmdspy-message: "&9%sender%&b a désactivé votre mode EspionCommandes!"
+youhavedisabledcmdspy-message: "&bVous avez désactivé le mode EspionCommandes de &9%target%!"
+someoneenabledcmdspy-message: "&2%sender%&a a activé vptre mode EspionCommandes!"
+youhaveenabledcmdspy-message: "&aVous avez activé le mode EspionCommandes de &2%target%!"
 
 #WelcomeBack Messages
 #You can use: %target% = Will display the target"s name ; %target_displayname% = Will display the target"s name with their color rank! ; %sender% = Will display the sender"s name
@@ -846,9 +881,9 @@ antiversionnotification-message: "&4%player% &ca essayé d'utiliser la commande 
 
 #AntiSwear Messages
 antiswearwarn-message: "&cVeuillez ne pas insulter sur ce serveur. Le Staff a été prévenu!"
-antiswearkick-message: "&cKické pour insulte: &4%message%&c."
+antiswearkick-message: "&cKick pour insulte: &4%message%&c."
 antisweardetected-message: "&4%player% &ca été vu en train de ça: &4%message%&c."
-kickedswearer-message: "&4%player% &ca été kické pour avoir dit ça: &4%message%&c."
+kickedswearer-message: "&4%player% &ca été kick pour avoir dit ça: &4%message%&c."
 
 #Inspect Messages and GUI item names
 #The inventory name will be: the word you write + player name. This wont be configurable and player will be always the last word.
@@ -899,6 +934,9 @@ alertsflyattack-message: "&5- &bAttaque Fly: %flyattack%"
 alertsnamednotify-message: "&5- &bNotifications Nommées: %namednotify%"
 alertsxraynotify-message: "&5- &bAlarme Xray: %xraynotify%"
 alertshelp-message: "&7Entrez /alerts [%alertstypes%] pour la désactiver."
+alertsjoinalert-message: "&5- &bJoinAlert: %joinalert%"
+joinalerttoggled-alertsmessage: "&aVous avez activé les JoinAlert pour vous, si quelqu'un essaye de venir mais qu'il ne peut pas, vous serez averti !"
+joinalertuntoggled-alertsmessage: "&bVous avez désactivé les JointAlert pour vous!"
 
 #NamedNotify (You can use %player%, %player_displayname%, %message%)
 namednotification-message: "&3[&bNotification Nommée&3] &3&l%player% &bvous a nommé dans le tchat."
@@ -913,6 +951,14 @@ lightstring5-message: "Luminositée minimale"
 
 #FlyAttack
 flyattacknotification-message: "&3[&bAttaques Fly&3] &3%player% &ba attaqué &9%target% &bavec le Fly activé (étais en train de voler: %isflying%)."
+
+#JoinAlert
+joinalertnotification-message: "&3[&bJoinAlert&3] &3%player% &ba essayer de rejoindre le serveur mais il n'a pas réussi à cause de : &9%reason%&b."
+whitelistresult-message: "le serveur à une whitelist/liste blanche"
+bannedresult-message: "le joueur est banni"
+maintenancemoderesult-message: "Le serveur est en maintenance"
+fullresult-message: "Le serveur est plein"
+otherresult-message: "Autre raison non spécifié"
 
 #StaffViewerList
 couldntfindplayer-staffviewermessage: "&cImpossible de trouver &4%target%&c, il doit sûrement être déconnecté!"
@@ -930,7 +976,9 @@ HangingBreak-togglegui: "&3Peut casser les hangings"
 VehicleCollision-togglegui: "&3Peut intéragir avec les véhicules"
 Targeteable-togglegui: "&3Peut être suivi par les entitées"
 VehicleDestroy-togglegui: "&3Peut détruire les véhicules"
-listenerdisabled-togglegui: "Ecouteur désactivé dans le fichier config"
+listenerdisabled-togglegui: "Listener désactivé dans le fichier config"
+
+
 
 #StaffPanel Menus Edit
 #For now there are this only, the addition of new menus names to edit takes time, so i will take my time to make this right :)
@@ -954,7 +1002,7 @@ backitem-staffpanel: "&6Retour"
 #Items from the Yourself Management Menu:
 watchoveritem-yourselfmanagement: "&6Surveillant"
 vanishitem-yourselfmanagement: "&6Invisibilitée"
-dutyitem-yourselfmanagement: "&6Service"
+dutyitem-yourselfmanagement: "&6En-Service"
 staffchatitem-yourselfmanagement: "&6Tchat Staff"
 gamemodeitem-yourselfmanagement: "&6Gamemode"
 goditem-yourselfmanagement: "&6Invincibilitée"
@@ -996,63 +1044,19 @@ rulesitem-informationmanagement: "&6Règles"
 
 #Items from the Commands Management Menu:
 clearchatitem-commandmanagement: "&6Nettoyage du tchat"
-chatmuteitem-commandmanagement: "&6Mutage du tchat"
-tpallitem-commandmanagement: "&6TP tous"
-mmonitem-commandmanagement: "&6Maintenance Activation"
-mmoffitem-commandmanagement: "&6Maintenance Désactivation"
+chatmuteitem-commandmanagement: "&6Silence du tchat"
+tpallitem-commandmanagement: "&6Tp tous"
+mmonitem-commandmanagement: "&6Maintenance Activer"
+mmoffitem-commandmanagement: "&6Maintenance Désactiver"
 reportsitem-commandmanagement: "&6Rapports"
 reportsdelitem-commandmanagement: "&6Supprimer Rapport"
 
-cantmodifyenderchestperm-message: "&cTu n'as pas la permisison de modifier l'enderchest d'autre joueur!"
-cantmodifythisenderchest-message: "&cL'Enderchest de ce joueur ne peut être modifié!"
-cantmodifyinventoryperm-message: "&cTu n'as pas la permisison de modifier l'inventaire d'autre joueur!"
-cantmodifythisinventory-message: "&cL'Inventaire de ce joueur ne peut être modifié!"
+mmactualmotd-message: "&bLe MOTD actuel pour le mode de maintenance: %motd%"
+mmchangedmotd-message: "&aLe MOTD de maintenance a été changer pour : %motd%"
+mmhelpmotd-message: "&cPas assez d'argument ! Taper : /maintenancemode setmotd [motd]"
 
-chatclearedbypass-message: "&cLe tchat a été nettoyé par &4%sender% &cmais vous aviez la permission l'empêcher!"
-chatclearedbypassfakeleave-message: "&cLe tchat a été nettoyé mais vous aviez la permission de l'empêcher!"
-someonedisabledcmdspy-message: "&9%sender%&b a désactivé votre mode EspionCommandes!"
-youhavedisabledcmdspy-message: "&bVous avez désactivé le mode EspionCommandes de &9%target%!"
-someoneenabledcmdspy-message: "&2%sender%&a a activé votre mode EspionCommandes!"
-youhaveenabledcmdspy-message: "&aVous avez activé le mode EspionCommandes de &2%target%!"
-showbirthdaytoeveryone-message: "&cVous avez montré la liste d'anniversaires à tout le monde!"
-showdiscordtoeveryone-message: "&cVous avez montré le Discord à tout le monde!"
-showdonatetoeveryone-message: "&cVous avez montré les liens de donations à tout le monde!"
-showemailtoeveryone-message: "&cVous avez montré la liste d'e-mails à tout le monde!"
-showfacebooktoeveryone-message: "&cVous avez montré les liens Facebook à tout le monde!"
-showforumtoeveryone-message: "&cVous avez montré les liens du forum à tout le monde!"
-showinstagramtoeveryone-message: "&cVous avez montré les contacts Instagram à tout le monde!"
-showiptoeveryone-message: "&cVous avez montré les ips à tout le monde!"
-showrulestoeveryone-message: "&cVous avez montré les règles à tout le monde!"
-showskypetoeveryone-message: "&cVous avez montré les contacts Skype à tout le monde!"
-showteamspeak3toeveryone-message: "&cVous avez montré les liens TeamSpeak3 à tout le monde!"
-showtwitchtoeveryone-message: "&cVous avez montré les liens Twitch à tout le monde!"
-showtwittertoeveryone-message: "&cVous avez montré les liens Twitter à tout le monde!"
-showwebsitetoeveryone-message: "&cVous avez montré les liens du site à tout le monde!"
-showwhatsapptoeveryone-message: "&cVous avez montré les contacts WhatsApp à tout le monde!"
-showyoutubetoeveryone-message: "&cVous avez montré les liens Youtube à tout le monde!"
-alerts-helpmessage: "Gérer le système d'alertes!"
-
-openedofflineinventory-message: "&aTu as ouvert l'inventaire de &2%target%&a pendant qu'il est hors-ligne!"
-cantopenhisofflineinventory-message: "&cTu ne peux pas ouvrir l'inventaire de &c%target%&c pendant qu'il est hors-ligne à cause de la protection de permission!"
-cantmodifyinventoryofftoon-message: "&cTu ne peux pas modifier l'inventaire de ce joueur car il était hors-ligne et maintenant en ligne, réutilise la commande!"
-cantmodifyinventoryontooff-message: "&cTu ne peux pas modifier l'inventaire de ce joueur car il était en ligne et maintenant hors-ligne réutilise la commande!"
-openedofflineenderchest-message: "&aTu as ouvert l'enderchest de &2%target%&a pendant qu'il est hors-ligne!"
-cantmodifyenderchestofftoon-message: "&cTu ne peux pas modifier l'enderchest de ce joueur car il était hors-ligne et maintenant en ligne, réutilise la commande!"
-cantmodifyenderchestontooff-message: "&cTu ne peux pas modifier l'enderchest de ce joueur car il était en ligne et maintenant hors-ligne réutilise la commande!"
-
-alertsjoinalert-message: "&5- &bJoinAlert: %joinalert%"
-joinalerttoggled-alertsmessage: "&aVous avez activé les JoinAlert pour vous, si quelqu'un essaye de venir mais qu'il ne peut pas, vous serez averti !"
-joinalertuntoggled-alertsmessage: "&bVous avez désactivé les JointAlert pour vous!"
-joinalertnotification-message: "&3[&bJoinAlert&3] &3%player% &ba essayer de rejoindre le serveur mais il n'a pas réussi à cause de : &9%reason%&b."
-whitelistresult-message: "le serveur à une whitelist/liste blanche"
-bannedresult-message: "le joueur est banni"
-maintenancemoderesult-message: "Le serveur est en maintenance"
-fullresult-message: "Le serveur est plein"
-otherresult-message: "Autre raison non spécifié"
+wiki-helpmessage: "Voir la liste des wikis!"
 
 
 # Traduction pour ce merveilleux plugin par Cidalex/Mitsu et ARNPIK du serveur Énéstia
-# Il est possible qu'il y ait de nombreuses fautes de français, si vous en voyez, merci de me contacter sur le discord de SF, @Mitsu#1492
-# Plugin by xtomyserrax
-# Translation By Cidalex
-# Don't remove the copyright
+# Il est possible qu'il y ait de nombreuse faute de français, si vous en voyez, merci de me contacter sur le discord de SF, @Mitsu#1492
