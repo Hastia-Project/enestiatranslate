@@ -1,24 +1,24 @@
 # To simplify the customisation and the translation process please check out the editor: http://ptp.pcgamingfreaks.at
 Language:
-  NotFromConsole: "&cThis command can't be used from the console!"
+  NotFromConsole: "&cCette commande ne peut pas être utilisée via la console de commande!"
   # Global Wildcards: <heart> and <smallheart>
   Ingame:
-    NoPermission: "[\"\",{\"text\":\"You don't have the permission to do that.\",\"color\":\"red\"}]"
-    NaN: "[\"\",{\"text\":\"The entered value is not a number!\",\"color\":\"red\"}]"
-    NotMarried: "[\"\",{\"text\":\"You are not married.\",\"color\":\"red\"}]"
-    PartnerOffline: "[\"\",{\"text\":\"Your partner is offline.\",\"color\":\"red\"}]"
-    PartnerNotInRange: "[\"\",{\"text\":\"Your partner is too far away.\",\"color\":\"red\"}]"
-    TargetPartnerNotFound: "[\"\",{\"text\":\"Your targeted partner was not found!\",\"color\":\"red\"}]"
-    PlayerNotMarried: "[\"\",{\"text\":\"\\\"{PlayerName}\\\" is not married!\",\"color\":\"red\"}]"
-    PlayerNotFound: "[\"\",{\"text\":\"Couldn't find \\\"{PlayerName}\\\"!\",\"color\":\"red\"}]"
-    PlayerNotOnline: "[\"\",{\"text\":\"\\\"{PlayerName}\\\" is offline!\",\"color\":\"red\"}]"
-    PlayersNotMarried: "[\"\",{\"text\":\"The players aren't married!\",\"color\":\"red\"}]"
-    MarriageNotExact: "[\"\",{\"text\":\"We are sorry, but there is more than one marriage matching your request!\",\"color\":\"red\"}]"
+    NoPermission: "[\"\",{\"text\":\"Vous n'avez pas la permission de faire ça.\",\"color\":\"red\"}]"
+    NaN: "[\"\",{\"text\":\"La valeure entrée n'est pas un nombre!\",\"color\":\"red\"}]"
+    NotMarried: "[\"\",{\"text\":\"Vous n'êtes pas marrié.\",\"color\":\"red\"}]"
+    PartnerOffline: "[\"\",{\"text\":\"Votre partenaire est hors-ligne.\",\"color\":\"red\"}]"
+    PartnerNotInRange: "[\"\",{\"text\":\"Votre partenaire est trop loin.\",\"color\":\"red\"}]"
+    TargetPartnerNotFound: "[\"\",{\"text\":\"Votre partenaire sélectionné est trop loin!\",\"color\":\"red\"}]"
+    PlayerNotMarried: "[\"\",{\"text\":\"\\\"{PlayerName}\\\" n'est pas marrié!\",\"color\":\"red\"}]"
+    PlayerNotFound: "[\"\",{\"text\":\"Impossible de trouver \\\"{PlayerName}\\\"!\",\"color\":\"red\"}]"
+    PlayerNotOnline: "[\"\",{\"text\":\"\\\"{PlayerName}\\\" est hors-ligne!\",\"color\":\"red\"}]"
+    PlayersNotMarried: "[\"\",{\"text\":\"Ces joueurs ne sont pas marriés!\",\"color\":\"red\"}]"
+    MarriageNotExact: "[\"\",{\"text\":\"Désolé, mais il y a plus d'un marriage qui correspond à votre requête!\",\"color\":\"red\"}]"
     JoinLeaveInfo:
-      PartnerOnline: "[\"\",{\"text\":\"Your partner is online.\",\"color\":\"green\"}]"
-      PartnerOffline: "[\"\",{\"text\":\"Your partner is offline.\",\"color\":\"gray\"}]"
-      AllPartnersOffline: "[\"\",{\"text\":\"All your partners are offline.\",\"color\":\"gray\"}]"
-      PartnerOnlineMulti: "[\"\",{\"text\":\"Following partners are online: \",\"color\":\"green\"},{\"text\":\"{OnlinePartners}\",\"color\":\"white\"}]"
+      PartnerOnline: "[\"\",{\"text\":\"Votre partenaire est en ligne.\",\"color\":\"green\"}]"
+      PartnerOffline: "[\"\",{\"text\":\"Votre partenaire est hors-ligne.\",\"color\":\"gray\"}]"
+      AllPartnersOffline: "[\"\",{\"text\":\"Tous vos partenaires sont hors-ligne.\",\"color\":\"gray\"}]"
+      PartnerOnlineMulti: "[\"\",{\"text\":\"Les partenaires suivants sont en ligne: \",\"color\":\"green\"},{\"text\":\"{OnlinePartners}\",\"color\":\"white\"}]"
       # Options: {Name}, {DisplayName}.    Keep in mind display names can contain colors!  No JSON!!!
       MultiOnlineFormat: "{DisplayName}"
       # No JSON!!!
