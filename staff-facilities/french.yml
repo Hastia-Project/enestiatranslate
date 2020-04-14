@@ -251,7 +251,7 @@ flylist-message: "&f- &2%flyplayers%&f."
 #Nightvision Messages
 nightvisionhelp-message: "&cTaper /nightvision pour définir votre nyctalopie"
 turnednightvisionon-message: "&aVous avez activer votre nyctalopie!"
-turnednightvisionoff-message: "&bVius avez éteint votre nycatalopie!"
+turnednightvisionoff-message: "&bVous avez éteint votre nycatalopie!"
 turnednightvisionforyouoff-message: "&9%sender% &ba désactiver votre nyctalopie!"
 turnedothersnightvisionoff-message: "&bVous avez désactiver la nyctalopie de &9%target_displayname%&b!"
 turnednightvisionforyouon-message: "&2%sender% &aa activer ta nyctalopie!"
