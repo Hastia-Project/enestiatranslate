@@ -469,7 +469,7 @@ warninghelp-message: "&cNot enought arguments! Type /warning [message]"
 warningbroadcast-message: "&c[Avertissement] &7%warningmessage%"
 warningplayer-message: "&2%sender% &aa envoyé un message de type &c[Avertissement]!"
 
-#Vanish Messages
+#Vanish Messages vanish = invisible
 turnedvanishoncausejoined-message: "&bVous avez rejoint le serveur en mode invisible !"
 vanishenabled-message: "&aVous venez de vous rendre invisible! Maintenant les autres ne peuvent plus vous voir."
 vanishdisabled-message: "&bVous venez de vous rendre visible! Maintenant les autres peuvent vous voir."
@@ -546,10 +546,10 @@ vehicledestroylisteneruntoggled-staffvanishmessage: "&aVous pouvez maintenant d�
 vehicledestroylistenertoggled-staffvanishmessage: "&bVous ne pouvez plus détruire les vehicules en étant en invisibilitée Staff!"
 
 #Fakeleave Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
-turnedfakeleaveoncausejoined-message: "&bVous avez rejoint le serveur silencieusement avec le mode Fausse Déconnection activé!"
-enablefakeleave-message: "&cVeuillez activer le mode invisible ou l'invisibilitée Staff pour faire une Fausse Déconnection!"
+turnedfakeleaveoncausejoined-message: "&bVous avez rejoint le serveur silencieusement avec le mode Fausse Déconnexion activé!"
+enablefakeleave-message: "&cVeuillez activer le mode invisible ou l'invisibilitéeStaff/StaffVanish pour faire une Fausse Déconnexion!"
 fakeleavelistheader-message: "&2&m--&r &aFausses Déconnections &2&m--"
-fakeleavelist-message: "&f- &2%Faux Déconnectés%&f."
+fakeleavelist-message: "&f- &2%Fausse Déconnexion%&f."
 fakeleaveenabled-message: "&aVous vous êtes déconnecté pour de faux! Maintenant les autres pensent que vous êtes Hors-Ligne."
 fakeleavedisabled-message: "&bVous vous êtes Reconnecté pour de faux! Maintenant les autres pensent que vous êtes En-Ligne."
 someoneunfakeleavedyou-message: "&9%sender%&b vous as Reconnecté pour de faux! Maintenant les autres pensent que vous êtes En-Ligne."
@@ -598,9 +598,9 @@ playerturnedstaffwatchon-message: "&a%sender% a activé le mode Observation Staf
 staffwatchlistheader-message: "&2&m--&r &aListe des Observateurs Staff&2&m--"
 staffwatchlist-message: "&f- &2%staffwatchplayers%&f."
 someoneturnedyourstaffwatchoff-message: "&9%sender% &ba désactivé votre mode Observation Staff!"
-turnedsomeonesstaffwatchoff-message: "&bVous avez désactivé le mode Observaion Staff de &9%target%!"
+turnedsomeonesstaffwatchoff-message: "&bVous avez désactivé le mode Observaion Staff de &9%target_displayname%!"
 someoneturnedyourstaffwatchon-message: "&2%sender% &aa activé votre mode Observation Staff!"
-turnedsomeonesstaffwatchon-message: "&aVous avez activé le mode Observation Staff de &2%target%!"
+turnedsomeonesstaffwatchon-message: "&aVous avez activé le mode Observation Staff de &2%target_displayname%!"
 disablestaffwatch-message: "&cVeuillsez désactivé le mode Observation Staff pour être en mode Observation!"
 
 #Workbench Messages
@@ -608,23 +608,23 @@ openingworkbench-message: "&aOuverture de l'établi..."
 
 #Enderchest Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
 openingenderchest-message: "&aOuverture du coffre de l'End..."
-openothersenderchest-message: "&avous avez ouvert le coffre de l'End de &2%target%%apostrophe%!"
+openothersenderchest-message: "&avous avez ouvert le coffre de l'End de &2%target_displayname%!"
 cantmodifyenderchestperm-message: "&cTu n'as pas la permisison de modifier l'enderchest d'autre joueur!"
 cantmodifythisenderchest-message: "&cL'Enderchest de ce joueur ne peut être modifié!"
-openedofflineenderchest-message: "&aTu as ouvert l'enderchest de &2%target%&a pendant qu'il est hors-ligne!"
+openedofflineenderchest-message: "&aTu as ouvert l'enderchest de &2%target_displayname%&a pendant qu'il est hors-ligne!"
 cantmodifyenderchestofftoon-message: "&cTu ne peux pas modifier l'enderchest de ce joueur car il était hors-ligne et maintenant en ligne, réutilise la commande!"
-cantmodifyenderchestontooff-message: "&cTu ne peux pas modifier l'enderchest de ce joueur car il était en ligne et maintenant hors-ligne réutilise la commande!"
+cantmodifyenderchestontooff-message: "&cTu ne peux pas modifier l'enderchest de ce joueur car il était en ligne et maintenant hors-ligne, réutilise la commande!"
 
 #Bin Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
 openingbin-message: "&aOuverture de la poubelle..."
-openedothersbin-message: "&aVous avez ouvert la poubelle pour &2%target%&a!"
+openedothersbin-message: "&aVous avez ouvert la poubelle pour &2%target_displayname%&a!"
 openedbinforyou-message: "&2%sender% &aa ouvert la poubelle pour vous!"
 
 #ClearInventory Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
 clearowninventory-message: "&aVous avez nettoyé votre propre inventaire!"
 clearinventorycantclear-message: "&cVous en pouvez pas nettoyer votre inventaire, vous n'êtes pas un Joueur!"
 claredyourinventory-message: "&2%sender% &aa nettoyé votre inventaire!"
-clearedothersinventory-message: "&aVous avez nettoyé l'inventaire de &2%target%&a%apostrophe%!"
+clearedothersinventory-message: "&aVous avez nettoyé l'inventaire de &2%target_displayname%!"
 
 #Staffchat Messages
 sinfo-message: "&fVeuillez entrer /sc [message] ou *[message] pour uniquement parler avec le Staff."
@@ -635,10 +635,10 @@ togglestaffchaton-message: "&aVous avez activé le tchat de Staff, tous vos mess
 turnedgodoff-message: "&bVous avez désactivé le mode invincible!"
 turnedgodon-message: "&aVous avez activé le mode invincible!"
 turnedgodforyouoff-message: "&9%sender% &ba désactivé votre mode invincible!"
-turnedothersgodoff-message: "&bVous avez désactivé le mode invincible de &9%target%%apostrophe%!"
+turnedothersgodoff-message: "&bVous avez désactivé le mode invincible de &9%target_displayname%!"
 turnedgodforyouon-message: "&2%sender% &avous a rendu invincible (mode invincible)!"
-turnedothersgodon-message: "&aVous avez rendu invincible &2%target%%apostrophe%!"
-turnedgodoncausejoined-message: "&bYou have joined the server and your God Mode turned on!"
+turnedothersgodon-message: "&aVous avez rendu invincible &2%target_displayname%!"
+turnedgodoncausejoined-message: "&bVous avez rejoins le serveur et votre mode invincible a été activer!"
 godlistheader-message: "&2&m--&r &aPersonnes invincibles &2&m--"
 godlist-message: "&f- &2%godplayers%&f."
 
@@ -670,8 +670,8 @@ playerinfobanned-message: "&6 - Banni: &f%banned%"
 
 #Invsee Messages - You can use %target% or %target_displayname% ; Added %apostrophe%
 invseehelp-message: "&cPas assez de paramètres! Entrez /invsee [joueur]"
-cantopenhisinventory-message: "&cVous ne pouvez pas ouvrir l'inventaire de &c%target%%apostrophe% &ccar vous n'avez pas la permission!"
-openedothersinventory-message: "&aVous avez ouvert l'inventaire de &2%target%&a%apostrophe%!"
+cantopenhisinventory-message: "&cVous ne pouvez pas ouvrir l'inventaire de &c%target% &ccar vous n'avez pas la permission!"
+openedothersinventory-message: "&aVous avez ouvert l'inventaire de &2%target%!"
 someoneopenedyourinventory-message: "&2%sender% &aa ouvert votre inventaire!"
 cantmodifyinventoryperm-message: "&cTu n'as pas la permisison de modifier l'inventaire d'autre joueur!"
 cantmodifythisinventory-message: "&cL'Inventaire de ce joueur ne peut être modifié!"
@@ -730,7 +730,7 @@ staffondutylist-stafflist: "&f- &b%staffondutylist%"
 lastline-stafflist: "&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-&3-&a-"
 
 #StaffPanel Messages
-openingstaffpanel-message: "&aOuvertire du Panneau Staff..."
+openingstaffpanel-message: "&aOuverture du Panneau Staff..."
 openingyourselfmanagement-message: "&aOuverture de votre panneau de Management ..."
 openinggamemodemanagement-message: "&aOuverture du panneau de Management du Gamemode..."
 openingservermanagement-message: "&aOuverture du panneau de Management du Serveur..."
@@ -783,7 +783,7 @@ cantinteractwithitems-message: "&cVous ne pouvez pas intéragir avec les Items e
 #Frozen Messages
 #You can use: %target% = Will display the target"s name ; %target_displayname% = Will display the target"s name with their color rank!
 frozenhelp-message: "&cPas assez de paramètres! Entrez /frozen [joueur|list]"
-frozenlistheader-message: "&9&m--&r &bListe des Gelés &9&m--"
+frozenlistheader-message: "&9&m--&r &bListe des Gelés/frozen &9&m--"
 frozenlist-message: "&f- &9%frozenplayers%&f."
 frozentemplist-message: "&f- &9%tempfrozenplayers%&b: &9&l%frozenplayerstime% &bsecondes restantes&f."
 playerisfrozen-message: "&9%target% &best gelé!"
@@ -795,8 +795,8 @@ frozenplayerquit-message: "&4%target% &cas quitté le serveur en étant gelé!"
 frozenplayerjoin-message: "&9%target% &bas rejoint le serveur et s'est refait geler!"
 tempfrozenplayerjoin-message: "&9%target% &bas rejoint et s'est refait geler. Temps restant: &9&l%frozenplayerstime% &bsecondes."
 frozenagainbecauseleave-message: "&bVous vous êtes refait geler car vous avez quitté le serveur en l'étant!"
-tempfrozenagainbecauseleave-message: "&bVous vous êtes refait geler temporairement car vous avez quitté le serveur en l'étant!. Temps restant: &9&l%frozenplayerstime% &bsecondes."
-nopermissionorfrozen-message: "&cVous n'avez pas la permission de faire cette commande et vous devez être gelé pour pouvoir le temps!."
+tempfrozenagainbecauseleave-message: "&bVous vous êtes refait geler temporairement car vous avez quitté le serveur en l'étant! Temps restant: &9&l%frozenplayerstime% &bsecondes."
+nopermissionorfrozen-message: "&cVous n'avez pas la permission de faire cette commande ou vous êtes gelé!."
 selfplayerisfrozen-message: "&bVous êtes gelé!"
 selfplayeristempfrozen-message: "&bVous êtes temporairement gelé pour &9&l%frozenplayerstime% &bsecondes!"
 
@@ -829,7 +829,7 @@ havebeenburned-message: "&4%sender%&c vous a brûlé pour &l%seconds% &r&csecond
 havebeenburnedfakeleave-message: "&cVous vous êtes fait brûlé pour &l%seconds% &r&csecondes!"
 youhaveburned-message: "&cVous avez brûlé &4%target%&c pour &l%seconds% &r&csecondes!"
 
-#Cps Messages
+#Cps Messages (Clique par seconde)
 cpshelp-message: "&cNPas assez de paramètres! Entrez /cps [joueur] [secondes]"
 cpsfinal-cpsmessage: "&9%target% &ba une moyenne de &9%cps% &bClics Par Seconde."
 cpssub-cpsmessage: "&9%target% &ba fait &9%cps% &bclics à la seconde numéro &l%second%&r&b."
@@ -846,7 +846,7 @@ commandspy-message: "&8[&7Espion-Commande&8] &7%commandsender%: &8%command%"
 turnedcommandspyoncausejoined-message: "&bVous avez rejoint le serevur avec le mode Espion-Commande activé!"
 someonedisabledcmdspy-message: "&9%sender%&b a désactivé votre mode EspionCommandes!"
 youhavedisabledcmdspy-message: "&bVous avez désactivé le mode EspionCommandes de &9%target%!"
-someoneenabledcmdspy-message: "&2%sender%&a a activé vptre mode EspionCommandes!"
+someoneenabledcmdspy-message: "&2%sender%&a a activé votre mode EspionCommandes!"
 youhaveenabledcmdspy-message: "&aVous avez activé le mode EspionCommandes de &2%target%!"
 
 #WelcomeBack Messages
@@ -866,8 +866,8 @@ happybirthdaysent-message: "&aVous avez envoyé un message de Bon Anniversaire �
 #AntiAdvertise Messages
 antiadvertisedetected-message: "&4%advertiser% &cs'est fait prendre en train de faire de la pub pour ça: &4%advertisement%&c."
 kickedadvertiser-message: "&4%advertiser% &cs'est fait kick car il faisait de la pub pour ça: &4%advertisement%&c."
-antiadvertisekick-message: "&cKické pour cause de pub pour ça: &4%advertisement%&c."
-advertise-message: "&cNe faites pas de pub sur ce serveur. Le Staff s'est fait avertir! "
+antiadvertisekick-message: "&cKické pour cause de pub pour ceci : &4%advertisement%&c."
+advertise-message: "&cNe faites pas de pub sur ce serveur. Le Staff a été fait avertir! "
 
 #AntiFlood Messages
 messagedelay-antiflood: "&cVous devez attendre &4%delaybetweenmessages% &csecondes pour envoyer un autre message!"
@@ -911,20 +911,20 @@ inspecthelp-message: "&cPas assez de paramètres! Entrez /inspect [joueur]"
 inspectingaplayer-message: "&aVous êtes maintenant en train d'inspecter &2%target%"
 
 #BlackListWorld Messages
-turnedflyoffblacklistworld-message: "&bFly a été désactivé car vous êtes allé dans un monde où il est interdit d'utiliser /fly"
+turnedflyoffblacklistworld-message: "&bLe Fly a été désactivé car vous êtes allé dans un monde où il est interdit d'utiliser /fly"
 turnedgodoffblacklistworld-message: "&bL'invincibilitée a été désactivé car vous êtes allé dans un monde où il est interdit d'utiliser /god"
 
 #Combat Messages
 godcombatlog-message: "&bInvincibilitée désactivée car vous êtes en Combat!"
-cantusegodcombatlog-message: "&cVous ne pouvez pas utiliser /god en étant en Combat!"
+cantusegodcombatlog-message: "&cVous ne pouvez pas utiliser /god en étant en combat!"
 flycombatlog-message: "&bFly désactivé car vous êtes en Combat!"
-cantuseflycombatlog-message: "&cVous ne pouvez pas utiliser /fly en étant en Combat!"
-cantusehealcombatlog-message: "&cVous ne pouvez pas utiliser /heal en étant en Combat!"
-cantusefeedcombatlog-message: "&cVous ne pouvez pas utiliser /feed en étant en Combat!"
+cantuseflycombatlog-message: "&cVous ne pouvez pas utiliser /fly en étant en combat!"
+cantusehealcombatlog-message: "&cVous ne pouvez pas utiliser /heal en étant en combat!"
+cantusefeedcombatlog-message: "&cVous ne pouvez pas utiliser /feed en étant en combat!"
 
 #Alerts Messages
 nopermission-alertsmessage: "&cVous ne pouvez pas désactiver cette alerte car vous n'avez pas la permission de le faire!"
-systemdisabled-alertsmessage: "&cVous ne pouvez pas utiliser cette commande car le sytème à été déscativé. Pour l'activer, allez dans le config.yml et trouvez le système de la section d'Activation!"
+systemdisabled-alertsmessage: "&cVous ne pouvez pas utiliser cette commande car le sytème à été désactivé. Pour l'activer, allez dans le config.yml et trouvez le système de la section d'activation!"
 namednotifytoggled-alertsmessage: "&aVous avez activé la Notification Snonore Nommée pour vous-même, chaque fois que quelqu'un vous nommera dans le tchat, vous reçeverez un son!"
 namednotifyuntoggled-alertsmessage: "&bVous avez désactivé la Notification Sonore Nommée pour vous-même!"
 xraynotifytoggled-alertsmessage: "&aVous avez activé l'Alarme Xray pour vous-même, chaque fois que quelqu'un mine un minerai spécial, vous serez notifié!"
@@ -941,7 +941,7 @@ joinalerttoggled-alertsmessage: "&aVous avez activé les JoinAlert pour vous, si
 joinalertuntoggled-alertsmessage: "&bVous avez désactivé les JointAlert pour vous!"
 
 #NamedNotify (You can use %player%, %player_displayname%, %message%)
-namednotification-message: "&3[&bNotification Nommée&3] &3&l%player% &bvous a nommé dans le tchat."
+namednotification-message: "&3[&bNotification Nommée&3] &3&l%player_displayname% &bvous a nommé dans le tchat."
 
 #xRayNotify (You can use %player%, %player_displayname% ; %block% ; %lightstring%)
 staffnotifyxraynotify-message: "&3[&bAlarme Xray&3] &3%player% &ba miné un block de &l%block% &r&bavec le niveau de lumière suivant: &3%lightstring%&b (&3%lightlevel%&b)"
@@ -967,8 +967,8 @@ couldntfindplayer-staffviewermessage: "&cImpossible de trouver &4%target%&c, il 
 teleportedplayer-staffviewermessage: "&bTéléporation avec succès à &9%target%&b!"
 
 #Vanish/Staffvanish Toggle GUI
-vanish-togglegui: "&bOptions de l'invisibilitée"
-staffvanish-togglegui: "&bOptions de l'invisibilitée Staff"
+vanish-togglegui: "&bOptions de l'invisibilitée/Vanish"
+staffvanish-togglegui: "&bOptions de l'invisibilitée Staff/StaffVanish"
 PickUp-togglegui: "&3Peut prendre les Items"
 Drop-togglegui: "&3Peut lacher les Items"
 Interact-togglegui: "&3Peut intéragir avec les items"
@@ -978,7 +978,7 @@ HangingBreak-togglegui: "&3Peut casser les hangings"
 VehicleCollision-togglegui: "&3Peut intéragir avec les véhicules"
 Targeteable-togglegui: "&3Peut être suivi par les entitées"
 VehicleDestroy-togglegui: "&3Peut détruire les véhicules"
-listenerdisabled-togglegui: "Ecouteur désactivé dans le fichier config"
+listenerdisabled-togglegui: "Écouteur désactivé dans le fichier config"
 
 #StaffPanel Menus Edit
 #For now there are this only, the addition of new menus names to edit takes time, so i will take my time to make this right :)
